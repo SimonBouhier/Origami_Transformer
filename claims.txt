@@ -1,0 +1,220 @@
+Energy is conserved in an isolated system, changing form but never amount.
+The speed of light in a vacuum is the same for all inertial observers.
+Entropy in a closed system tends to increase over time.
+An object in free fall accelerates toward Earth at about 9.8 meters per second squared.
+Electric charge is quantized in integer multiples of the elementary charge.
+Superconductors conduct electricity with zero resistance below a critical temperature.
+The uncertainty principle limits simultaneous knowledge of a particle's position and momentum.
+Sound travels faster in water than in air because water resists compression more strongly.
+A black hole's event horizon marks the boundary beyond which nothing can escape.
+Magnetic field lines never begin or end but always form closed loops.
+The Doppler effect shifts the observed frequency of a wave when the source moves.
+Absolute zero is the temperature at which classical molecular motion ceases.
+Friction converts kinetic energy into heat at sliding surfaces.
+Light behaves as both a wave and a particle depending on the experiment.
+The half-life of a radioactive isotope is independent of its starting quantity.
+A lever amplifies force at the cost of the distance over which it acts.
+Resonance occurs when a system is driven near its natural frequency.
+Electrons occupy discrete energy levels around an atomic nucleus.
+The pressure of a gas rises with temperature when its volume is held constant.
+Capacitors store energy in the electric field between their plates.
+Water is a polar molecule with a bent geometry around the oxygen atom.
+Acids donate protons while bases accept them in aqueous solution.
+The periodic table arranges the elements by increasing atomic number.
+Catalysts speed up reactions without being consumed by them.
+Covalent bonds form when atoms share pairs of electrons.
+Noble gases are largely unreactive because their outer electron shells are full.
+Combustion is an exothermic reaction between a fuel and an oxidant.
+The pH scale measures the concentration of hydrogen ions in a solution.
+Isotopes of an element differ only in their number of neutrons.
+Salt dissolves in water as its ions separate and are surrounded by polar molecules.
+Oxidation involves the loss of electrons, and reduction their gain.
+Diamond and graphite are both pure carbon arranged in different lattices.
+A mole contains roughly six times ten to the twenty-third particles.
+Metals tend to lose electrons and form positively charged ions.
+Chemical equilibrium is reached when forward and reverse reaction rates are equal.
+Enzymes lower the activation energy of biochemical reactions.
+Hydrogen bonding gives water its unusually high boiling point.
+The strength of an acid depends on how completely it dissociates in water.
+Alloys often resist corrosion better than their constituent metals.
+Electrolysis uses an electric current to drive a non-spontaneous reaction.
+Natural selection favors traits that improve survival and reproduction.
+Cells are the basic structural and functional units of living organisms.
+DNA carries genetic information in sequences of four nucleotide bases.
+Mitochondria generate most of a cell's chemical energy as ATP.
+Vaccines train the immune system by exposing it to harmless antigens.
+Neurons transmit signals through electrical impulses and chemical synapses.
+The human heart pumps blood through two separate circulatory loops.
+Antibiotics target bacteria but have no effect on viruses.
+Photosynthesis releases oxygen as a byproduct of splitting water.
+Genes can be switched on or off without changing the underlying sequence.
+Red blood cells carry oxygen using the iron-rich protein hemoglobin.
+Bacteria can exchange genetic material directly through horizontal transfer.
+The liver filters toxins and regulates many metabolic processes.
+Evolution acts on populations rather than on individual organisms.
+Ecosystems recycle nutrients through cycles of growth and decay.
+The nervous system coordinates rapid responses to internal and external change.
+Cancer arises when cells divide uncontrollably and ignore stop signals.
+Plants draw water upward through tension in their vascular tissue.
+Hormones act as chemical messengers carried by the bloodstream.
+Biodiversity tends to make ecosystems more resilient to disturbance.
+There are infinitely many prime numbers, as Euclid proved.
+The interior angles of a Euclidean triangle sum to one hundred eighty degrees.
+A function is continuous if small input changes cause small output changes.
+The square root of two cannot be written as a ratio of integers.
+Probability assigns each possible outcome a value between zero and one.
+The derivative measures the instantaneous rate of change of a function.
+Two vectors are orthogonal when their dot product is zero.
+The prime factorization of any integer is unique up to ordering.
+The ratio of consecutive Fibonacci numbers approaches the golden ratio.
+Matrix multiplication is associative but not generally commutative.
+The definite integral of a function gives the area under its curve.
+A graph is connected if a path exists between every pair of vertices.
+Exponential growth eventually outpaces any polynomial growth.
+The mean is sensitive to outliers while the median is not.
+A set is countable if its elements can be arranged in a sequence.
+Pi is the ratio of a circle's circumference to its diameter.
+Logarithms turn multiplication into addition.
+A system of linear equations may have zero, one, or infinitely many solutions.
+The factorial of n counts the ways to order n distinct objects.
+Symmetry in mathematics is captured by the structure of groups.
+A transformer processes a sequence in parallel using self-attention.
+Comparison-based sorting requires at least n log n operations in the worst case.
+A hash function maps data of arbitrary size to fixed-size values.
+Recursion solves a problem by reducing it to smaller instances of itself.
+Gradient descent updates parameters in the direction that lowers a loss.
+Public-key cryptography uses separate keys for encryption and decryption.
+A neural network approximates functions by composing linear maps and nonlinearities.
+Caching trades memory for speed by storing previously computed results.
+Overfitting occurs when a model memorizes noise rather than signal.
+A compiler translates source code into machine-executable instructions.
+Deadlock arises when processes wait forever for each other's resources.
+The internet routes packets independently across many possible paths.
+Backpropagation computes gradients by applying the chain rule layer by layer.
+Lossless compression removes redundancy without discarding information.
+A binary search halves the remaining search space with each comparison.
+Concurrency lets a program make progress on several tasks at once.
+Embeddings represent discrete tokens as points in a continuous space.
+Version control records the history of changes to a project.
+A queue serves its elements in the order they arrive.
+Regularization discourages overly complex models to improve generalization.
+The Sun fuses hydrogen into helium in its core.
+Light from distant stars left them thousands of years ago.
+The Moon always shows nearly the same face to Earth.
+The planets orbit the Sun in ellipses rather than perfect circles.
+A light-year is a measure of distance, not of time.
+The observable universe is expanding in every direction.
+Comets develop tails as they approach the Sun and lose gas and dust.
+Neutron stars pack more than the Sun's mass into a city-sized sphere.
+Jupiter is the most massive planet in the solar system.
+Stars are classified by their color, which reflects their surface temperature.
+The Milky Way is a barred spiral galaxy containing billions of stars.
+Tides on Earth are driven mainly by the gravity of the Moon.
+A supernova can briefly outshine an entire galaxy.
+Saturn's rings are made mostly of ice and rock particles.
+The cosmic microwave background is faint radiation left from the early universe.
+Mars appears red because of iron oxide on its surface.
+Gravity bends the path of light passing near massive objects.
+The nearest star beyond the Sun lies over four light-years away.
+Galaxies cluster together along vast filaments of matter.
+A solar eclipse occurs when the Moon passes between Earth and the Sun.
+The Earth's core is composed mostly of iron and nickel.
+Continents drift slowly atop the planet's mantle.
+Earthquakes release energy stored along geological faults.
+The ocean absorbs much of the carbon dioxide added to the atmosphere.
+Rivers carve valleys by eroding rock over long timescales.
+The ozone layer absorbs much of the Sun's harmful ultraviolet radiation.
+Glaciers store a large fraction of the planet's fresh water.
+Volcanoes form where magma reaches the Earth's surface.
+The water cycle moves moisture between oceans, air, and land.
+Deserts form where descending dry air suppresses rainfall.
+The Amazon basin holds the largest tropical rainforest on Earth.
+Ocean currents redistribute heat from the equator toward the poles.
+Limestone caves form as slightly acidic water dissolves the rock.
+The Mariana Trench is the deepest known point in the ocean.
+Soil forms over centuries from weathered rock and decayed matter.
+Hurricanes draw their energy from warm ocean water.
+Mountain ranges often rise where tectonic plates collide.
+The Sahara is the largest hot desert in the world.
+Global wind patterns are shaped by the Earth's rotation.
+Most of the planet's surface is covered by water.
+The printing press spread literacy across early modern Europe.
+The Roman Empire was eventually split into western and eastern halves.
+The Industrial Revolution began in Britain in the late eighteenth century.
+The Great Wall of China was built over many centuries by successive dynasties.
+The French Revolution overturned the monarchy in the late eighteenth century.
+The ancient Egyptians built the pyramids as tombs for their pharaohs.
+The first writing systems emerged in Mesopotamia thousands of years ago.
+The Black Death killed a large share of Europe's population in the fourteenth century.
+The Silk Road carried trade between Asia and Europe for centuries.
+The First World War reshaped the political map of Europe.
+The Renaissance revived interest in classical art and learning.
+Gunpowder was invented in China before spreading westward.
+The abolition of slavery unfolded gradually across the nineteenth century.
+The Cold War divided much of the world into rival blocs.
+Democracy first took shape in the city-states of ancient Greece.
+European contact with the Americas reshaped global trade and disease.
+The fall of the Berlin Wall marked the end of a divided Germany.
+Early humans spread out of Africa across the rest of the world.
+The wheel transformed transport and agriculture in antiquity.
+The telegraph allowed messages to cross continents within minutes.
+Prices tend to rise when demand outpaces supply.
+Inflation erodes the purchasing power of money over time.
+Comparative advantage explains why nations gain from trade.
+Interest is the price paid for borrowing money.
+Diversification reduces risk by spreading investments across assets.
+A recession is typically marked by falling output and rising unemployment.
+Central banks influence economies by adjusting interest rates.
+Supply and demand together determine the market price of a good.
+Compound interest causes savings to grow ever faster over time.
+Taxes fund public goods that markets tend to underprovide.
+A monopoly faces no direct competition in its market.
+Currencies float in value against one another on global markets.
+Opportunity cost is the value of the next best alternative forgone.
+Bonds pay fixed income in exchange for lending money.
+Productivity growth is the main driver of long-run prosperity.
+Insurance works by pooling risk across many policyholders.
+Stock prices reflect expectations about future profits.
+Scarcity forces choices about how to allocate limited resources.
+A trade deficit means a country imports more than it exports.
+Unemployment rises when the supply of labor exceeds available jobs.
+A sonnet is a fourteen-line poem with a fixed rhyme scheme.
+Perspective in painting creates the illusion of depth on a flat surface.
+Shakespeare wrote both tragedies and comedies for the Elizabethan stage.
+An octave spans eight notes of a musical scale.
+Impressionist painters sought to capture fleeting effects of light.
+A novel develops character and plot over an extended narrative.
+Harmony arises when several notes sound pleasingly together.
+Greek tragedy explored fate, pride, and the will of the gods.
+Sculpture shapes three-dimensional form from stone, metal, or clay.
+A metaphor describes one thing as if it were another.
+Jazz grew out of African American musical traditions in the early twentieth century.
+A story's narrator may be reliable or deliberately misleading.
+Color theory explains how hues interact and contrast.
+A symphony is usually written in several contrasting movements.
+Photography captures light to fix an image in time.
+Rhythm organizes music through patterns of stress and duration.
+Epic poems recount the deeds of heroes across many lines.
+Architecture balances function, structure, and aesthetic form.
+A chord is built by stacking notes at specific intervals.
+Satire uses humor to criticize folly and vice.
+Honey can keep for years when it is sealed and stored dry.
+A rainbow appears when sunlight is split by raindrops into its colors.
+The human body is composed mostly of water.
+Bread rises because yeast releases carbon dioxide as it ferments.
+Touchscreens detect the electrical properties of a fingertip.
+Coffee contains caffeine, a mild stimulant.
+Most languages contain words borrowed from one another.
+A compass needle aligns itself with the Earth's magnetic field.
+Recycling aluminum uses far less energy than producing it from ore.
+The QWERTY keyboard layout dates from early mechanical typewriters.
+Glass is an amorphous solid rather than a slowly flowing liquid.
+Sign languages have their own grammar independent of spoken language.
+A refrigerator cools its interior by moving heat outward.
+Flat maps must distort the globe to fit it onto a page.
+Soap works by linking water with oily dirt so it rinses away.
+The metric system is based on powers of ten.
+GPS receivers calculate position from signals sent by orbiting satellites.
+Paper was first made in China from plant fibers.
+Bilingual speakers often switch languages in mid-conversation.
+A clock divides the day into equal repeating intervals.
