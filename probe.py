@@ -76,7 +76,14 @@ def estimate_di(X: np.ndarray, method: str) -> float:
     Hypotheses orthogonales -> convergence non triviale.
     """
     from skdim import id as skid
-    X = X.astype(np.float32)
+    X = np.ascontiguousarray(X.astype(np.float32))
+    # Les estimateurs par plus-proches-voisins (TwoNN, MLE) divisent par la
+    # distance au 1er voisin. Des lignes STRICTEMENT identiques (typiquement
+    # des tokens repetes a la couche d'embedding) donnent une distance nulle
+    # -> NaN/inf -> l'estimateur leve. On retire les doublons exacts d'abord.
+    X = np.unique(X, axis=0)
+    if X.shape[0] < 10:
+        return float("nan")
     if method == "twonn":
         est = skid.TwoNN()
     elif method == "mle":
@@ -87,12 +94,21 @@ def estimate_di(X: np.ndarray, method: str) -> float:
     return float(est.dimension_)
 
 
-def bootstrap_di(X: np.ndarray, method: str, n_boot: int, rng) -> tuple:
-    """Vrai bootstrap : rechantillonnage AVEC remise a chaque tirage."""
+def bootstrap_di(X: np.ndarray, method: str, n_boot: int, rng,
+                 frac: float = 0.9) -> tuple:
+    """Sous-echantillonnage SANS remise (m-out-of-n, m = frac * n).
+
+    Le bootstrap classique AVEC remise est incompatible avec les estimateurs
+    de dimension intrinseque par plus-proches-voisins : rechantillonner avec
+    remise duplique des points (distance au 1er voisin = 0 -> NaN). Le
+    sous-echantillonnage sans remise donne une variance entre tirages sans
+    jamais introduire de doublon.
+    """
     n = X.shape[0]
+    m = max(10, int(frac * n))
     dims = []
     for _ in range(n_boot):
-        idx = rng.choice(n, n, replace=True)
+        idx = rng.choice(n, m, replace=False)
         try:
             dims.append(estimate_di(X[idx], method))
         except Exception:
