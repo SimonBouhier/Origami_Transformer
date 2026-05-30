@@ -31,6 +31,9 @@ from datetime import datetime, timezone
 import numpy as np
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from skdim import id as skid  # importe au niveau module : une dep manquante
+                              # echoue au demarrage, pas silencieusement dans
+                              # bootstrap_di (cf. bug NaN du 2026-05-30).
 
 # --------------------------------------------------------------------------- #
 # Corpus par defaut — modeste, generique. Pour resultats publiables : >= 200
@@ -75,7 +78,6 @@ def estimate_di(X: np.ndarray, method: str) -> float:
 
     Hypotheses orthogonales -> convergence non triviale.
     """
-    from skdim import id as skid
     X = np.ascontiguousarray(X.astype(np.float32))
     # Les estimateurs par plus-proches-voisins (TwoNN, MLE) divisent par la
     # distance au 1er voisin. Des lignes STRICTEMENT identiques (typiquement

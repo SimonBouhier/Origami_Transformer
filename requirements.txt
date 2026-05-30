@@ -8,3 +8,4 @@ torch>=2.1
 transformers>=4.38
 scikit-dimension>=0.3.0
 scikit-learn>=1.3
+pandas>=2.0          # dependance transitive de scikit-dimension (skdim.datasets)
