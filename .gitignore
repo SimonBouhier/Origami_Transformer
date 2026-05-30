@@ -1,0 +1,35 @@
+# --- Environnement virtuel ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Caches de modeles / poids HuggingFace ---
+.cache/
+hf_cache/
+*.safetensors
+*.bin
+
+# --- Sorties de mesure (donnees generees, pas du code) ---
+results/
+analysis_report.json
+*_curvature.json
+
+# --- OS / editeurs ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

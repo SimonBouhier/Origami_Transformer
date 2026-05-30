@@ -1,0 +1,10 @@
+# Origami DI Probe — dependances
+# Bornes choisies pour la reproductibilite (CPU, Windows/Linux/macOS).
+# Apres premiere install reussie : `pip freeze > requirements.lock.txt`
+# pour figer les versions exactes (pre-enregistrement).
+
+numpy>=1.24,<2.0
+torch>=2.1
+transformers>=4.38
+scikit-dimension>=0.3.0
+scikit-learn>=1.3
