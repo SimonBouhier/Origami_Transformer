@@ -7,7 +7,7 @@
 
 **Frozen on**: 2026-05-31
 **Frozen by**: Simon Bouhier
-**Git commit at freeze**: TBD (filled by `git rev-parse HEAD` after the freeze commit)
+**Git commit at freeze**: 4e9683efead2fafea26b26ce2d37611e97f69269
 
 ## Hypothesis
 
