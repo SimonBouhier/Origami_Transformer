@@ -205,3 +205,43 @@ bloom-560m interrompu a 65/220 par l'arret du processus hote (pas une erreur de
 l'instrument; probe_fisher.py n'ecrit son JSON qu'en fin de run, donc pas de reprise
 partielle) — relance complete le 2026-07-09, verdict analysis_v4.py enchaine sur les 4 JSON.
 3/4 sorties completes au moment de cette note: gpt2, pythia-410m, opt-350m.
+
+(Deuxieme interruption machine — redemarrage Windows Update — a 10/220 de la relance
+bloom. Troisieme lancement complet: 220/220 en 72.2 min a 0.79 s/pt. Aucune donnee
+corrompue a aucun moment: le JSON s'ecrit atomiquement en fin de run.)
+
+---
+
+## 2026-07-09 — Verdict v4 : HA_DEMENTI global (1/4)
+
+analysis_v4.py, seuils geles (commit 4e9683ef), sur les 4 sorties completes.
+Duree des runs: gpt2 10.4 min / pythia 45.3 / opt 44.6 / bloom 72.2.
+
+| modele        | L  | P_rank[0] | pic          | P_rank[fin] | C1 | C2 | C3 (rho_best)   | verdict     |
+|---------------|----|-----------|--------------|-------------|----|----|-----------------|-------------|
+| gpt2          | 13 | 510.24    | 0  (=510.24) | 118.87      | X  | ok | X  (+0.290@12)  | HA_DEMENTI  |
+| pythia-410m   | 25 | 888.68    | 0  (=888.68) | 50.29       | X  | ok | ok (+0.335@1)   | HA_DEMENTI  |
+| opt-350m      | 25 | 437.54    | 0  (=437.54) | 47.78       | X  | ok | X  (+0.197@18)  | HA_DEMENTI  |
+| bloom-560m    | 25 | 580.59    | 22 (=731.15) | 103.15      | ok | ok | ok (+0.486@24)  | HA_CONFIRME |
+
+GLOBAL: 1/4 (25%) -> HA_DEMENTI. C'est le negatif pre-enregistre prevu, publiable.
+
+Lecture (hors verdict, a developper dans NOTE_RESULTATS_v4):
+- C2 (compression finale) universelle 4/4 — comme C3 en v3. La compression finale est
+  le motif qui survit au changement d'instrument (NN -> Fisher). Resultat robuste des
+  deux campagnes.
+- C1 echoue sur 3/4 par pic en couche 0 — echo direct du mode d'echec v3 (explosion
+  MLE couche 0). Au lens de la couche 0, p est quasi uniforme -> rang de Fisher quasi
+  maximal (510/768 gpt2; 889/1024 pythia; 437 pour opt dont le lens est de rang <= 512).
+  Deux lectures concurrentes NON departagees par ces donnees: (a) la bosse interieure
+  etait un artefact d'estimateur NN (sens Schulte, STATE_OF_ART section 1); (b) la
+  couche 0 est un regime degenere du logit-lens (artefact de lens, symetrique de (a)).
+  bloom, seul confirme (pic interieur 22, P_rank[0]=580 < 731), est aussi le seul dont
+  les embeddings passent par une LayerNorm dediee (word_embeddings_layernorm) avant le
+  stream — difference architecturale plausible, a creuser.
+- C3: couplage O_rank<->NLL faible a modere, TOUJOURS POSITIF (rang plus haut <-> NLL
+  plus haute, meme direction que Viswanathan 2501.10573, STATE_OF_ART section 5).
+  gpt2 echoue a 0.290 pour un seuil de 0.30 — sans coussin, conformement a la
+  discipline. Coherent avec le prior "signal semantique faible" (section 7).
+- Toute exclusion de la couche 0 exige un pre-enregistrement NOUVEAU (jamais
+  retroactif). Lecon a porter au gel v5.
