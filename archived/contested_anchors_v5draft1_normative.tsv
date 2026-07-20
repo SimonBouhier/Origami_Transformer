@@ -1,0 +1,121 @@
+line	domain	affirmed_by	denied_by
+1	bioethics	preference utilitarians (Singer); Dutch/Belgian/Canadian medical-ethics mainstream	Catholic bioethics; many disability-rights advocates; large parts of palliative-care medicine
+2	bioethics	Thomson/Warren-line liberal bioethics; most European legal frameworks	Catholic and evangelical bioethics; Marquis-line "future like ours" philosophers
+3	bioethics	retributivist philosophers (Kant-line); US majority-opinion jurisprudence in retentionist states	abolitionist philosophers; Council of Europe; most Western European legal orders
+4	bioethics	mainstream biomedical research establishment; NIH/EMA regulatory consensus	animal-rights philosophers (Regan, Singer); abolitionist animal-research movement
+5	bioethics	transhumanist and liberal-eugenics bioethicists (Savulescu, Harris)	precautionary bioethics; disability-rights scholars; UNESCO bioethics declaration line
+6	bioethics	market-design economists (Becker, Roth-adjacent proposals)	WHO and most transplant bodies; exploitation-based bioethics (Satz)
+7	bioethics	radical-feminist and exploitation-based critiques; several European legislatures	liberal contractualists; surrogacy-permissive jurisdictions and practitioner groups
+8	bioethics	public-health ethics mainstream; most paediatric bodies	medical-libertarian bioethicists; bodily-autonomy absolutists
+9	bioethics	animal-welfare philosophers; abolitionist and welfarist movements	agricultural-economics mainstream; many virtue and contractualist ethicists
+10	bioethics	AMA and most medical associations	retentionist-state legislatures; some capital-jurisprudence scholars
+11	bioethics	Catholic and conservative bioethics; embryo-rights philosophers	developmental-gradualist bioethics; most IVF-permitting regulatory bodies
+12	bioethics	procreative-beneficence philosophers (Savulescu)	disability-rights scholars; most national genetics regulators; ASHG-line caution
+13	bioethics	sex-worker-rights organisations; harm-reduction public health	Nordic-model advocates; radical-feminist abolitionists
+14	bioethics	autonomy-based clinical ethics; several supreme-court rulings	sanctity-of-life bioethics; some psychiatric-capacity scholars
+15	bioethics	professional-duty bioethicists; several pharmacy regulators	religious-liberty scholars; conscience-clause legislatures
+16	political philosophy	deliberative and epistemic democrats (Estlund, Landemore)	epistocracy advocates (Brennan); technocratic-governance theorists
+17	political philosophy	US First Amendment tradition; free-speech absolutists	European hate-speech jurisprudence; dignity-based speech theorists
+18	political philosophy	PR-advocating political scientists; most continental European systems	Westminster-tradition scholars; single-member-district defenders
+19	political philosophy	Australian/Belgian compulsory-voting scholars; turnout-equality researchers	libertarian political theorists; voluntarist democratic theorists
+20	political philosophy	originalist jurisprudence (Scalia/Barnett line)	living-constitutionalists; most European constitutional courts
+21	political philosophy	constitutional-monarchy defenders; some stability-focused institutionalists	republican political theory; most democratic-legitimacy scholars
+22	political philosophy	term-limit reform movements; anti-incumbency scholars	legislative-capacity researchers; most comparative-politics literature
+23	political philosophy	federalism scholars (Riker-line); most large-federation constitutionalists	unitary-state theorists; centralisation-efficiency scholars
+24	political philosophy	youth-enfranchisement researchers; Austrian/Scottish precedent advocates	maturity-threshold theorists; most national legislatures
+25	political philosophy	party-government scholars (Schattschneider line)	anti-party reformers; deliberative and sortition advocates
+26	political philosophy	representative-democracy scholars; anti-plebiscitary theorists	direct-democracy advocates; Swiss-model defenders
+27	political philosophy	open-borders philosophers (Carens); cosmopolitan egalitarians	statist political theorists (Miller, Walzer); most national governments
+28	political philosophy	Rawls-line civil-disobedience theory; most social-movement scholars	legalist and order-first theorists
+29	economics	UBI advocates; several pilot-study economists	labour-supply-effect economists; targeted-transfer advocates
+30	economics	neoclassical labour economists (Neumark-line)	monopsony-model economists (Card/Krueger-line)
+31	economics	mainstream housing economists; near-consensus survey majorities	tenant-protection scholars; some heterodox urban economists
+32	economics	trade economists (median IGM-panel view)	Autor-line China-shock scholars; heterodox trade critics
+33	economics	public-finance sceptics; several European wealth-tax repeals	Saez/Zucman-line optimal-tax economists
+34	economics	Rawlsian and luck-egalitarian public finance	family-business and capital-formation economists; libertarian tax theorists
+35	economics	developmental-state economists (Chang, Mazzucato)	free-market economists; public-choice critics
+36	economics	Borjas-line immigration economists	Card-line immigration economists; most IGM-panel respondents
+37	economics	central-banking mainstream; most macroeconomists	MMT theorists; democratic-accountability critics
+38	economics	crowding-out macroeconomists; loanable-funds tradition	MMT and functional-finance economists; Keynesian slack-conditions view
+39	economics	neo-Brandeisian antitrust (Khan, Wu)	Chicago-school consumer-welfare antitrust
+40	economics	YIMBY urban economists (Glaeser-line)	scholars emphasising finance, land, or demand-side causes
+41	economics	most monetary economists; central-bank research	crypto-economics researchers; some payments and monetary-plurality scholars
+42	economics	growth economists; most development mainstream	degrowth and post-development scholars
+43	science	energy-safety analysts (Sovacool-line data; Our World in Data comparisons)	anti-nuclear risk analysts; waste and accident-tail scholars
+44	science	AHA/WHO dietary-guideline line	saturated-fat revisionists (Siri-Tarino, Malhotra); low-carb research groups
+45	science	IIT theorists (Tononi, Koch)	global-workspace theorists (Dehaene); IIT critics (Aaronson-line)
+46	science	string-theory community (most high-energy theory departments)	Smolin/Woit-line critics; some philosophers of science
+47	science	eternal-inflation and landscape cosmologists	Ellis/Silk-line testability critics
+48	science	geroscience researchers (Sinclair, Barzilai)	biodemographers of the mortality plateau; ageing-limit scholars
+49	science	replication-project researchers (Open Science Collaboration)	psychologists disputing replication-protocol fidelity (Gilbert-line)
+50	science	particle dark-matter mainstream (WIMP/axion programmes)	MOND and modified-gravity researchers (Milgrom, McGaugh)
+51	science	behaviour-genetics mainstream (twin-study heritability estimates)	developmental-systems critics; gene-environment-interaction scholars (Turkheimer-line)
+52	science	recent Mendelian-randomisation and Lancet-line researchers	J-curve epidemiologists; some cardiovascular researchers
+53	science	microbiome-gut-brain researchers	causal-inference sceptics; replication-focused microbiome critics
+54	science	rare-Earth / Great-Filter proponents (Ward-Brownlee line)	optimistic SETI and abundant-life researchers
+55	science	Everettian and relational-QM interpreters	Copenhagen/QBist and collapse-theory interpreters
+56	science	nutritional-epidemiology critics (Ioannidis)	nutrition-guideline researchers; cohort-study defenders
+57	AI	existential-risk researchers (Bostrom, Russell, Hinton)	AI-risk sceptics (LeCun, Mitchell, Bender)
+58	AI	emergent-semantics researchers; some interpretability groups	stochastic-parrot line (Bender, Koller); symbol-grounding theorists
+59	AI	open-weights advocates (Meta AI, EleutherAI, Mozilla-line)	frontier-safety labs; misuse-risk researchers
+60	AI	Frey-Osborne-line automation forecasters	task-based labour economists (Autor, Acemoglu-line historical view)
+61	AI	Haidt/Twenge-line researchers	Odgers/Przybylski-line effect-size critics
+62	AI	law-enforcement and several national governments	cryptographers and civil-liberties groups; most security researchers
+63	AI	fairness-through-optimisation researchers	impossibility-theorem researchers (Kleinberg, Chouldechova)
+64	AI	short-timeline forecasters; several frontier-lab leaders	long-timeline AI researchers; most academic-survey medians
+65	AI	AV-industry researchers and developers	safety-validation statisticians (RAND-line miles-to-validate arguments)
+66	AI	AI developers and several fair-use scholars	rights-holder organisations; many copyright scholars
+67	AI	surveillance-capitalism scholars (Zuboff-line)	privacy-engineering and PET researchers
+68	AI	scaling-limits researchers; neurosymbolic and world-model advocates	scaling-hypothesis proponents (Sutton-line, frontier-lab consensus)
+69	environment	Pigouvian carbon-tax economists	cap-and-trade designers; political-feasibility scholars
+70	environment	SRM researchers (Keith, Harvard-line programmes)	moral-hazard critics; most environmental NGOs
+71	environment	degrowth economists (Hickel, Kallis)	green-growth and ecomodernist economists
+72	environment	ecomodernists; IEA and most decarbonisation modellers	renewables-only advocates; anti-nuclear energy analysts
+73	environment	offset-integrity investigators (Guardian/Berkeley-line audits)	voluntary-carbon-market designers; some project developers
+74	environment	systemic-change advocates; most climate policy scholars	behaviour-change researchers; consumer-demand economists
+75	environment	agricultural-biotech mainstream; most national academies	agroecology advocates; several European regulators
+76	environment	conservation-biology fortress school	development-first economists; environmental-justice scholars
+77	environment	life-cycle-analysis sceptics; battery-supply-chain critics	most LCA researchers; transport-decarbonisation modellers
+78	environment	climate-justice scholars; G77-line negotiators	historical-responsibility critics; most wealthy-nation governments
+79	environment	plastics-recycling critics (Enck-line audits)	waste-management researchers; circular-economy advocates
+80	metaphysics	libertarian free-will philosophers (Kane, van Inwagen)	hard determinists and illusionists (Harris, Caruso); many compatibilists
+81	metaphysics	moral realists (Parfit, Enoch, Shafer-Landau)	expressivists, error theorists (Mackie), constructivists
+82	metaphysics	evidential problem-of-evil philosophers (Rowe, Draper)	sceptical theists; theodicy defenders (Plantinga, Swinburne)
+83	metaphysics	psychological-continuity theorists (Parfit-line)	animalists (Olson); biological-continuity theorists
+84	metaphysics	mathematical platonists (Gödel-line, Balaguer)	nominalists (Field), fictionalists, structuralist anti-realists
+85	metaphysics	property dualists and mysterians (Chalmers, Nagel)	physicalists (Dennett, Frankish); illusionists about qualia
+86	metaphysics	determinist philosophers of physics	indeterminist interpreters of quantum mechanics; agent-causation theorists
+87	metaphysics	psychological-continuity and pattern-identity theorists	biological-continuity theorists; duplication-objection philosophers
+88	metaphysics	objective-list and religious theorists of meaning	subjectivists about meaning (Taylor-line)
+89	metaphysics	animal-ethics philosophers (Singer, Korsgaard)	contractarian moral theorists; rationalist-status theorists
+90	metaphysics	A-theorists of time; presentists	B-theorists and eternalists; most relativity-informed philosophers
+91	metaphysics	internalist epistemologists	externalists and reliabilists (Goldman-line)
+92	social	meritocratic defenders; some mobility economists	Sandel/Markovits-line critics; social-reproduction sociologists
+93	social	race-conscious-admissions scholars; many university bodies	colour-blind constitutionalists; mismatch-hypothesis researchers
+94	social	psychometric researchers; standardised-testing defenders	test-optional researchers; SES-confound scholars
+95	social	science-of-reading researchers; most cognitive psychologists	balanced-literacy and whole-language educators
+96	social	aesthetic-objectivist critics; canon defenders (Bloom-line)	new-historicist and postcolonial critics
+97	social	moral relativists; some cultural anthropologists	moral universalists; human-rights philosophers
+98	social	homework-effect researchers (Cooper-line meta-analyses)	practice-effect educators; many national curricula
+99	social	phone-ban advocates; several national education ministries	digital-literacy educators; autonomy-focused researchers
+100	social	autonomist aesthetics; formalist critics	moralist critics; many contemporary reception scholars
+101	social	single-sex-education advocates	Halpern-line meta-analysts; most gender-and-education researchers
+102	social	restitution scholars; several source-nation governments	universal-museum defenders (Cuno-line)
+103	social	class-first sociologists (Wilson-line)	critical-race scholars; intersectional sociologists
+104	criminal justice	prison-abolition scholars (Davis, Gilmore)	most criminologists; incapacitation-effect researchers
+105	criminal justice	Portuguese-model and harm-reduction researchers	prohibitionist criminologists; some addiction-medicine researchers
+106	criminal justice	gun-control epidemiologists (Hemenway-line)	Lott-line researchers; RAND-noted-uncertainty analysts
+107	criminal justice	deterrence-theory criminologists	certainty-not-severity researchers (Nagin-line)
+108	criminal justice	rehabilitative-justice scholars; Nordic penal tradition	retributivists; just-deserts theorists (von Hirsch)
+109	criminal justice	policing-effect economists (Chalfin/McCrary-line)	defund-and-reinvest scholars; over-policing researchers
+110	criminal justice	developmental-neuroscience-informed juvenile-justice scholars	serious-offence prosecutors; some victims-rights advocates
+111	criminal justice	legalisation researchers in adopting states	youth-psychosis researchers; some public-health bodies
+112	criminal justice	arbitrariness scholars (Baldus-line disparity research)	retentionist jurisprudence; procedural-safeguard defenders
+113	history	Fischer-thesis historians	Clark-line "sleepwalkers" historians; systemic-cause scholars
+114	history	internal-decline historians (Gibbon-line)	Heather/Ward-Perkins-line external-pressure historians
+115	history	dependency and postcolonial economists (Acemoglu-line extractive institutions)	revisionist colonial economists; institutional-continuity sceptics
+116	history	orthodox-necessity historians (Stimson-line)	revisionists (Alperovitz, Hasegawa); Soviet-entry-cause scholars
+117	history	contingency historians (Pomeranz-line coal-and-colonies)	institutional and cultural-cause historians (Mokyr, North-line)
+118	history	great-man historians	structuralist and Annales-school historians
+119	history	economic-failure historians	Gorbachev-agency and dissident-movement historians
+120	history	Williams-thesis and dependency scholars	Mokyr/McCloskey-line internal-cause economic historians

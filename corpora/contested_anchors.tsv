@@ -1,0 +1,121 @@
+line	domain	affirmed_by	denied_by
+1	health_econ	market-in-organs economists (Becker & Elias); Iranian-model advocates	WHO transplant ethics; gift-economy bioethics (Titmuss-line)
+2	medicine	early PSA-screening urology; some ERSPC-trial interpreters	USPSTF (grade C/D); Cochrane; PLCO-trial interpreters
+3	medicine	Cipriani et al. 2018 meta-analysis; NICE mainstream psychiatry	Kirsch-line; Moncrieff & critical-psychiatry network
+4	nutrition	2015 US Dietary Guidelines Advisory Committee; Soni-line	traditional lipid-hypothesis cardiology (older AHA stance)
+5	medicine	He & MacGregor; AHA/WHO population-salt guidance	Graudal-line; PURE-study interpreters; Cochrane skeptics
+6	medicine	Martineau et al. 2017 meta-analysis	VITAL and other large null RCTs (Murdoch)
+7	medicine	"shorter-is-better" (Spellberg; Llewelyn BMJ 2017)	traditional "complete the course" clinical guidance
+8	medicine	intermittent-fasting proponents (some metabolic researchers)	isocaloric-RCT interpreters (Trepanowski 2017; Templeman)
+9	medicine	some psychoneuroimmunology researchers	Hróbjartsson & Gøtzsche (Cochrane placebo meta)
+10	medicine	American Cancer Society; radiology societies	USPSTF; Nordic Cochrane (Gøtzsche); Canadian task force
+11	political_science	Ansolabehere & Iyengar (demobilization thesis)	Lau et al. meta-analysis; Wattenberg & Brians (no effect)
+12	political_science	Carey, Niemi & Powell; Mooney (staff/lobby capture)	term-limit advocates (US Term Limits); capture-finding skeptics
+13	economics	Sachs-line; Burnside & Dollar (conditional aid)	Easterly; Boone; Rajan & Subramanian
+14	political_science	realists (Rosato; Mearsheimer; Gartzke capitalist peace)	democratic-peace liberals (Russett; Doyle-line)
+15	political_science	Duverger-line institutionalists (Cox)	sociological cleavage theory (Lipset & Rokkan)
+16	political_science	economic-voting models (Fair; Achen & Bartels)	campaign-effects scholars (Vavreck; persuasion researchers)
+17	political_science	interference-effect claimants (2016 analysts)	null-effect studies (Eady et al. 2023)
+18	economics	UBI advocates (Standing); some NIT-experiment interpreters	labor-supply skeptics (mainstream labor economists)
+19	economics	Neumark & Wascher	Card & Krueger; Cengiz et al. (bunching estimator)
+20	economics	near-consensus economists (Diamond, McQuade & Qian; IGM panel)	some heterodox / tenant-side urban scholars
+21	economics	mainstream trade economists (gains-from-trade)	Autor, Dorn & Hanson ("China shock"); Rodrik-line
+22	economics	Summers; Sarin (wealth-tax revenue skeptics)	Saez & Zucman
+23	economics	Mazzucato; Rodrik; developmental-state scholars	free-market neoclassical economists
+24	economics	Borjas	Card; Peri
+25	economics	mainstream monetary economics (Alesina & Summers)	post-Keynesian / MMT critics; some political economists
+26	economics	neoclassical loanable-funds view	Keynesians; MMT; Blanchard (r < g)
+27	economics	YIMBY economists (Glaeser; Hsieh & Moretti)	some urban sociologists / tenant-side scholars
+28	economics	crypto-skeptic economists (Roubini; Krugman)	blockchain / fintech proponents
+29	economics	growth-first development (Dollar & Kraay)	distribution-first and degrowth scholars
+30	economics	many central-bank economists (pre-2021 QE view)	monetarists; post-2021 inflation-attribution economists
+31	economics	Acemoglu & Restrepo (automation thesis)	Autor, Dorn & Hanson (trade / China shock)
+32	economics	supply-side / neoclassical investment models	post-TCJA empirical skeptics (little-investment finding)
+33	economics	Kleiner-line labor economists	licensing defenders (quality-signaling scholars)
+34	economics	Reinhart & Rogoff	Herndon, Ash & Pollin (the R&R critique)
+35	energy	pro-nuclear analysts (deaths/TWh; ecomodernists)	anti-nuclear risk analysts (some environmental scientists)
+36	nutrition	traditional diet-heart hypothesis (Keys-line; AHA)	low-carb re-analysis camp (Taubes; Siri-Tarino meta)
+37	neuroscience	Integrated Information Theory (Tononi; Koch)	global-workspace theorists; 2023 IIT-"pseudoscience" letter signatories
+38	physics	mainstream string theorists	Woit; Smolin; Hossenfelder-line
+39	cosmology	eternal-inflation / landscape (Susskind; Guth)	multiverse skeptics (G. Ellis; Steinhardt)
+40	biology	Dong, Milholland & Vijg (Nature 2016, fixed limit)	de Beer et al.; Barbi et al. (late-life mortality plateau)
+41	psychology	Open Science Collaboration (Nosek 2015)	Gilbert et al. 2016 (critique of the replication estimate)
+42	physics	CDM / particle dark-matter mainstream	MOND (Milgrom; McGaugh)
+43	behavioral_genetics	Plomin-line behavioral geneticists	Turkheimer (heritability caveats); Nisbett-line
+44	epidemiology	Mendelian-randomization / GBD 2018 ("no safe level")	J-curve epidemiologists (older cardioprotection studies)
+45	microbiome	gut-brain-axis researchers (Cryan & Dinan)	skeptics of causal human evidence (methodological critics)
+46	astrobiology	rare-Earth / Fermi-pessimists (great-filter, Hanson)	SETI optimists (Drake-line)
+47	physics	Everettian many-worlds (Deutsch; Wallace)	single-outcome interpretations (Copenhagen; Bohm; GRW)
+48	epidemiology	nutritional-epidemiology critics (Ioannidis)	defenders of nutritional epidemiology (Willett-line)
+49	physics	Webb & Murphy (quasar-absorption variation claims)	null-result high-resolution spectroscopy teams
+50	physics	information-preservation (Susskind; islands / holography)	information-loss holdouts (historical Hawking-line)
+51	cosmology	new-physics interpreters of the Hubble tension (Riess / SH0ES)	systematics / measurement-error interpreters (some CMB-side)
+52	physics	ambient superconductivity optimists (hydride researchers)	post-retraction skeptics (Hirsch; the Dias-retraction community)
+53	genomics	ENCODE consortium (Birney)	Graur-line ("junk DNA" defenders)
+54	genetics	transgenerational-epigenetics proponents	skeptics (Ptashne; most mammalian geneticists)
+55	neuroscience	Boldrini; Spalding (lifelong adult neurogenesis)	Sorrells et al. 2018 (no adult neurogenesis)
+56	evolution	multilevel-selection (D. S. Wilson; E. O. Wilson late)	gene-selectionists (Dawkins; Pinker; Coyne)
+57	biology	giant-virus researchers (Forterre-line)	mainstream "viruses are not alive" view
+58	linguistics	neo-Whorfian relativists (Winawer; Lupyan)	color universalists (Berlin & Kay-line)
+59	linguistics	generativists / universal grammar (Chomsky)	usage-based emergentists (Tomasello; Christiansen & Chater)
+60	linguistics	continuity paleoanthropology (Dediu & Levinson)	language-uniqueness scholars (Tattersall; Berwick & Chomsky)
+61	ai_safety	Bengio; Hinton; Yudkowsky; CAIS-statement signatories	LeCun; Marcus (on x-risk); Ng
+62	ai	distributional-semantics optimists (Piantadosi & Hill)	Bender & Koller ("octopus"); symbol-grounding (Harnad); Bisk et al. ("Experience Grounds Language")
+63	ai	memorization researchers (Carlini extraction studies)	generalization / grokking proponents
+64	psychology	Haidt; Twenge	Odgers; Orben & Przybylski (weak-effect reviews)
+65	ai	practical fair-ML methods proponents	impossibility-theorem line (Kleinberg, Mullainathan & Raghavan; Chouldechova)
+66	ai	Schaeffer, Miranda & Koyejo 2023 (mirage)	Wei et al. (emergent abilities)
+67	ai	neurosymbolic proponents (Marcus; Lake)	pure-connectionist scaling (Sutton "bitter lesson")
+68	privacy	de Montjoye; Sweeney (re-identification)	differential-privacy / de-identification optimists (El Emam-line)
+69	ai	scaling skeptics (Marcus; Chollet)	scaling-maximalists ("scale is all you need")
+70	ai	benchmark-contamination critics (reasoning-vs-memorization camp)	benchmark defenders
+71	ai	RAG proponents (Lewis et al.)	long-context / parametric-knowledge proponents
+72	ai	scaling-laws (Kaplan; Hoffmann / Chinchilla)	diminishing-returns / plateau skeptics
+73	ai	chain-of-thought-as-reasoning proponents	faithfulness critics (Turpin et al. 2023; Lanham)
+74	ai	model-collapse researchers (Shumailov et al. 2024)	accumulation / curation optimists (Gerstgrasser et al.)
+75	ai	MoE proponents (Fedus, Zoph & Shazeer)	dense-scaling proponents / MoE-cost skeptics
+76	ai	"shallow alignment" critics (some interpretability researchers)	RLHF-as-genuine-improvement proponents
+77	economics	carbon-tax economists (Nordhaus-line; Pigouvian)	cap-and-trade proponents (some environmental economists)
+78	economics	degrowth scholars (Hickel; Kallis)	green-growth proponents (mainstream climate economics; ecomodernists)
+79	energy	pro-nuclear climate analysts (ecomodernists)	100%-renewables proponents (Jacobson-line)
+80	climate	offset critics (West et al.; Verra-critique scholarship)	carbon-offset-market defenders
+81	climate	systemic-primacy scholars	behavior-change / consumer-agency proponents
+82	agriculture	pro-GM plant scientists (Borlaug-line)	agroecology / food-sovereignty scholars
+83	climate	tipping-point-proximity scientists (Lenton et al.; Rockström)	cautious assessors (Hausfather; IPCC-reticent scientists)
+84	environment	plastic-recycling critics (some environmental scientists)	recycling-industry / some LCA defenders
+85	climate	low-sensitivity "lukewarmers" (Lewis & Curry)	mainstream climate science (IPCC ECS range)
+86	geoengineering	ocean iron-fertilization proponents	OIF efficacy skeptics (most ocean scientists)
+87	conservation	fortress-conservation proponents	community-based / sustainable-use conservationists
+88	education	SAT predictive-validity psychometricians	test-optional advocates (Hiss-line)
+89	education	merit-pay proponents (Muralidharan & Sundararaman)	US-RCT nulls (Springer et al.; POINT/Nashville)
+90	education	Cooper-line (little benefit for young children)	homework-benefit proponents
+91	psychology	Pygmalion / expectancy researchers (Rosenthal-line)	skeptics (Jussim & Harber; expectancy-effect minimizers)
+92	sociology	class-primacy (W. J. Wilson, "declining significance of race")	structural-racism sociologists
+93	education	STAR-experiment interpreters (Krueger)	class-size skeptics (Hanushek)
+94	sociology	Chetty et al. (Moving to Opportunity; Opportunity Atlas)	selection-effect skeptics
+95	organizational	diversity-bonus proponents (Page-line)	mixed-evidence skeptics (van Dijk et al. meta)
+96	public_health	drug-liberalization / Portugal-model scholars	prohibition defenders
+97	public_health	gun-control public-health researchers (Hemenway)	Lott-line skeptics
+98	criminology	hot-spots / place-based policing (Sherman; Braga & Weisburd)	displacement skeptics; critics of place-based crime effects
+99	public_health	cannabis-legalization proponents (some health economists)	harm-emphasis researchers
+100	psychology	IAT proponents (Greenwald & Banaji)	predictive-validity critics (Oswald et al. meta; Blanton)
+101	psychology	Dweck-line growth-mindset proponents	replication skeptics (Sisk et al. meta; Bahník & Vranka)
+102	psychology	Baumeister-line ego-depletion proponents	multi-lab replication failure (Hagger et al. 2016)
+103	psychology	Bialystok-line bilingual-advantage researchers	null-result researchers (Mukadam; cohort studies)
+104	psychology	birth-order-effect proponents	large-sample nulls (Rohrer et al. 2015; Damian & Roberts)
+105	psychology	Duckworth-line grit researchers	Credé et al. 2017 meta (grit ≈ conscientiousness)
+106	psychology	Carney, Cuddy & Yap 2010	Ranehill et al.; Simmons & Simonsohn (failed replication)
+107	history	Fischer thesis (Fritz Fischer)	shared-responsibility historians (Clark, "Sleepwalkers")
+108	history	internalist decline (Gibbon-line)	transformation historians (P. Brown vs Ward-Perkins debate)
+109	history	dependency theory; Acemoglu extractive-institutions	colonial-legacy revisionists (some economic historians)
+110	history	necessity-thesis (traditionalist) historians	revisionists (Alperovitz; Hasegawa, "Racing the Enemy")
+111	history	contingency historians	deep-cause historians (Mokyr; Allen high-wage; Pomeranz)
+112	history	"great man" / contingency historians	structuralists / Annales school (Braudel)
+113	history	economic-collapse explanation of the USSR	agency / ideational explanations (Gorbachev-agency; Reagan-pressure)
+114	history	Williams thesis (Eric Williams); world-systems (Wallerstein)	internalist economic historians (O'Brien, "periphery marginal")
+115	history	post-plague real-wage historians (Pamuk; Herlihy)	alternative-cause historians
+116	archaeology	multiple-independent-origins mainstream	diffusionist holdouts
+117	archaeology	climate-driven collapse (Kaniewski)	multi-causal systems-collapse (Cline, "1177 BC")
+118	history	high-counters (Dobyns; Mann, "1491")	low-counters (Ubelaker-line)
+119	archaeology	"worst mistake" bioarchaeology (Diamond-line)	neutral / positive interpreters of the Neolithic
+120	education	handwriting-benefit researchers (James; Longcamp)	keyboard-equivalence proponents

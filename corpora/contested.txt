@@ -1,0 +1,120 @@
+A regulated market in human kidneys would save more lives than it costs.
+Routine PSA screening reduces prostate cancer mortality more than it harms.
+Antidepressants outperform placebo by a clinically meaningful margin.
+Dietary cholesterol has a negligible effect on blood cholesterol levels.
+Population-wide salt reduction lowers cardiovascular risk.
+Vitamin D supplementation reduces the rate of respiratory infections.
+Most antibiotic courses are prescribed for longer than clinically necessary.
+Intermittent fasting produces greater fat loss than continuous calorie restriction.
+The placebo effect changes objective disease outcomes, not just reported symptoms.
+Screening mammography before age fifty saves more lives than it harms.
+Negative political advertising measurably reduces overall voter turnout.
+Term limits shift real legislative power toward unelected staff.
+Foreign aid accelerates economic growth in poor recipient countries.
+Democratic peace reflects shared interests more than shared institutions.
+Electoral systems shape the number of parties more than social divisions do.
+Economic conditions determine incumbent re-election more than campaigns do.
+Foreign online interference measurably shifts national election outcomes.
+A universal basic income would reduce poverty without significantly reducing employment.
+Raising the minimum wage substantially increases unemployment among young workers.
+Rent control reduces the long-run supply of affordable housing.
+Free trade agreements benefit the average worker in wealthy countries.
+Wealth taxes raise far less revenue than their advocates project.
+Industrial policy can outperform free markets at building strategic industries.
+Immigration lowers wages for native workers without university degrees.
+Central bank independence is essential to controlling inflation.
+Government deficits crowd out private investment over the long run.
+Housing shortages are caused primarily by restrictive local zoning.
+Cryptocurrencies serve no economic purpose that existing institutions cannot serve.
+Economic growth remains the most effective way to reduce global poverty.
+Quantitative easing raised asset prices without raising consumer inflation.
+Automation, not trade, was the primary cause of manufacturing job losses.
+Higher corporate tax rates measurably reduce long-run business investment.
+Occupational licensing raises consumer prices more than it improves quality.
+Sovereign debt above ninety percent of output slows economic growth.
+Nuclear power is the safest large-scale source of electricity available today.
+Dietary saturated fat is a primary cause of cardiovascular disease.
+Consciousness arises from integrated information rather than specific neural circuits.
+String theory is a scientific theory rather than untestable mathematics.
+Our universe is one among an unimaginably large multiverse.
+The human lifespan is bounded by a fixed biological upper limit.
+Most published findings in social psychology fail to replicate.
+Dark matter consists of undiscovered particles rather than modified gravity.
+Intelligence differences between individuals are mostly explained by genetics.
+Moderate alcohol consumption provides no health benefit at any dose.
+The gut microbiome causally shapes human mood and behavior.
+The absence of detected alien signals indicates that intelligent life is rare.
+Quantum mechanics requires abandoning the idea of a single definite outcome.
+Nutrition science has produced little reliable knowledge about long-term diets.
+The fine-structure constant has varied over cosmic history.
+Information swallowed by a black hole is preserved rather than destroyed.
+The Hubble tension reflects new physics rather than measurement error.
+Ambient-pressure room-temperature superconductivity is physically achievable.
+Most human non-coding DNA is functional rather than evolutionary residue.
+Epigenetic marks acquired during life are inherited by human offspring.
+The adult human brain generates new neurons throughout life.
+Group selection is a significant force in human social evolution.
+Viruses belong among living organisms rather than inert chemistry.
+The language a person speaks measurably shapes how they perceive color.
+Human grammar rests on an innate faculty rather than general learning.
+Neanderthals possessed a language capacity comparable to modern humans.
+Advanced artificial intelligence poses a genuine risk of human extinction.
+Meaning can be learned from text form alone without sensory grounding.
+Language models mostly memorize training data rather than truly generalizing.
+Social media use is a major cause of adolescent mental illness.
+Machine learning systems can be made fair without sacrificing accuracy.
+Emergent abilities in large language models are artifacts of the metric.
+Neural networks need explicit symbolic components for robust systematic reasoning.
+Anonymized personal datasets can usually be re-identified in practice.
+Scaling current architectures alone will not produce human-level reasoning.
+Current benchmarks overstate the reasoning ability of large language models.
+Retrieval-augmented systems hallucinate less than larger parametric models.
+Model capability still scales predictably with additional training data.
+Chain-of-thought traces faithfully reflect a model's actual computation.
+Synthetic training data degrades model quality over successive generations.
+Mixture-of-experts architectures outperform dense models at equal compute.
+Reinforcement learning from feedback suppresses rather than removes unwanted outputs.
+A carbon tax cuts emissions more effectively than permit trading.
+Economic degrowth is necessary to keep warming below dangerous thresholds.
+Nuclear energy is indispensable to any realistic decarbonization plan.
+Carbon offsets mostly fail to deliver the reductions they promise.
+Individual lifestyle changes matter little compared with systemic policy.
+Genetically modified crops are essential to feeding a growing population.
+Climate tipping points are close and effectively irreversible.
+Recycling household plastic accomplishes little of environmental value.
+Current climate models overstate near-term warming sensitivity.
+Ocean iron fertilization would sequester carbon at a meaningful scale.
+Protected areas conserve biodiversity better than sustainable-use zones.
+Standardized tests predict university success better than school grades.
+Performance-based teacher pay measurably raises student test scores.
+Homework provides little academic benefit to primary school children.
+Teacher expectations causally shape students' later academic achievement.
+Social class matters more than race in shaping life outcomes.
+Smaller class sizes improve students' long-run academic outcomes.
+The neighborhood a child grows up in causally affects adult income.
+Diverse teams outperform homogeneous ones on complex problem-solving tasks.
+Legalizing all recreational drugs would reduce total social harm.
+Stricter firearm regulation substantially reduces homicide rates.
+Hot-spots policing reduces crime without spatial displacement.
+Cannabis legalization has produced more benefit than harm where adopted.
+Implicit bias tests predict real-world discriminatory behavior.
+Growth-mindset interventions produce lasting gains in academic achievement.
+Ego depletion is a real and replicable psychological effect.
+Early bilingualism delays the onset of dementia.
+Birth order has a lasting effect on adult personality.
+Grit predicts achievement better than measured cognitive ability.
+Power posing produces measurable hormonal changes.
+The First World War was primarily caused by German expansionism.
+The Roman Empire fell mainly because of internal decay.
+Colonial rule left its territories poorer than they would otherwise be.
+The atomic bombings of Japan were militarily necessary.
+The Industrial Revolution began in Britain largely by historical accident.
+Great individuals shape history more than impersonal social forces.
+The Cold War ended primarily because of Soviet economic failure.
+European prosperity rests mainly on wealth extracted from colonies.
+The Black Death was the primary trigger of Europe's wage revolution.
+Agriculture arose independently in several regions rather than spreading from one.
+The Bronze Age collapse was driven primarily by prolonged drought.
+Pre-Columbian America was far more populous than early estimates held.
+The Neolithic transition lowered rather than raised human living standards.
+Handwriting instruction improves reading acquisition more than typing does.

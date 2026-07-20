@@ -1,0 +1,120 @@
+Energy is conserved in an isolated system, changing form but never amount.
+Entropy in a closed system tends to increase over time.
+Electric charge is quantized in integer multiples of the elementary charge.
+Superconductors conduct electricity with zero resistance below a critical temperature.
+The uncertainty principle limits simultaneous knowledge of a particle's position and momentum.
+The Doppler effect shifts the observed frequency of a wave when the source moves.
+Absolute zero is the temperature at which classical molecular motion ceases.
+Friction converts kinetic energy into heat at sliding surfaces.
+Electrons occupy discrete energy levels around an atomic nucleus.
+Capacitors store energy in the electric field between their plates.
+Water is a polar molecule with a bent geometry around the oxygen atom.
+The periodic table arranges the elements by increasing atomic number.
+Catalysts speed up reactions without being consumed by them.
+Covalent bonds form when atoms share pairs of electrons.
+The pH scale measures the concentration of hydrogen ions in a solution.
+Salt dissolves in water as its ions separate and are surrounded by polar molecules.
+Oxidation involves the loss of electrons, and reduction their gain.
+Diamond and graphite are both pure carbon arranged in different lattices.
+Metals tend to lose electrons and form positively charged ions.
+Enzymes lower the activation energy of biochemical reactions.
+Hydrogen bonding gives water its unusually high boiling point.
+Alloys often resist corrosion better than their constituent metals.
+Natural selection favors traits that improve survival and reproduction.
+Cells are the basic structural and functional units of living organisms.
+DNA carries genetic information in sequences of four nucleotide bases.
+Mitochondria generate most of a cell's chemical energy as ATP.
+Vaccines train the immune system by exposing it to harmless antigens.
+Neurons transmit signals through electrical impulses and chemical synapses.
+The human heart pumps blood through two separate circulatory loops.
+Bacteria can exchange genetic material directly through horizontal transfer.
+The liver filters toxins and regulates many metabolic processes.
+Evolution acts on populations rather than on individual organisms.
+Cancer arises when cells divide uncontrollably and ignore stop signals.
+There are infinitely many prime numbers, as Euclid proved.
+A function is continuous if small input changes cause small output changes.
+The square root of two cannot be written as a ratio of integers.
+Probability assigns each possible outcome a value between zero and one.
+The derivative measures the instantaneous rate of change of a function.
+Two vectors are orthogonal when their dot product is zero.
+The prime factorization of any integer is unique up to ordering.
+The ratio of consecutive Fibonacci numbers approaches the golden ratio.
+Matrix multiplication is associative but not generally commutative.
+The definite integral of a function gives the area under its curve.
+Logarithms turn multiplication into addition.
+A transformer processes a sequence in parallel using self-attention.
+A hash function maps data of arbitrary size to fixed-size values.
+Gradient descent updates parameters in the direction that lowers a loss.
+A neural network approximates functions by composing linear maps and nonlinearities.
+Caching trades memory for speed by storing previously computed results.
+A compiler translates source code into machine-executable instructions.
+The internet routes packets independently across many possible paths.
+Lossless compression removes redundancy without discarding information.
+A binary search halves the remaining search space with each comparison.
+Version control records the history of changes to a project.
+A queue serves its elements in the order they arrive.
+The Sun fuses hydrogen into helium in its core.
+Light from distant stars left them thousands of years ago.
+The Moon always shows nearly the same face to Earth.
+The planets orbit the Sun in ellipses rather than perfect circles.
+A light-year is a measure of distance, not of time.
+The observable universe is expanding in every direction.
+Jupiter is the most massive planet in the solar system.
+Stars are classified by their color, which reflects their surface temperature.
+The Milky Way is a barred spiral galaxy containing billions of stars.
+A supernova can briefly outshine an entire galaxy.
+Gravity bends the path of light passing near massive objects.
+The Earth's core is composed mostly of iron and nickel.
+Continents drift slowly atop the planet's mantle.
+Earthquakes release energy stored along geological faults.
+The ocean absorbs much of the carbon dioxide added to the atmosphere.
+Rivers carve valleys by eroding rock over long timescales.
+Glaciers store a large fraction of the planet's fresh water.
+Deserts form where descending dry air suppresses rainfall.
+The Amazon basin holds the largest tropical rainforest on Earth.
+The Sahara is the largest hot desert in the world.
+Global wind patterns are shaped by the Earth's rotation.
+Most of the planet's surface is covered by water.
+The printing press spread literacy across early modern Europe.
+The Roman Empire was eventually split into western and eastern halves.
+The Industrial Revolution began in Britain in the late eighteenth century.
+The French Revolution overturned the monarchy in the late eighteenth century.
+The Renaissance revived interest in classical art and learning.
+Gunpowder was invented in China before spreading westward.
+The abolition of slavery unfolded gradually across the nineteenth century.
+The Cold War divided much of the world into rival blocs.
+Early humans spread out of Africa across the rest of the world.
+The wheel transformed transport and agriculture in antiquity.
+The telegraph allowed messages to cross continents within minutes.
+Prices tend to rise when demand outpaces supply.
+Inflation erodes the purchasing power of money over time.
+Comparative advantage explains why nations gain from trade.
+Diversification reduces risk by spreading investments across assets.
+A recession is typically marked by falling output and rising unemployment.
+Supply and demand together determine the market price of a good.
+Taxes fund public goods that markets tend to underprovide.
+A monopoly faces no direct competition in its market.
+Bonds pay fixed income in exchange for lending money.
+Productivity growth is the main driver of long-run prosperity.
+Stock prices reflect expectations about future profits.
+Perspective in painting creates the illusion of depth on a flat surface.
+Shakespeare wrote both tragedies and comedies for the Elizabethan stage.
+An octave spans eight notes of a musical scale.
+Impressionist painters sought to capture fleeting effects of light.
+A novel develops character and plot over an extended narrative.
+Harmony arises when several notes sound pleasingly together.
+A metaphor describes one thing as if it were another.
+A story's narrator may be reliable or deliberately misleading.
+Color theory explains how hues interact and contrast.
+Rhythm organizes music through patterns of stress and duration.
+Epic poems recount the deeds of heroes across many lines.
+Honey can keep for years when it is sealed and stored dry.
+The human body is composed mostly of water.
+Bread rises because yeast releases carbon dioxide as it ferments.
+Touchscreens detect the electrical properties of a fingertip.
+Coffee contains caffeine, a mild stimulant.
+A compass needle aligns itself with the Earth's magnetic field.
+Sign languages have their own grammar independent of spoken language.
+The metric system is based on powers of ten.
+GPS receivers calculate position from signals sent by orbiting satellites.
+Bilingual speakers often switch languages in mid-conversation.

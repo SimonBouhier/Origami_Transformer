@@ -1,0 +1,1220 @@
+{
+  "schema_version": "matching_report_v5.0",
+  "purpose": "appariement en longueur du bras consensuel sur le bras conteste",
+  "method": "glouton deterministe sur tokens gpt2, extremes d'abord, plafond 12/domaine, egalites par index d'origine",
+  "n_per_arm": 120,
+  "matching_tokenizer": "gpt2",
+  "pair_delta_tokens": {
+    "mean": 0.008,
+    "max": 1,
+    "n_exact": 119
+  },
+  "gpt2_lengths": {
+    "contested": {
+      "n": 120,
+      "min": 7,
+      "p10": 10.0,
+      "median": 12.0,
+      "mean": 12.07,
+      "p90": 14.0,
+      "max": 17
+    },
+    "consensual": {
+      "n": 120,
+      "min": 8,
+      "p10": 10.0,
+      "median": 12.0,
+      "mean": 12.08,
+      "p90": 14.0,
+      "max": 17
+    }
+  },
+  "per_model_lengths": {
+    "gpt2": {
+      "contested": {
+        "n": 120,
+        "min": 7,
+        "p10": 10.0,
+        "median": 12.0,
+        "mean": 12.07,
+        "p90": 14.0,
+        "max": 17
+      },
+      "consensual": {
+        "n": 120,
+        "min": 8,
+        "p10": 10.0,
+        "median": 12.0,
+        "mean": 12.08,
+        "p90": 14.0,
+        "max": 17
+      },
+      "median_gap": 0.0,
+      "mean_gap": -0.008
+    },
+    "EleutherAI/pythia-410m": {
+      "contested": {
+        "n": 120,
+        "min": 7,
+        "p10": 10.9,
+        "median": 12.0,
+        "mean": 12.19,
+        "p90": 14.0,
+        "max": 16
+      },
+      "consensual": {
+        "n": 120,
+        "min": 8,
+        "p10": 10.0,
+        "median": 12.0,
+        "mean": 11.97,
+        "p90": 14.0,
+        "max": 16
+      },
+      "median_gap": 0.0,
+      "mean_gap": 0.217
+    },
+    "facebook/opt-350m": {
+      "contested": {
+        "n": 120,
+        "min": 8,
+        "p10": 11.0,
+        "median": 13.0,
+        "mean": 13.07,
+        "p90": 15.0,
+        "max": 18
+      },
+      "consensual": {
+        "n": 120,
+        "min": 9,
+        "p10": 11.0,
+        "median": 13.0,
+        "mean": 13.08,
+        "p90": 15.0,
+        "max": 18
+      },
+      "median_gap": 0.0,
+      "mean_gap": -0.008
+    },
+    "bigscience/bloom-560m": {
+      "contested": {
+        "n": 120,
+        "min": 9,
+        "p10": 10.9,
+        "median": 12.0,
+        "mean": 12.32,
+        "p90": 14.0,
+        "max": 15
+      },
+      "consensual": {
+        "n": 120,
+        "min": 8,
+        "p10": 10.0,
+        "median": 12.0,
+        "mean": 12.25,
+        "p90": 14.0,
+        "max": 17
+      },
+      "median_gap": 0.0,
+      "mean_gap": 0.075
+    }
+  },
+  "consensual_domain_spread": {
+    "physics": 10,
+    "chemistry": 12,
+    "biology": 11,
+    "mathematics": 11,
+    "computer_science": 11,
+    "astronomy": 11,
+    "earth_science": 11,
+    "history": 11,
+    "economics": 11,
+    "arts": 11,
+    "everyday": 10
+  },
+  "consensual_claims_lines": [
+    1,
+    3,
+    5,
+    6,
+    7,
+    11,
+    12,
+    13,
+    18,
+    20,
+    21,
+    23,
+    24,
+    25,
+    28,
+    30,
+    31,
+    32,
+    34,
+    36,
+    37,
+    39,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    52,
+    53,
+    54,
+    57,
+    61,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    77,
+    81,
+    83,
+    85,
+    87,
+    88,
+    90,
+    92,
+    94,
+    95,
+    98,
+    99,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    109,
+    110,
+    111,
+    113,
+    117,
+    121,
+    122,
+    123,
+    124,
+    125,
+    127,
+    130,
+    131,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    145,
+    151,
+    152,
+    153,
+    154,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    165,
+    166,
+    168,
+    170,
+    171,
+    174,
+    175,
+    177,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    190,
+    192,
+    193,
+    196,
+    197,
+    201,
+    203,
+    204,
+    205,
+    206,
+    208,
+    212,
+    216,
+    217,
+    219
+  ],
+  "pairs": [
+    {
+      "contested_line": 1,
+      "consensual_claims_line": 125,
+      "len_contested": 14,
+      "len_consensual": 14,
+      "delta": 0,
+      "domain": "earth_science"
+    },
+    {
+      "contested_line": 2,
+      "consensual_claims_line": 21,
+      "len_contested": 14,
+      "len_consensual": 14,
+      "delta": 0,
+      "domain": "chemistry"
+    },
+    {
+      "contested_line": 3,
+      "consensual_claims_line": 23,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "chemistry"
+    },
+    {
+      "contested_line": 4,
+      "consensual_claims_line": 28,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "chemistry"
+    },
+    {
+      "contested_line": 5,
+      "consensual_claims_line": 77,
+      "len_contested": 9,
+      "len_consensual": 9,
+      "delta": 0,
+      "domain": "mathematics"
+    },
+    {
+      "contested_line": 6,
+      "consensual_claims_line": 94,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "computer_science"
+    },
+    {
+      "contested_line": 7,
+      "consensual_claims_line": 101,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "astronomy"
+    },
+    {
+      "contested_line": 8,
+      "consensual_claims_line": 44,
+      "len_contested": 14,
+      "len_consensual": 14,
+      "delta": 0,
+      "domain": "biology"
+    },
+    {
+      "contested_line": 9,
+      "consensual_claims_line": 63,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "mathematics"
+    },
+    {
+      "contested_line": 10,
+      "consensual_claims_line": 64,
+      "len_contested": 14,
+      "len_consensual": 14,
+      "delta": 0,
+      "domain": "mathematics"
+    },
+    {
+      "contested_line": 11,
+      "consensual_claims_line": 61,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "mathematics"
+    },
+    {
+      "contested_line": 12,
+      "consensual_claims_line": 152,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "history"
+    },
+    {
+      "contested_line": 13,
+      "consensual_claims_line": 161,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "economics"
+    },
+    {
+      "contested_line": 14,
+      "consensual_claims_line": 92,
+      "len_contested": 10,
+      "len_consensual": 10,
+      "delta": 0,
+      "domain": "computer_science"
+    },
+    {
+      "contested_line": 15,
+      "consensual_claims_line": 104,
+      "len_contested": 14,
+      "len_consensual": 14,
+      "delta": 0,
+      "domain": "astronomy"
+    },
+    {
+      "contested_line": 16,
+      "consensual_claims_line": 88,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "computer_science"
+    },
+    {
+      "contested_line": 17,
+      "consensual_claims_line": 184,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "arts"
+    },
+    {
+      "contested_line": 18,
+      "consensual_claims_line": 121,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "earth_science"
+    },
+    {
+      "contested_line": 19,
+      "consensual_claims_line": 142,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "history"
+    },
+    {
+      "contested_line": 20,
+      "consensual_claims_line": 204,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "everyday"
+    },
+    {
+      "contested_line": 21,
+      "consensual_claims_line": 13,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "physics"
+    },
+    {
+      "contested_line": 22,
+      "consensual_claims_line": 187,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "arts"
+    },
+    {
+      "contested_line": 23,
+      "consensual_claims_line": 31,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "chemistry"
+    },
+    {
+      "contested_line": 24,
+      "consensual_claims_line": 52,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "biology"
+    },
+    {
+      "contested_line": 25,
+      "consensual_claims_line": 106,
+      "len_contested": 9,
+      "len_consensual": 9,
+      "delta": 0,
+      "domain": "astronomy"
+    },
+    {
+      "contested_line": 26,
+      "consensual_claims_line": 98,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "computer_science"
+    },
+    {
+      "contested_line": 27,
+      "consensual_claims_line": 102,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "astronomy"
+    },
+    {
+      "contested_line": 28,
+      "consensual_claims_line": 67,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "mathematics"
+    },
+    {
+      "contested_line": 29,
+      "consensual_claims_line": 205,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "everyday"
+    },
+    {
+      "contested_line": 30,
+      "consensual_claims_line": 138,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "earth_science"
+    },
+    {
+      "contested_line": 31,
+      "consensual_claims_line": 87,
+      "len_contested": 15,
+      "len_consensual": 15,
+      "delta": 0,
+      "domain": "computer_science"
+    },
+    {
+      "contested_line": 32,
+      "consensual_claims_line": 127,
+      "len_contested": 14,
+      "len_consensual": 14,
+      "delta": 0,
+      "domain": "earth_science"
+    },
+    {
+      "contested_line": 33,
+      "consensual_claims_line": 3,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "physics"
+    },
+    {
+      "contested_line": 34,
+      "consensual_claims_line": 154,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "history"
+    },
+    {
+      "contested_line": 35,
+      "consensual_claims_line": 182,
+      "len_contested": 15,
+      "len_consensual": 15,
+      "delta": 0,
+      "domain": "arts"
+    },
+    {
+      "contested_line": 36,
+      "consensual_claims_line": 168,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "economics"
+    },
+    {
+      "contested_line": 37,
+      "consensual_claims_line": 185,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "arts"
+    },
+    {
+      "contested_line": 38,
+      "consensual_claims_line": 208,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "everyday"
+    },
+    {
+      "contested_line": 39,
+      "consensual_claims_line": 24,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "chemistry"
+    },
+    {
+      "contested_line": 40,
+      "consensual_claims_line": 43,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "biology"
+    },
+    {
+      "contested_line": 41,
+      "consensual_claims_line": 141,
+      "len_contested": 10,
+      "len_consensual": 10,
+      "delta": 0,
+      "domain": "history"
+    },
+    {
+      "contested_line": 42,
+      "consensual_claims_line": 66,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "mathematics"
+    },
+    {
+      "contested_line": 43,
+      "consensual_claims_line": 18,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "physics"
+    },
+    {
+      "contested_line": 44,
+      "consensual_claims_line": 90,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "computer_science"
+    },
+    {
+      "contested_line": 45,
+      "consensual_claims_line": 36,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "chemistry"
+    },
+    {
+      "contested_line": 46,
+      "consensual_claims_line": 42,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "biology"
+    },
+    {
+      "contested_line": 47,
+      "consensual_claims_line": 68,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "mathematics"
+    },
+    {
+      "contested_line": 48,
+      "consensual_claims_line": 183,
+      "len_contested": 14,
+      "len_consensual": 14,
+      "delta": 0,
+      "domain": "arts"
+    },
+    {
+      "contested_line": 49,
+      "consensual_claims_line": 109,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "astronomy"
+    },
+    {
+      "contested_line": 50,
+      "consensual_claims_line": 130,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "earth_science"
+    },
+    {
+      "contested_line": 51,
+      "consensual_claims_line": 99,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "computer_science"
+    },
+    {
+      "contested_line": 52,
+      "consensual_claims_line": 1,
+      "len_contested": 15,
+      "len_consensual": 15,
+      "delta": 0,
+      "domain": "physics"
+    },
+    {
+      "contested_line": 53,
+      "consensual_claims_line": 201,
+      "len_contested": 14,
+      "len_consensual": 14,
+      "delta": 0,
+      "domain": "everyday"
+    },
+    {
+      "contested_line": 54,
+      "consensual_claims_line": 110,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "astronomy"
+    },
+    {
+      "contested_line": 55,
+      "consensual_claims_line": 163,
+      "len_contested": 10,
+      "len_consensual": 10,
+      "delta": 0,
+      "domain": "economics"
+    },
+    {
+      "contested_line": 56,
+      "consensual_claims_line": 139,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "earth_science"
+    },
+    {
+      "contested_line": 57,
+      "consensual_claims_line": 143,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "history"
+    },
+    {
+      "contested_line": 58,
+      "consensual_claims_line": 5,
+      "len_contested": 14,
+      "len_consensual": 14,
+      "delta": 0,
+      "domain": "physics"
+    },
+    {
+      "contested_line": 59,
+      "consensual_claims_line": 162,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "economics"
+    },
+    {
+      "contested_line": 60,
+      "consensual_claims_line": 158,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "history"
+    },
+    {
+      "contested_line": 61,
+      "consensual_claims_line": 165,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "economics"
+    },
+    {
+      "contested_line": 62,
+      "consensual_claims_line": 219,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "everyday"
+    },
+    {
+      "contested_line": 63,
+      "consensual_claims_line": 6,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "physics"
+    },
+    {
+      "contested_line": 64,
+      "consensual_claims_line": 196,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "arts"
+    },
+    {
+      "contested_line": 65,
+      "consensual_claims_line": 186,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "arts"
+    },
+    {
+      "contested_line": 66,
+      "consensual_claims_line": 46,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "biology"
+    },
+    {
+      "contested_line": 67,
+      "consensual_claims_line": 217,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "everyday"
+    },
+    {
+      "contested_line": 68,
+      "consensual_claims_line": 32,
+      "len_contested": 14,
+      "len_consensual": 14,
+      "delta": 0,
+      "domain": "chemistry"
+    },
+    {
+      "contested_line": 69,
+      "consensual_claims_line": 69,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "mathematics"
+    },
+    {
+      "contested_line": 70,
+      "consensual_claims_line": 25,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "chemistry"
+    },
+    {
+      "contested_line": 71,
+      "consensual_claims_line": 11,
+      "len_contested": 17,
+      "len_consensual": 17,
+      "delta": 0,
+      "domain": "physics"
+    },
+    {
+      "contested_line": 72,
+      "consensual_claims_line": 41,
+      "len_contested": 10,
+      "len_consensual": 10,
+      "delta": 0,
+      "domain": "biology"
+    },
+    {
+      "contested_line": 73,
+      "consensual_claims_line": 65,
+      "len_contested": 14,
+      "len_consensual": 14,
+      "delta": 0,
+      "domain": "mathematics"
+    },
+    {
+      "contested_line": 74,
+      "consensual_claims_line": 81,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "computer_science"
+    },
+    {
+      "contested_line": 75,
+      "consensual_claims_line": 30,
+      "len_contested": 16,
+      "len_consensual": 16,
+      "delta": 0,
+      "domain": "chemistry"
+    },
+    {
+      "contested_line": 76,
+      "consensual_claims_line": 83,
+      "len_contested": 14,
+      "len_consensual": 14,
+      "delta": 0,
+      "domain": "computer_science"
+    },
+    {
+      "contested_line": 77,
+      "consensual_claims_line": 37,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "chemistry"
+    },
+    {
+      "contested_line": 78,
+      "consensual_claims_line": 47,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "biology"
+    },
+    {
+      "contested_line": 79,
+      "consensual_claims_line": 111,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "astronomy"
+    },
+    {
+      "contested_line": 80,
+      "consensual_claims_line": 70,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "mathematics"
+    },
+    {
+      "contested_line": 81,
+      "consensual_claims_line": 122,
+      "len_contested": 10,
+      "len_consensual": 10,
+      "delta": 0,
+      "domain": "earth_science"
+    },
+    {
+      "contested_line": 82,
+      "consensual_claims_line": 95,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "computer_science"
+    },
+    {
+      "contested_line": 83,
+      "consensual_claims_line": 159,
+      "len_contested": 9,
+      "len_consensual": 9,
+      "delta": 0,
+      "domain": "history"
+    },
+    {
+      "contested_line": 84,
+      "consensual_claims_line": 117,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "astronomy"
+    },
+    {
+      "contested_line": 85,
+      "consensual_claims_line": 140,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "earth_science"
+    },
+    {
+      "contested_line": 86,
+      "consensual_claims_line": 170,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "economics"
+    },
+    {
+      "contested_line": 87,
+      "consensual_claims_line": 131,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "earth_science"
+    },
+    {
+      "contested_line": 88,
+      "consensual_claims_line": 153,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "history"
+    },
+    {
+      "contested_line": 89,
+      "consensual_claims_line": 12,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "physics"
+    },
+    {
+      "contested_line": 90,
+      "consensual_claims_line": 190,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "arts"
+    },
+    {
+      "contested_line": 91,
+      "consensual_claims_line": 145,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "history"
+    },
+    {
+      "contested_line": 92,
+      "consensual_claims_line": 206,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "everyday"
+    },
+    {
+      "contested_line": 93,
+      "consensual_claims_line": 57,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "biology"
+    },
+    {
+      "contested_line": 94,
+      "consensual_claims_line": 71,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "mathematics"
+    },
+    {
+      "contested_line": 95,
+      "consensual_claims_line": 45,
+      "len_contested": 16,
+      "len_consensual": 16,
+      "delta": 0,
+      "domain": "biology"
+    },
+    {
+      "contested_line": 96,
+      "consensual_claims_line": 39,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "chemistry"
+    },
+    {
+      "contested_line": 97,
+      "consensual_claims_line": 151,
+      "len_contested": 10,
+      "len_consensual": 10,
+      "delta": 0,
+      "domain": "history"
+    },
+    {
+      "contested_line": 98,
+      "consensual_claims_line": 103,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "astronomy"
+    },
+    {
+      "contested_line": 99,
+      "consensual_claims_line": 85,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "computer_science"
+    },
+    {
+      "contested_line": 100,
+      "consensual_claims_line": 160,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "history"
+    },
+    {
+      "contested_line": 101,
+      "consensual_claims_line": 124,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "earth_science"
+    },
+    {
+      "contested_line": 102,
+      "consensual_claims_line": 166,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "economics"
+    },
+    {
+      "contested_line": 103,
+      "consensual_claims_line": 203,
+      "len_contested": 9,
+      "len_consensual": 9,
+      "delta": 0,
+      "domain": "everyday"
+    },
+    {
+      "contested_line": 104,
+      "consensual_claims_line": 171,
+      "len_contested": 10,
+      "len_consensual": 10,
+      "delta": 0,
+      "domain": "economics"
+    },
+    {
+      "contested_line": 105,
+      "consensual_claims_line": 193,
+      "len_contested": 10,
+      "len_consensual": 10,
+      "delta": 0,
+      "domain": "arts"
+    },
+    {
+      "contested_line": 106,
+      "consensual_claims_line": 177,
+      "len_contested": 7,
+      "len_consensual": 8,
+      "delta": 1,
+      "domain": "economics"
+    },
+    {
+      "contested_line": 107,
+      "consensual_claims_line": 197,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "arts"
+    },
+    {
+      "contested_line": 108,
+      "consensual_claims_line": 216,
+      "len_contested": 10,
+      "len_consensual": 10,
+      "delta": 0,
+      "domain": "everyday"
+    },
+    {
+      "contested_line": 109,
+      "consensual_claims_line": 175,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "economics"
+    },
+    {
+      "contested_line": 110,
+      "consensual_claims_line": 53,
+      "len_contested": 10,
+      "len_consensual": 10,
+      "delta": 0,
+      "domain": "biology"
+    },
+    {
+      "contested_line": 111,
+      "consensual_claims_line": 192,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "arts"
+    },
+    {
+      "contested_line": 112,
+      "consensual_claims_line": 212,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "everyday"
+    },
+    {
+      "contested_line": 113,
+      "consensual_claims_line": 54,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "biology"
+    },
+    {
+      "contested_line": 114,
+      "consensual_claims_line": 123,
+      "len_contested": 10,
+      "len_consensual": 10,
+      "delta": 0,
+      "domain": "earth_science"
+    },
+    {
+      "contested_line": 115,
+      "consensual_claims_line": 20,
+      "len_contested": 13,
+      "len_consensual": 13,
+      "delta": 0,
+      "domain": "physics"
+    },
+    {
+      "contested_line": 116,
+      "consensual_claims_line": 105,
+      "len_contested": 14,
+      "len_consensual": 14,
+      "delta": 0,
+      "domain": "astronomy"
+    },
+    {
+      "contested_line": 117,
+      "consensual_claims_line": 113,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "astronomy"
+    },
+    {
+      "contested_line": 118,
+      "consensual_claims_line": 7,
+      "len_contested": 14,
+      "len_consensual": 14,
+      "delta": 0,
+      "domain": "physics"
+    },
+    {
+      "contested_line": 119,
+      "consensual_claims_line": 34,
+      "len_contested": 12,
+      "len_consensual": 12,
+      "delta": 0,
+      "domain": "chemistry"
+    },
+    {
+      "contested_line": 120,
+      "consensual_claims_line": 174,
+      "len_contested": 11,
+      "len_consensual": 11,
+      "delta": 0,
+      "domain": "economics"
+    }
+  ],
+  "known_limitation": "les DOMAINES ne sont pas apparies et ne peuvent pas l'etre: le bras conteste porte sur l'ethique/politique/science non tranchee, le consensuel sur des faits etablis. C'est l'axe teste, pas un defaut d'appariement. Le confound de vocabulaire qui en decoule est precisement ce que O2 (surface) et O3 (shuffle) sont la pour attraper."
+}

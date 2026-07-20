@@ -4,13 +4,23 @@
 > the v5 freeze.** This is the contested-vs-consensual study (H-C). It runs AFTER the v4
 > Fisher baseline (`PREREGISTRATION_v4.md`), on the instrument validated there. The
 > consensual arm's marginal Fisher profile is known from v4; the v5 hypothesis concerns the
-> contested-vs-consensual CONTRAST, whose contested arm is not built or observed until this
-> v5 freeze — so v4 does not contaminate v5. No measurement script reads real-model output
-> for v5 until this file is frozen and committed (commit dance).
+> contested-vs-consensual CONTRAST. The contested arm is **built and quarantined before the
+> freeze, but never observed by any model** until this file is frozen and committed — so v4
+> does not contaminate v5, and corpus construction (a tokenizer-only, model-free operation)
+> does not either. No measurement script reads real-model output for v5 until the freeze
+> (commit dance). [Wording harmonized 2026-07-19 — the operative constraint is and was
+> non-observation, verified: zero trace of the contested arm in results/.]
 
-**Frozen on**: TBD (set at the v5 freeze, after v4 completes)
+**Frozen on**: 2026-07-19
 **Frozen by**: Simon Bouhier
-**Git commit at freeze**: TBD
+**Git commit at freeze**: STAMPED-IN-NEXT-COMMIT
+
+**Corpus SHA-256 at freeze** (re-checked at run time; no measurement script has read
+real-model output before the stamp commit that records the freeze hash):
+- `corpora/contested.txt`        : `3eb7bae8506e97e274f407cf8f6d8357cdc06555d727e71f5aa8f9bb668850f2`
+- `corpora/consensual.txt`       : `c4617bfa0750eb33fd6338da3fec0ac7f078619c19ff92b2907a3356af127f63`
+- `corpora/contested_anchors.tsv`: `655f46aecb68a38f5d3642230007b74407ea8b2d0636e9a395ab7330c880699d`
+- `corpora/matching_report.json` : `3717f54b67e3061acba1d1ead7b76914860adbf8e9a2669c6ff36bcbfb63e711`
 
 ## Hypothesis
 
@@ -19,9 +29,15 @@ hidden state carries a signature of epistemic contestation — a contested state
 consensual one are separable from that geometry alone, that separability is not reducible to
 surface form, and it collapses when linguistic structure is destroyed.
 
-Definitions (the axis, frozen):
+Definitions (the axis, frozen — **purified 2026-07-19, researcher's decision**):
 - **Contested** = a well-formed, truth-apt declarative claim on which currently informed
-  parties disagree (ethics, politics, unsettled science, value judgments).
+  parties disagree — **expert-contested only**: unsettled science, disputed empirical
+  findings, active methodological debates. Pure value judgments and policy "ought"
+  claims are **excluded**: the divergence must be among informed parties about truth-apt
+  empirical content (the EPP spirit — divergence between informed parties). This
+  purification also closes the lexical-register confound flagged in the external review
+  (ETAT_DES_LIEUX 2026-07-18 §6.1): both arms now speak the same empirical register.
+  [Earlier mixed draft archived: `archived/contested_v5draft1_mixed_normative.txt`.]
 - **Consensual** = a well-formed, truth-apt claim under broad established agreement (settled
   science, mathematics, uncontroversial fact).
 - Contestedness is the axis. NOT truth-vs-falsehood, NOT referential ambiguity, NOT model
