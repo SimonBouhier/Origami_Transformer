@@ -1,7 +1,7 @@
 # Pre-Registration v5 — Contested vs consensual (H-C)
 
-> **STATUS: DRAFT — thresholds VALIDATED by the researcher (2026-05-31), to be FROZEN at
-> the v5 freeze.** This is the contested-vs-consensual study (H-C). It runs AFTER the v4
+> **STATUS: FROZEN 2026-07-19** (freeze commit `ca588c3`; thresholds validated by the
+> researcher 2026-05-31, no coussin). This is the contested-vs-consensual study (H-C). It runs AFTER the v4
 > Fisher baseline (`PREREGISTRATION_v4.md`), on the instrument validated there. The
 > consensual arm's marginal Fisher profile is known from v4; the v5 hypothesis concerns the
 > contested-vs-consensual CONTRAST. The contested arm is **built and quarantined before the
