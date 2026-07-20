@@ -245,3 +245,36 @@ Lecture (hors verdict, a developper dans NOTE_RESULTATS_v4):
   discipline. Coherent avec le prior "signal semantique faible" (section 7).
 - Toute exclusion de la couche 0 exige un pre-enregistrement NOUVEAU (jamais
   retroactif). Lecon a porter au gel v5.
+
+## 2026-07-20 — Verdict v5 : HC_CONFIRME global (3/4, 1 VOID)
+
+Gel v5 le 2026-07-19 (commit ca588c3, stamp fbfc2c2) : corpus purifie (A)
+expert-conteste seulement (decision chercheur — jugements de valeur exclus,
+esprit EPP), 120/bras, anchors 120/120 sans REVIEW, appariement 119/120 exact.
+Campagne le 2026-07-20, CPU float32 seed 0 : gpt2 13 min / pythia 40 / opt 36 /
+bloom 179 (~4 h 30 total). Analyse aux seuils geles, sha256 verifies au run-time.
+
+| modele      | BA_geo | AUC_geo | AUC_surf | C2     | BA_shuf | C3     | B1        | verdict     |
+|-------------|--------|---------|----------|--------|---------|--------|-----------|-------------|
+| gpt2        | 0.729  | 0.792   | 0.645    | +0.147 | 0.512   | +0.217 | 0.342@12  | HC_CONFIRME |
+| pythia-410m | 0.838  | 0.923   | 0.650    | +0.273 | 0.608   | +0.229 | 0.319@1   | HC_CONFIRME |
+| opt-350m    | 0.821  | 0.901   | 0.645    | +0.255 | 0.575   | +0.246 | 0.133@22  | VOID        |
+| bloom-560m  | 0.908  | 0.955   | 0.644    | +0.311 | 0.633   | +0.275 | 0.471@24  | HC_CONFIRME |
+
+GLOBAL : 3/4 confirmes (75%) -> HC_CONFIRME. Premier positif pre-enregistre du
+projet, apres les negatifs v3 et v4.
+
+Lecture (details : NOTE_RESULTATS_v5.md) :
+- C2 : surface quasi constante (~0.645) sur les 4 modeles, geometrie largement
+  au-dessus. C3 : effondrement sous melange (0.51-0.63). Les deux controles ont
+  fait leur travail.
+- OPT = le signal fort : C1/C2/C3 passes avec les memes marges que les
+  confirmes, mais B1 echoue (0.133) — echo direct du C3 v4 (0.197) et de
+  l'incident "espaces de representation mixtes" (journal 2026-07-09). La porte
+  VOID a refuse de compter une confirmation d'instrument non valide sur ce
+  modele. Hypothese v6 : la projection project_out (rang<=512) casse le
+  couplage rang<->NLL, pas la signature de contestation. LN-lens a departager.
+- Honnete : le global tient a 3 confirmes pour 3 requis — sans marge.
+- Portes ouvertes (doctrine des ponts) : conditions de degel epp_adapter
+  reunies ; condition du pont Origa->Lyra (H-C confirme aux seuils geles)
+  REMPLIE. Chantiers a dessiner, chacun pre-enregistre.
