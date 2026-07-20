@@ -13,7 +13,7 @@
 
 **Frozen on**: 2026-07-19
 **Frozen by**: Simon Bouhier
-**Git commit at freeze**: STAMPED-IN-NEXT-COMMIT
+**Git commit at freeze**: ca588c38618325b2c54d0d78ab1c61baff379dc1
 
 **Corpus SHA-256 at freeze** (re-checked at run time; no measurement script has read
 real-model output before the stamp commit that records the freeze hash):
