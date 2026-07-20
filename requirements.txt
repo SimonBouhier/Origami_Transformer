@@ -10,3 +10,4 @@ scikit-dimension>=0.3.0
 scikit-learn>=1.3
 pandas>=2.0          # dependance transitive de scikit-dimension (skdim.datasets)
 matplotlib>=3.7      # plot_results.py (visualisation, hors verdict)
+wordfreq>=3.0
