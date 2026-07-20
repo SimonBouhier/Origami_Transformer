@@ -1,110 +1,113 @@
-# Bootstrap — How to start
+<p align="center">
+  <img src="assets/banner.svg" alt="Origami Transformer — pre-registered geometry of LLM representations" width="100%">
+</p>
 
-This directory is a kit to drop at the root of a fresh git repo. It contains
-the contract, the state of the literature, the research log, and two skills.
-It contains **no measurement code yet** — that is intentional. The v4 code
-gets written inside the first Claude Code session, *after* a pre-registration
-is committed.
+<p align="center">
+  <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-0ea5e9">
+  <img alt="Pre-registered" src="https://img.shields.io/badge/protocol-pre--registered-2dd4bf">
+  <img alt="v5 verdict" src="https://img.shields.io/badge/v5%20H--C-CONFIRMED%203%2F4-brightgreen">
+  <img alt="Reproducible" src="https://img.shields.io/badge/CPU%20float32-reproducible-64748b">
+</p>
 
-## Step 1 — Create the repo
+<p align="center"><em>How do transformer representations fold across layers — and what does that folding know?</em></p>
+
+---
+
+A research program on the **geometry of internal representations in transformer
+language models**, run under a strict pre-registration discipline: **frozen
+thresholds committed to git before any measurement**, honest negatives treated
+as publishable results, and no retroactive exclusions — ever.
+
+## Headline result — v5 (July 2026)
+
+> **The per-layer Fisher-information geometry of a language model's hidden
+> states carries a signature of *epistemic contestation*.** A contested claim
+> and a consensual one are separable from that geometry alone (C1), the
+> separation is not reducible to surface form (C2), and it collapses when
+> linguistic structure is destroyed (C3).
+
+**Global verdict: `HC_CONFIRMED` — 3/4 models, thresholds frozen before data
+(commit [`ca588c3`](../../commit/ca588c38618325b2c54d0d78ab1c61baff379dc1)), no tolerance.**
+
+| model | BA_geo | AUC_geo | AUC_surf | ΔAUC (C2) | BA_shuffled | ΔBA (C3) | B1 sanity | verdict |
+|---|---|---|---|---|---|---|---|---|
+| gpt2 | 0.729 | 0.792 | 0.645 | +0.147 | 0.512 | +0.217 | 0.342 ✓ | **CONFIRMED** |
+| pythia-410m | 0.838 | 0.923 | 0.650 | +0.273 | 0.608 | +0.229 | 0.319 ✓ | **CONFIRMED** |
+| opt-350m | 0.821 | 0.901 | 0.645 | +0.255 | 0.575 | +0.246 | 0.133 ✗ | **VOID** |
+| bloom-560m | 0.908 | 0.955 | 0.644 | +0.311 | 0.633 | +0.275 | 0.471 ✓ | **CONFIRMED** |
+
+The OPT run is **VOID, not a denial**: it passed every confirmation condition,
+but the instrument's sanity baseline (the rank↔NLL coupling validated in v4)
+failed on this model — so its confirmation was *not counted*. The gate worked
+exactly as frozen. OPT is the only model with a structurally truncated lens
+(`project_out`, rank ≤ 512); this is the leading v6 question.
+
+Full numbers, caveats and limits: [`NOTE_RESULTATS_v5.md`](NOTE_RESULTATS_v5.md).
+Corpus: 120 **expert-contested** claims (unsettled science, disputed empirical
+findings — value judgments excluded) vs 120 consensual claims, exact
+token-length matched, every contested line carrying **named affirming and
+denying constituencies** ([`corpora/contested_anchors.tsv`](corpora/contested_anchors.tsv)).
+
+## The discipline (why you can trust the table above)
+
+1. **Literature first** — no probe is written before checking whether the
+   question is already answered ([`STATE_OF_ART.md`](STATE_OF_ART.md)).
+2. **Pre-registration before measurement** — hypothesis, observables, frozen
+   falsification thresholds and verdict logic are committed *before* any script
+   reads model output. The freeze commit hash is then stamped into the document:
+   **the hash proves the thresholds preceded the data.**
+3. **Negatives are results** — v3 (`H1_DÉMENTI`) and v4 (`HA_DÉMENTI`) are
+   documented with the same care as the v5 confirmation
+   ([`NOTE_RESULTATS_v1.md`](NOTE_RESULTATS_v1.md), [`NOTE_RESULTATS_v4.md`](NOTE_RESULTATS_v4.md)).
+
+| campaign | instrument | hypothesis | verdict |
+|---|---|---|---|
+| v3 | NN intrinsic-dimension estimators (TwoNN/MLE) | layer-wise "bump" | `DENIED` — estimator failure mode found, estimators archived |
+| v4 | **Fisher metric via logit-lens** (density-free) | bump, re-tested | `DENIED` 1/4 — but *final compression universal 4/4*, instrument validated |
+| v5 | Fisher metric (frozen v4 protocol) | **H-C: geometry of contestation** | **`CONFIRMED` 3/4** |
+
+The one robust motif across *all* instruments and campaigns: **final-layer
+compression, 4/4 models, twice**.
+
+## Reproduce
 
 ```bash
-mkdir origami-llm && cd origami-llm
-git init
+# corpus integrity is re-checked against the frozen sha256 at run time
+run_v5_campaign.bat        # Windows: 16 runs (4 models x 2 arms x 2 modes) + verdict
+# or run any single probe:
+python probe_fisher.py --model gpt2 --corpus corpora/contested.txt --out results/gpt2_contested_fisher.json
+python analysis_v5.py      # applies the frozen thresholds, refuses pilot outputs
 ```
 
-Copy the contents of this bootstrap directory in:
+CPU, float32, seed 0 (frozen). Full campaign ≈ 4 h 30 on a modern desktop CPU.
+`--max-statements` outputs are flagged as pilots and **refused by the analysis**.
 
-```
-CLAUDE.md
-RESEARCH_LOG.md
-STATE_OF_ART.md
-.claude/skills/literature-first/SKILL.md
-.claude/skills/preregistration/SKILL.md
-archived/                  (empty for now, will receive probe_v3.py)
-results/                   (empty, gitignored)
-corpora/                   (empty for now)
-```
+## Repo map
 
-Add a `.gitignore`:
+| File | Role |
+|---|---|
+| `PREREGISTRATION_v5.md` | the frozen contract (thresholds, verdict logic, corpus sha256) |
+| `probe_fisher.py` | the instrument (frozen v4) — no verdicts, JSON out |
+| `probe_fisher_shuffle.py` | content-destruction control (O3) |
+| `analysis_v5.py` | frozen-threshold verdicts, integrity checks |
+| `corpora/` | both arms + anchors + matching report (`README_corpora.md` = the corpus contract) |
+| `RESEARCH_LOG.md` | the dated journal, including the failures |
+| `CLAUDE.md` | the project contract any agent session must obey |
+| `BOOTSTRAP.md` | the original kit this repo grew from |
 
-```
-results/
-__pycache__/
-*.pyc
-.venv/
-```
+## Roadmap (each step gets its own pre-registration)
 
-First commit:
+1. **Within-domain contrast** — close the residual topic-vocabulary shortcut.
+2. **The OPT anomaly** — LayerNorm-lens variant; does the rank-512 projection
+   break the coupling, or the geometry?
+3. **Scale** — larger / instruction-tuned models (GPU protocol, frozen from the start).
 
-```bash
-git add CLAUDE.md RESEARCH_LOG.md STATE_OF_ART.md .claude/ .gitignore
-git commit -m "bootstrap: contract, log, lit, skills"
-```
+Sister projects: [lyra_reborn](https://github.com/SimonBouhier/lyra_reborn)
+(cognitive OS — the confirmed v5 signal is a candidate *instrumented epistemic
+tension* for its control loop) · EPP Verdict (epistemic attestation —
+[docs](https://epp-verdict-docs.vercel.app)).
 
-## Step 2 — Archive the v3 code
+## License
 
-Copy the v3 files (probe.py, analysis.py, curvature.py, epp_adapter.py, the
-old README) into `archived/v3/` with their old names. The `archived/` directory
-is referenced in `CLAUDE.md` as the v3 graveyard. Don't delete them — they are
-the evidence trail.
-
-```bash
-mkdir archived/v3
-# (copy your v3 files in here)
-git add archived/
-git commit -m "archive v3 NN-based probe (preempted by AISTATS 2026)"
-```
-
-## Step 3 — First Claude Code session
-
-Install Claude Code if needed (npm package `@anthropic-ai/claude-code`,
-requires Node.js). At the project root, run `claude`.
-
-First message to send:
-
-> Read CLAUDE.md, STATE_OF_ART.md, and RESEARCH_LOG.md in full before
-> answering. Then summarize back to me, in five lines or fewer, what this
-> project is, what the three commandments are, and what the open decision is.
-> Do not propose code.
-
-If the summary is correct, the session has loaded the contract. If it isn't,
-fix whichever file failed to communicate before moving on.
-
-## Step 4 — Choose H-A, H-B, or H-C
-
-This is the only thing the kit does not decide for you. The three candidates
-are described at the bottom of `RESEARCH_LOG.md`. The right one is the one
-*you* want to spend three months on, knowing that a denial is also a win.
-
-Once chosen, invoke the `preregistration` skill in the Claude Code session
-to write `PREREGISTRATION_v4.md`. Commit it. Then and only then, ask the
-session to write the measurement code.
-
-## What this kit deliberately does not include
-
-- **A v4 measurement script.** Writing one before pre-registration is the
-  exact mistake we just paid for.
-- **An EPP adapter.** EPP consumes a validated instrument. Until v4 is
-  pre-registered and produces a confirmed result, the EPP bridge stays a
-  thought, not a module.
-- **A visualization script.** Coloring projections of activations is
-  tempting but it is the wrong place to start. After the Fisher metric is
-  measured, *then* a `visualize.py` colors per-point Fisher volume on a
-  UMAP — and never the other way round.
-- **An MCP server config.** For local HuggingFace work, vanilla Claude Code
-  with file and bash access is sufficient. Add MCP only if a specific need
-  appears (e.g. arxiv access via an MCP if you want it scripted, or a
-  paper-management MCP). Don't add complexity prophylactically.
-
-## A note on tooling
-
-Claude Code is the right tool for this project (terminal-native, runs
-scripts, reads files, version-controlled context). Claude Cowork is for
-non-developer file/task orchestration and is a poor fit for measurement
-science. The `CLAUDE.md` and skills do load in both, but the workflow
-assumes Code.
-
-For VS Code or JetBrains users, Claude Code has matching extensions that
-read the same `CLAUDE.md` file. Pick one and stick with it per session —
-mixing them adds context drift without benefit.
+Code and corpus: **MIT** (© 2026 Simon Bouhier). Third-party papers are linked,
+never redistributed.

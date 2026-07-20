@@ -33,3 +33,6 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# third-party papers: linked in STATE_OF_ART.md, never redistributed
+docs/*.pdf

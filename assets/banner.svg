@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-label="Origami Transformer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="60%" stop-color="#082f49"/>
+      <stop offset="100%" stop-color="#134e4a"/>
+    </linearGradient>
+    <linearGradient id="fold1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="fold2" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#5eead4" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#bae6fd"/>
+      <stop offset="100%" stop-color="#5eead4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <!-- plis origami : la variété qui se replie couche après couche -->
+  <g>
+    <polygon points="820,40 1000,90 900,180" fill="url(#fold1)"/>
+    <polygon points="1000,90 1150,60 1080,200 900,180" fill="url(#fold2)"/>
+    <polygon points="900,180 1080,200 980,255 840,230" fill="url(#fold1)" opacity="0.55"/>
+    <polygon points="820,40 900,180 840,230 760,120" fill="url(#fold2)"/>
+    <g stroke="#7dd3fc" stroke-opacity="0.6" stroke-width="1" fill="none">
+      <line x1="820" y1="40" x2="900" y2="180"/><line x1="1000" y1="90" x2="900" y2="180"/>
+      <line x1="900" y1="180" x2="1080" y2="200"/><line x1="840" y1="230" x2="900" y2="180"/>
+    </g>
+  </g>
+  <!-- profil par couche (rang de Fisher) -->
+  <g stroke="#5eead4" stroke-width="2" stroke-opacity="0.75" fill="none">
+    <polyline points="60,235 130,232 200,225 270,214 340,206 410,210 480,218 550,224 620,238 690,246"/>
+  </g>
+  <g fill="#99f6e4">
+    <circle cx="60" cy="235" r="3"/><circle cx="130" cy="232" r="3"/><circle cx="200" cy="225" r="3"/>
+    <circle cx="270" cy="214" r="3"/><circle cx="340" cy="206" r="3"/><circle cx="410" cy="210" r="3"/>
+    <circle cx="480" cy="218" r="3"/><circle cx="550" cy="224" r="3"/><circle cx="620" cy="238" r="3"/>
+    <circle cx="690" cy="246" r="3"/>
+  </g>
+  <text x="62" y="110" font-family="Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="52" font-weight="700" fill="url(#title)" letter-spacing="1.5">ORIGAMI TRANSFORMER</text>
+  <text x="64" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="20" fill="#cbd5e1">Pre-registered geometry of LLM representations — Fisher metric, frozen thresholds, publishable negatives</text>
+  <text x="64" y="188" font-family="Consolas, Menlo, monospace"
+        font-size="15" fill="#94a3b8">g(h) = W&#7515;&#8314; (diag(p) &#8722; pp&#7515;) W&#7515;   |   the freeze hash precedes the data</text>
+</svg>
