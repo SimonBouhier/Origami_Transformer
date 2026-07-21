@@ -192,3 +192,36 @@ When a new relevant paper appears, append a §N section with:
 
 If a new paper invalidates an earlier entry, do not delete the earlier
 section — add a follow-up §N+1 that explains the supersession.
+
+---
+
+## §10 — Cross-domain transfer of epistemic probes: the gap H-D occupies (search pass, 2026-07-21)
+
+Two-front pass (phenomenon: probe generalization across topics/domains for
+epistemic axes; instrument: metric geometry under domain transfer). Landscape:
+
+- **Universal Truthfulness Hyperplane** (2407.08582) and **Testing the Limits of
+  Truth Directions** (2604.03754): the truth-axis cluster now tests cross-topic
+  generalization explicitly, with **leave-one-topic-out** as the standard
+  protocol; truth directions generalize partially (five "truth types", failures
+  on sycophantic/expectation-inverted cases).
+- Hallucination-probe OOD results: ~**25-point average drops** when probes
+  trained on one dataset transfer to others — transfer is the hard test, not an
+  afterthought.
+- **Robust for the Wrong Reasons** (2607.01951, Jul 2026): representational
+  geometry of robustness to *user-expressed science skepticism* — linear probes
+  + activation patching, 3 domains, transfer "attenuates across domains and can
+  reverse". ADJACENT but distinct on both axes: input-stance (not claim
+  contestedness) and linear probes (not Fisher metric).
+- "Deep Minds and Shallow Probes" (2605.11448) and the correctness-probe
+  confound literature (2607.16799): high probe accuracy may reflect surface or
+  benchmark-template correlates — the general form of our lexical-shortcut worry.
+
+**Consequence**: (1) the conjunction "Fisher/metric geometry x contested-vs-
+consensual x CROSS-DOMAIN TRANSFER" is unpublished — GREEN for v6 (H-D).
+(2) Adopt **leave-one-domain-out** as the frozen evaluation protocol: it is the
+field's standard instrument for exactly this question — we import it, not
+invent it. (3) Honest prior: LOW-to-moderate. The nearest literatures show
+partial-to-poor transfer; a pre-registered denial (signature does not transfer
+= it was largely domain content) is the LIKELY outcome and is publishable.
+A confirmation under LODO would be correspondingly strong.

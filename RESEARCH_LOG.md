@@ -278,3 +278,27 @@ Lecture (details : NOTE_RESULTATS_v5.md) :
 - Portes ouvertes (doctrine des ponts) : conditions de degel epp_adapter
   reunies ; condition du pont Origa->Lyra (H-C confirme aux seuils geles)
   REMPLIE. Chantiers a dessiner, chacun pre-enregistre.
+
+## 2026-07-21 — Scoping v6 (H-D) : transfert inter-domaines de la signature
+
+Question du chercheur : apres elimination de la surface (v5-C2), de l'ordre des
+tokens (v5-C3), reste le DOMAINE LEXICAL — si la signature survit, la lecture
+« proxy du statut epistemique » devient defendable ; sinon, borne honnete.
+
+Literature-first (STATE_OF_ART §10) : leave-one-domain-out = protocole standard
+du champ voisin (truth-probes) ; transfert OOD typiquement faible (~-25 pts) ;
+voisin le plus proche (2607.01951, geometrie x scepticisme utilisateur, juil.
+2026) attenue/inverse en transfert. Conjonction Fisher x contestation x
+transfert inter-domaines : NON PUBLIEE — verte.
+
+PREREGISTRATION_v6.md redige en DRAFT : bras conteste v5 reutilise tel quel
+(mesures v5 comprises — decision explicite pre-analyse), nouveau bras
+consensuel PAR DOMAINE (120, memes domaines que le conteste, apparie en
+longueur INTRA-domaine, quarantaine avant gel), evaluation LODO, baseline
+lexicale TF-IDF (la baseline forte que v5 n'avait pas), shuffle sous LODO,
+B1/VOID inchanges. Seuils PROPOSES (C1 0.60 ; C2 +0.08 ; C3 +0.08 ; global
+3/4) — a valider par le chercheur avant gel. Prior assume BAS : le dementi est
+l'issue probable, et publiable.
+
+EN ATTENTE (chercheur) : validation des seuils + du protocole corpus ; puis
+construction du bras consensuel_v6, gel (commit dance), campagne (~2 h 15).
