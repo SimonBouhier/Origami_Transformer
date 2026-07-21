@@ -302,3 +302,43 @@ l'issue probable, et publiable.
 
 EN ATTENTE (chercheur) : validation des seuils + du protocole corpus ; puis
 construction du bras consensuel_v6, gel (commit dance), campagne (~2 h 15).
+
+## 2026-07-21 — Verdict v6 : HD_DEMENTI global (0/4, 2 VOID)
+
+Gel v6 le 2026-07-21 (commit 10b6c89, stamp 75ea4e3). Bras conteste v5 reutilise,
+nouveau bras consensuel APPARIE PAR DOMAINE ligne a ligne (34 domaines fins,
+effectifs identiques), evaluation LODO sur 7 super-domaines, baseline
+non-geometrique DURCIE avant gel (TF-IDF U surface). Campagne ~2 h 15.
+
+| modele      | BA_geo | BA_lex | C2     | BA_shuf | C3     | B1    | verdict     |
+|-------------|--------|--------|--------|---------|--------|-------|-------------|
+| gpt2        | 0.629  | 0.738  | -0.108 | 0.500   | +0.129 | 0.255 | VOID        |
+| pythia-410m | 0.746  | 0.754  | -0.008 | 0.508   | +0.238 | 0.314 | HD_DEMENTI  |
+| opt-350m    | 0.750  | 0.738  | +0.012 | 0.575   | +0.175 | 0.143 | VOID        |
+| bloom-560m  | 0.817  | 0.746  | +0.071 | 0.617   | +0.200 | 0.353 | HD_DEMENTI  |
+
+GLOBAL : 0/4 -> HD_DEMENTI. C1 passe 4/4 (le transfert inter-domaines EXISTE),
+C3 passe 4/4 (structure linguistique necessaire), C2 echoue 4/4 : une baseline
+bon marche atteint BA ~0.74 en LODO sur les quatre modeles. Le dementi ne tient
+PAS a la porte VOID (les 4 echouent C2 de toute facon) — robuste.
+
+Lecture (details : NOTE_RESULTATS_v6.md) :
+- Le vrai resultat est la baseline : il existe un STYLE du conteste qui traverse
+  les domaines (comparatifs, attributions causales) — confond que v5 ne pouvait
+  pas voir. C'est le prochain a eliminer.
+- bloom rate de 9 millièmes (+0.071 vs +0.080). Sans coussin = echec. La
+  discipline tient.
+- Chute v5->v6 tres constante (~-0.09 sur les 4) mais campagnes non strictement
+  comparables : regularite observee, pas decomposition.
+- B1 sensible au corpus (gpt2 0.342->0.255, bascule sous la porte ; bloom
+  0.471->0.353). Propriete de l'instrument, pas du modele. OPT sous la porte
+  pour la 3e campagne (0.197 / 0.133 / 0.143).
+- Ordre des modeles stable sur 3 campagnes : bloom > opt ~ pythia > gpt2.
+
+CONSEQUENCE ECOSYSTEME : le pont Origa->Lyra doit etre RE-GELE. Sa condition
+formelle (v5 confirme) tient, mais l'interpretation qui le justifiait — Fisher
+comme tension epistemique instrumentee — n'est plus soutenable : le signal
+n'est pas geometriquement specifique. Recommandation au chercheur : gel du pont
+jusqu'a v7 (controle du style syntaxique). Idem pont Origa->EPP.
+
+v7 propose : apparier sur la CONSTRUCTION SYNTAXIQUE, pas seulement le domaine.
