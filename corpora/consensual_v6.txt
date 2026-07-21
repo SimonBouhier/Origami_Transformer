@@ -1,0 +1,120 @@
+Health insurance spreads medical costs across a pool of members.
+Anaesthesia allows surgery to proceed without the patient feeling pain.
+The heart pumps blood through arteries to the body's tissues.
+The human body cannot synthesize the essential amino acids itself.
+Insulin lowers the concentration of glucose in the bloodstream.
+Smoking tobacco substantially increases the risk of lung cancer.
+Blood transfusions require compatibility between donor and recipient blood types.
+Antibiotics treat bacterial infections but have no effect on viruses.
+The liver metabolizes many drugs before they reach general circulation.
+Vaccines train the immune system by presenting harmless antigens.
+Universal suffrage extends voting rights to all adult citizens.
+A constitution defines the basic legal structure of a state.
+Labor productivity measures the output produced per hour worked.
+Federal states divide powers between national and regional governments.
+Diplomatic embassies represent one state within the territory of another.
+Parliaments pass legislation through recorded votes of their members.
+Secret ballots let voters cast their choices without disclosing them.
+Supply chains connect producers and consumers across many countries.
+Unemployment rises during recessions in most modern economies.
+Inflation reduces the purchasing power of money held as cash.
+Trade barriers raise the domestic price of imported goods.
+A progressive income tax takes a larger share from higher earners.
+Gross domestic product measures the value of goods and services produced.
+Central banks raise interest rates to slow rapid price increases.
+Government budgets record planned public revenue and public spending.
+Compound interest makes unpaid debt grow faster over time.
+Depreciation reduces the recorded book value of capital equipment.
+Insurance markets pool risk across many policyholders to reduce variance.
+Diversifying investments across assets reduces the variance of returns.
+Interest compensates lenders for postponing their own consumption.
+Bankruptcy law lets insolvent firms restructure or discharge their debts.
+Subsidies lower the price that buyers pay below production cost.
+Exchange rates determine how much foreign currency a payment buys.
+Scarcity forces every economy to allocate limited resources among competing uses.
+Solar panels convert sunlight into electricity through the photovoltaic effect.
+Vitamin C deficiency causes the disease known as scurvy.
+Neurons transmit signals through electrical impulses and chemical synapses.
+Light travels faster through a vacuum than through glass or water.
+Stars generate energy by fusing hydrogen nuclei into helium.
+Photosynthesis converts light energy into chemical energy in plants.
+Classical conditioning pairs a neutral stimulus with a meaningful one.
+Energy is conserved in any closed physical system.
+Identical twins share nearly all of their nuclear DNA.
+Infectious diseases spread faster in densely populated urban areas.
+The human gut hosts trillions of bacterial cells.
+Liquid water is required by all known forms of life.
+The entropy of an isolated system does not decrease over time.
+Randomized controlled trials assign participants to treatment groups by chance.
+Electric current flows when charge carriers move through a conductor.
+Sound requires a material medium and cannot travel through vacuum.
+The observable universe has been expanding since the Big Bang.
+Objects in free fall accelerate at the same rate regardless of mass.
+The human genome contains roughly three billion base pairs.
+Offspring inherit one copy of each chromosome from each parent.
+The cerebellum contributes to the coordination of voluntary movement.
+Natural selection favours heritable traits that improve reproductive success.
+DNA carries genetic information in sequences of four nucleotide bases.
+Every known human language has both consonants and vowels.
+Written scripts developed thousands of years after spoken language.
+Languages change across generations in pronunciation and in vocabulary.
+Software systems are tested before deployment to reduce operational failures.
+Neural networks are trained by minimizing a loss with gradient descent.
+Tokenizers split text into discrete units before a model processes it.
+Human colour vision depends on three types of retinal cone cells.
+Language models predict the next token given the preceding context.
+A softmax function converts real-valued scores into a probability distribution.
+Embeddings represent discrete symbols as vectors in a continuous space.
+Encryption makes intercepted messages unreadable without the decryption key.
+Convolutional networks apply the same learned filters across spatial positions.
+Floating-point arithmetic introduces small rounding errors into every computation.
+Transformers process input sequences using self-attention over token embeddings.
+Graphics processors accelerate training through massively parallel matrix operations.
+Overfitting occurs when a model memorizes noise in its training data.
+Cross-validation estimates performance by holding out parts of the data.
+Regularization constrains model parameters to improve generalization beyond training data.
+Backpropagation computes gradients by applying the chain rule backwards.
+Stock exchanges let shareholders trade partial ownership of listed companies.
+Hyperinflation destroys the value of a currency within months.
+Hydroelectric dams generate power from the movement of falling water.
+Carbon dioxide absorbs and re-emits infrared radiation in the atmosphere.
+Global average surface temperatures have risen since the industrial era.
+Crop rotation helps maintain the fertility of farmland soil.
+Burning fossil fuels releases carbon dioxide into the atmosphere.
+Plastic waste decomposes very slowly in the natural environment.
+Melting land ice raises the global mean sea level.
+Large volcanic eruptions can lower global temperatures for several years.
+Habitat destruction is a leading cause of species extinction.
+Learning to read requires mapping written symbols onto spoken sounds.
+Spaced repetition improves long-term retention of memorized material.
+Literacy rates rose across the world during the twentieth century.
+Practice distributed over time produces better retention than massed practice.
+Census surveys collect demographic data about a national population.
+Universities award degrees after students complete the required coursework.
+Urban populations have grown faster than rural ones since industrialization.
+Large organizations divide labour into specialized roles and departments.
+Handwashing lowers the spread of infectious disease in hospitals.
+Clean drinking water reduces the transmission of intestinal disease.
+Police forces record reported offences in official crime statistics.
+Seatbelts reduce the risk of death in vehicle collisions.
+Sleep deprivation impairs attention and reaction time in laboratory tasks.
+The retina sends visual signals to the brain through the optic nerve.
+Stress activates the release of cortisol from the adrenal glands.
+Working memory holds a limited amount of information for seconds.
+Long-term memories consolidate over hours and days after learning.
+People recall items from the start and end of lists best.
+Children acquire their first language without explicit formal instruction.
+The Second World War ended in nineteen forty-five.
+The Industrial Revolution introduced steam power to manufacturing.
+The Berlin Wall divided the city for twenty-eight years.
+Christopher Columbus crossed the Atlantic under the Spanish crown.
+Napoleon was finally defeated at the battle of Waterloo.
+The Ottoman Empire captured Constantinople in fourteen fifty-three.
+The Roman Republic preceded the Roman Empire in political order.
+The French Revolution began in seventeen eighty-nine.
+The printing press spread through Europe during the fifteenth century.
+Radiocarbon dating estimates the age of once-living organic material.
+Stone tools appear in the archaeological record before metal ones.
+Ancient Egypt built monumental pyramids as tombs for its rulers.
+Pompeii was buried by the eruption of Mount Vesuvius.
+Compulsory schooling laws set a minimum age for leaving education.

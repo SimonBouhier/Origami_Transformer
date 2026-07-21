@@ -1,0 +1,81 @@
+{
+  "schema_version": "matching_report_v6.0",
+  "purpose": "bras consensuel apparie PAR DOMAINE au bras conteste (ligne a ligne)",
+  "method": "meme domaine fin ligne par ligne ; appariement par rang de longueur gpt2 dans chaque domaine ; egalites par index/texte croissant",
+  "n_per_arm": 120,
+  "n_fine_domains": 34,
+  "n_super_domains": 7,
+  "pair_delta_tokens": {
+    "mean": -0.15,
+    "max_abs": 6,
+    "n_exact": 51
+  },
+  "gpt2_lengths": {
+    "contested": {
+      "min": 7,
+      "median": 12,
+      "max": 17
+    },
+    "consensual": {
+      "min": 9,
+      "median": 12,
+      "max": 16
+    }
+  },
+  "out_of_range_9_16": [],
+  "per_super_domain": {
+    "econ_policy": {
+      "n": 27,
+      "mean_delta_tokens": -0.37,
+      "max_abs_delta": 3
+    },
+    "ai_computing": {
+      "n": 15,
+      "mean_delta_tokens": 0.2,
+      "max_abs_delta": 1
+    },
+    "medicine_health": {
+      "n": 15,
+      "mean_delta_tokens": -0.2,
+      "max_abs_delta": 2
+    },
+    "mind_language_society": {
+      "n": 22,
+      "mean_delta_tokens": 0.182,
+      "max_abs_delta": 6
+    },
+    "history_archaeology": {
+      "n": 13,
+      "mean_delta_tokens": -0.077,
+      "max_abs_delta": 3
+    },
+    "physical_climate": {
+      "n": 16,
+      "mean_delta_tokens": -0.312,
+      "max_abs_delta": 3
+    },
+    "life_sciences": {
+      "n": 12,
+      "mean_delta_tokens": -0.5,
+      "max_abs_delta": 4
+    }
+  },
+  "cross_tokenizer_gap": {
+    "gpt2": {
+      "median_gap": 0,
+      "mean_gap": -0.15
+    },
+    "EleutherAI/pythia-410m": {
+      "median_gap": 0,
+      "mean_gap": -0.217
+    },
+    "facebook/opt-350m": {
+      "median_gap": 0,
+      "mean_gap": -0.15
+    },
+    "bigscience/bloom-560m": {
+      "median_gap": 0,
+      "mean_gap": -0.175
+    }
+  }
+}

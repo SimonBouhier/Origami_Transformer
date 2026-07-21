@@ -53,6 +53,27 @@ n ≥ 12 statements per arm each (coarsening map frozen with the corpus).
 - v5's `consensual.txt` (claims.txt-derived, different domains) is NOT reused
   in v6 verdicts.
 
+**Corpus as built (2026-07-21, pre-freeze — quarantined, never observed):**
+`corpora/consensual_v6.txt`, 120 statements, built by
+`build_consensual_v6.py` (deterministic, model-free). Line *i* of both arms
+carries the **same fine domain** (34 fine domains, identical per-domain counts);
+within each fine domain, pairing is by token-length rank. All statements within
+9–16 gpt2 tokens. Length distributions: contested min/p25/med/p75/max =
+7/11/12/13/17 (mean 12.07) vs consensual 9/11/12/13/16 (mean 11.93); **median
+cross-tokenizer gap 0 on all four models**; only 2 pairs with |Δ| ≥ 4.
+
+**LODO folds — the 7 frozen super-domains** (coarsening map in
+`corpora/domain_map_v6.json`), per arm: `econ_policy` 27, `mind_language_society`
+22, `physical_climate` 16, `ai_computing` 15, `medicine_health` 15,
+`history_archaeology` 13, `life_sciences` 12. Seven folds; every fold ≥ 12 per
+arm as required.
+
+**SHA-256 at freeze** (re-checked at run time):
+- `corpora/consensual_v6.txt`      : `711709204cfc64b5969c2b71706803c5d12a0201530672425ac67c634fbe7f04`
+- `corpora/domain_map_v6.json`     : `5a8abe901f09bb8e18d8a5ba2cf8e87be68e49f1602185a43683510e74fc2b78`
+- `corpora/matching_report_v6.json`: `d78cd60f7fc6cd81463b44720daaf4ce61ce91426fbcdc73ad50c36bbb0131cc`
+- `corpora/contested.txt` (from v5, unchanged): `3eb7bae8506e97e274f407cf8f6d8357cdc06555d727e71f5aa8f9bb668850f2`
+
 ## Observables
 
 Extraction and Fisher metric: **identical to v4/v5** (frozen instrument,
@@ -65,12 +86,15 @@ seed 0, k = 50).
   cross-validation: folds = super-domains; predictions pooled out-of-fold →
   `BA_geo_lodo`, `AUC_geo_lodo`. (LODO is the field-standard protocol for this
   question — STATE_OF_ART §10.)
-- **O2 (lexical-transfer baseline).** Same classifier and SAME LODO folds on a
-  **bag-of-words TF-IDF** representation of the statements (unigrams+bigrams,
-  min_df = 2; exact vectorizer config frozen in `analysis_v6.py` before any
-  data) → `BA_lex_lodo`. This is the strong lexical baseline v5 lacked; under
-  LODO, domain vocabulary does not transfer, so what remains is transferable
-  lexical style — exactly the competitor to beat.
+- **O2 (non-geometric baseline — everything cheap).** Same classifier and SAME
+  LODO folds on the concatenation of **(a) bag-of-words TF-IDF** (word
+  unigrams+bigrams, min_df = 2, sublinear_tf, fitted on the training folds
+  only) **and (b) the v5 surface features** (n_tokens from the model's own
+  tokenizer, mean unigram zipf frequency, punctuation count) → `BA_lex_lodo`.
+  *Strengthened relative to the first draft (2026-07-21, pre-freeze): the
+  baseline now unions lexical AND surface, so C2 asks the geometry to beat
+  **everything cheap at once**, not lexical alone. Strengthening a baseline
+  before the freeze is always admissible; weakening one never is.*
 - **O3 (content-destruction under transfer).** O1 recomputed on token-shuffled
   inputs (both arms) under the same LODO folds → `BA_geo_shuf_lodo`.
 - **B1 (instrument sanity — VOID gate, unchanged from v5).** Pooled-corpus
