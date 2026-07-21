@@ -1,7 +1,7 @@
 # Pre-Registration v6 — Cross-domain transfer of the contestation signature (H-D)
 
-> **STATUS: DRAFT — thresholds PROPOSED, awaiting researcher validation ; to be
-> FROZEN at the v6 freeze (commit dance).** This is the within-domain /
+> **STATUS: FROZEN 2026-07-21** (thresholds validated by the researcher
+> 2026-07-21 — C1 lowered to 0.60 for LODO on his decision; no coussin). This is the within-domain /
 > cross-domain study. It runs AFTER v5 (`PREREGISTRATION_v5.md`, freeze
 > `ca588c3`, verdict `HC_CONFIRMÉ` 3/4) and exists to eliminate the LAST cheap
 > explanation left standing after v5: **domain vocabulary**. v5 established the
@@ -10,9 +10,9 @@
 > topic" remained open — flagged in `NOTE_RESULTATS_v5.md` (Limites) and
 > `README_corpora.md` §8. v6 closes it or the claim dies there.
 
-**Frozen on**: TBD
+**Frozen on**: 2026-07-21
 **Frozen by**: Simon Bouhier
-**Git commit at freeze**: TBD
+**Git commit at freeze**: STAMPED-IN-NEXT-COMMIT
 
 ## Hypothesis
 
