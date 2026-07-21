@@ -12,7 +12,7 @@
 
 **Frozen on**: 2026-07-21
 **Frozen by**: Simon Bouhier
-**Git commit at freeze**: STAMPED-IN-NEXT-COMMIT
+**Git commit at freeze**: 10b6c89895403be0df2731a2953870f80a26c6a2
 
 ## Hypothesis
 
@@ -100,7 +100,7 @@ seed 0, k = 50).
 - **B1 (instrument sanity — VOID gate, unchanged from v5).** Pooled-corpus
   max-layer |Spearman(O_rank, NLL)| ≥ 0.30, else the model's run is VOID.
 
-## Falsification thresholds (PROPOSED — researcher validates, then frozen, no coussin)
+## Falsification thresholds (validated by the researcher 2026-07-21; FROZEN, no coussin)
 
 - **C1** (transfer above chance): `BA_geo_lodo >= 0.60`
   *(lower than v5's 0.65: LODO is strictly harder than stratified CV; the
