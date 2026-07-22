@@ -36,3 +36,8 @@ Thumbs.db
 
 # third-party papers: linked in STATE_OF_ART.md, never redistributed
 docs/*.pdf
+# Papiers tiers : cites et lies, JAMAIS redistribues (cf. README > License).
+# Vaut aussi pour le texte extrait : redistribuer le texte integral d'un manuscrit
+# Sage/CNRC pose le meme probleme que le PDF.
+docs/**/*.pdf
+docs/Q7/
