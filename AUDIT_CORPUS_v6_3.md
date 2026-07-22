@@ -117,10 +117,22 @@ il est incomplet, et la porte ne peut pas le dire.
 
 ---
 
-## 4. Problème n°3 — la dérive topique du bras consensuel
+## 4. Problème n°3 — les deux bras ne parlent pas du même sujet
 
-En v6, les deux bras partageaient le vocabulaire de leur domaine. En v6.3, le
-bras consensuel a glissé vers des **faits de manuel** d'un champ voisin :
+> **CORRECTION (mesurée après coup).** La première version de ce §4 affirmait
+> qu'« en v6, les deux bras partageaient le vocabulaire de leur domaine » et que
+> v6.3 avait régressé. **C'est faux, et la mesure me contredit.** Recouvrement
+> de mots de contenu par paire, médiane : **0 pour v6 comme pour v6.3** ; paires
+> à recouvrement strictement nul : **100/120 en v6**, **97/120 en v6.3**. v6.3
+> est marginalement *meilleur*. J'avais généralisé à partir de quatre exemples
+> au lieu de compter — exactement l'erreur que ce projet existe pour éviter.
+>
+> Le problème est donc **structurel et ancien** : depuis v5, les deux bras sont
+> appariés sur l'*étiquette de domaine* et n'ont **jamais** été appariés sur le
+> *sujet*. v6.3 n'a pas introduit ce défaut, il en a hérité. Ce qui suit décrit
+> un défaut de la famille de corpus, pas une régression.
+
+Le bras consensuel tient des **faits de manuel** d'un champ voisin :
 
 | ligne | contesté | consensuel |
 |---|---|---|
@@ -129,11 +141,14 @@ bras consensuel a glissé vers des **faits de manuel** d'un champ voisin :
 | 113 | fin de la guerre froide | *The Roman Republic preceded the Roman Empire.* |
 | 114 | commerce atlantique et essor européen | *The French Revolution began ... in seventeen eighty-nine.* |
 
-Le `fine_domain` est nominalement le même, le **sujet** ne l'est pas. Or c'est le
-recouvrement de vocabulaire qui neutralisait TF-IDF. En l'éloignant, on a
-réintroduit un confond de **contenu**, à un étage au-dessus de celui qu'on
-fermait — et c'est ce qui explique `blood`, `water`, `energy`, `reading` d'un
-côté contre `inflation`, `academic` de l'autre.
+Le `fine_domain` est nominalement le même, le **sujet** ne l'est pas. Aucun mot
+de contenu n'est partagé dans 97 paires sur 120. C'est ce qui laisse TF-IDF à
+0,629 et ce qui explique `blood`, `water`, `energy`, `reading` d'un côté contre
+`inflation`, `academic` de l'autre : les deux bras sont séparables **par sujet**,
+indépendamment de toute forme et de tout statut épistémique.
+
+C'est, à mon avis, le vrai défaut de fond de la famille de corpus — plus profond
+que la construction syntaxique que v6.3 vient de fermer.
 
 ---
 
