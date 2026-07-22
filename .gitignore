@@ -41,3 +41,6 @@ docs/*.pdf
 # Sage/CNRC pose le meme probleme que le PDF.
 docs/**/*.pdf
 docs/Q7/
+# v6.1 : sorties GPU (regenerables) et venv GPU separe
+results_gpu/
+.venv-gpu/
