@@ -1,0 +1,120 @@
+Generic prescription drugs can cost less than equivalent branded medicines.
+Intravenous medication raises blood concentrations faster than oral medication.
+Most adults have systolic pressure exceeding diastolic pressure.
+Humans obtain nine essential amino acids from dietary protein.
+Insulin lowers the concentration of glucose in the bloodstream.
+Smoking tobacco greatly elevates lung-cancer risk.
+Load-bearing human bones withstand greater compression relative to tension.
+Venous blood from body tissues carries less oxygen than arterial blood.
+The liver metabolizes numerous drugs before they enter general circulation.
+Red blood cell counts exceed white blood cell counts in healthy adults.
+Universal suffrage extends voting rights to all adult citizens.
+A constitution defines the basic legal structure of a state.
+Labor productivity measures the output produced per hour worked.
+In political systems, lower legislative chambers usually exceed upper chambers in membership.
+Federal systems distribute political authority to more levels than unitary systems.
+Parliamentary systems tie political survival more directly to legislatures than presidential systems.
+Secret ballots keep voters' choices private during elections.
+Modern supply chains directly connect producers and consumers worldwide.
+Unemployment usually rises during recessions in modern economies.
+Inflation reduces the purchasing power of money held as cash.
+Trade barriers raise the domestic price of imported goods.
+Progressive income taxes apply rising rates by income bracket.
+Compound interest exceeds simple-interest growth at equal rates.
+Central-bank rate hikes restrain rapid price growth.
+Government budgets record planned public revenue and public spending.
+National accounts record household consumption and business investment.
+Depreciation diminishes the recorded book value of capital equipment.
+Insurance markets pool risk among numerous policyholders, limiting variance.
+Asset diversification limits the variance of investment portfolio returns.
+Commercial lenders charge interest on outstanding loan balances over time.
+Bankruptcy law lets insolvent firms restructure or discharge their debts.
+Taxable corporate profit levels determine income-tax liabilities at fixed rates.
+Longer loan terms accumulate extra total interest at equal rates.
+Scarcity forces every economy to allocate limited resources among competing uses.
+Solar panels produce electricity using the photovoltaic effect.
+Vitamin C deficiency causes the disease known as scurvy.
+Myelinated axons outperform bare axons in impulse conduction.
+Light speed in a vacuum exceeds its speed in glass or water.
+Stars generate energy by fusing hydrogen nuclei to form helium.
+Photosynthesis stores light energy as chemical energy in plants.
+Classical conditioning pairs a neutral stimulus with a meaningful one.
+Sound speed in solids exceeds its speed in gases.
+Identical twins share nearly all of their nuclear DNA.
+Random allocation does not guarantee identical trial groups.
+The human gut hosts trillions of bacterial cells.
+Every documented life form requires liquid water for survival.
+Entropy in an isolated system remains nondecreasing over time.
+Randomized controlled trials assign participants to treatment groups by chance.
+Electric current flows when charge carriers move along a conductor.
+Blue-light photon energy exceeds red-light photon energy.
+Milky Way star counts exceed Solar System star counts.
+Objects in free fall accelerate at the same rate regardless of mass.
+Most human chromosomes exceed chromosome twenty-one in physical length.
+Offspring inherit one copy of each chromosome from each parent.
+The cerebellum contributes to the coordination of voluntary movement.
+Natural selection favours heritable traits associated with reproductive success.
+Ostrich eggs exceed chicken eggs in mass.
+Spoken languages organize speech using consonant and vowel categories.
+Standard British English exceeds standard Spanish in vowel-phoneme count.
+Languages change over generations in pronunciation and vocabulary.
+Machine learning safety evaluations test models for harmful capabilities and risky behavior.
+Backpropagation computes gradients for multilayer network training.
+Beam-search continuation counts exceed greedy-decoding counts.
+Human colour vision depends on three types of retinal cone cells.
+Autoregressive language models predict tokens from preceding context.
+A softmax function yields a probability distribution from real-valued scores.
+Embeddings represent discrete symbols as vectors in a continuous space.
+Encryption restricts intercepted-message reading to decryption-key holders.
+Convolutional networks reuse learned filters at multiple spatial positions.
+Finite-precision arithmetic often requires rounding real-number results.
+Repeated-batch network training exceeds one-pass inference in computational cost.
+Graphics processors accelerate training using parallel matrix operations.
+Overfitting harms a model's performance on unseen data.
+Cross-validation estimates performance by holding out parts of the data.
+Large neural networks typically exceed matched small networks in parameter count.
+Eight-bit weights outperform thirty-two-bit weights in memory efficiency.
+High interest rates impose greater total borrowing costs.
+Hyperinflation rapidly erodes the purchasing power of money.
+Hydroelectric dams generate power from the movement of falling water.
+Carbon dioxide absorbs and re-emits infrared radiation in the atmosphere.
+Instrument records show global average surface temperatures have risen since the industrial era.
+Crop rotation helps maintain the fertility of farmland soil.
+Burning fossil fuels releases carbon dioxide to the atmosphere.
+Plastic waste decomposes very slowly in the natural environment.
+Melting land ice contributes to global mean sea-level rise.
+Stratospheric aerosol injection can substantially alter regional precipitation patterns.
+Large protected habitats consistently exceed small comparable habitats in species richness.
+Silent reading generally proceeds faster than reading aloud.
+Phonological awareness supports early decoding during alphabetic reading instruction.
+Literacy rates rose worldwide during the twentieth century.
+Sleep deprivation impairs sustained attention during demanding tasks.
+Population density measures residents per unit of land area.
+Repeated retrieval outperforms passive rereading for later recall.
+Population censuses enumerate residents in defined geographic areas.
+Centralized organizations concentrate more decision-making authority at senior levels than decentralized organizations.
+Handwashing lowers the spread of infectious disease in hospitals.
+Clean drinking water limits transmission of intestinal disease.
+Police forces record reported offences in official crime statistics.
+Chlorinated drinking water carries less microbial contamination than untreated water.
+Pupillary responses vary with changes in mental workload.
+The retina sends visual signals to the brain along the optic nerve.
+Stress activates the release of cortisol from the adrenal glands.
+Working memory holds a limited amount of information for seconds.
+Long-term memories consolidate over hours and days after learning.
+Recognition memory usually proves more accurate than free recall.
+Children acquire their first language before explicit formal instruction.
+The Second World War ended in nineteen forty-five.
+The Industrial Revolution introduced steam power to manufacturing.
+Archaeological evidence reaches farther back than written historical records.
+Christopher Columbus crossed the Atlantic under the Spanish crown.
+Napoleon suffered final defeat at the battle of Waterloo.
+Steamships crossed oceans faster than sailing ships under typical conditions.
+The Roman Republic preceded the Roman Empire as a political order.
+The French Revolution began as a political upheaval in seventeen eighty-nine.
+The printing press spread throughout Europe during the fifteenth century.
+Bronze tools contain more copper than tin by mass.
+Stone tools appear in the archaeological record before metal ones.
+The Victorian era was longer than the Edwardian era.
+Acidic soils accelerate bone decay faster than neutral soils.
+Distributed practice improves long-term retention more than massed practice.

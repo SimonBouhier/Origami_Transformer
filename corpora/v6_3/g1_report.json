@@ -1,0 +1,29 @@
+{
+  "schema_version": "corpus_control_v6.3",
+  "timestamp_utc": "2026-07-22T15:37:30.534685+00:00",
+  "round": 1,
+  "protocol_commit": "22aa2cb",
+  "files": {
+    "contested.txt": "85d795fb3d17e2d2aae8c35d72c59167b43a50f9a03abb2746823a6468b1755c",
+    "consensual.txt": "eb537ee1577134f5e77fbbcf21978ee7f17ac099d46202506d3ad4f7c6056bf1",
+    "evidence.tsv": "89250a005863b0c685e78b58c90b6a153df6ea17708ca98ada7abe06a8861770",
+    "corpora/domain_map_v6.json": "22e93f04d907f036f5679ae8837eb29d3535653686f245c60addaa7b5091019b"
+  },
+  "exact_marker_presence_pairs": 120,
+  "G1": {
+    "BA_marker_lodo": 0.5,
+    "BA_ceiling": 0.6,
+    "effect_size_pass": true,
+    "n_permutations": 10000,
+    "permutation_seed": 20260722,
+    "permutation_alpha": 0.05,
+    "permutation_p_one_sided": 1.0,
+    "permutation_pass": true,
+    "permutation_BA_quantiles": {
+      "q025": 0.5,
+      "q50": 0.5,
+      "q975": 0.5
+    },
+    "G1_pass": true
+  }
+}
