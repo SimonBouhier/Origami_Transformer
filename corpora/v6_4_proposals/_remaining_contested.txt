@@ -1,0 +1,94 @@
+[7] [COMPARATIVE] Intensive blood-pressure targets outperform standard targets in preventing cardiovascular events.
+[8] [COMPARATIVE] Intermittent fasting yields better insulin sensitivity than continuous calorie restriction.
+[9] [PLAIN] Placebo analgesia changes nociceptive processing beyond reported pain.
+[10] [COMPARATIVE] Screening mammography before age fifty has benefits outweighing its harms.  reuse-word: outweighing
+[14] [COMPARATIVE] Shared interests matter more, outweighing institutional explanations for democratic peace.  reuse-word: outweighing
+[15] [COMPARATIVE] Electoral systems shape the number of parties more than social divisions do.
+[16] [COMPARATIVE] Economic conditions determine incumbent re-election more than campaigns do.
+[17] [PLAIN] Online campaign advertising produces detectable persuasion effects on voters.
+[18] [PLAIN] Unconditional cash transfers depress employment among low-income adults.
+[19] [PLAIN] Minimum-wage hikes materially elevate unemployment among young workers.  reuse-word: materially
+[20] [PLAIN] Housing vouchers raise low-income rents enough to erase aggregate benefits.
+[21] [PLAIN] Free trade agreements raise average real wages in wealthy countries.
+[22] [PLAIN] Annual wealth taxes prompt migration among wealthy taxpayers.
+[23] [COMPARATIVE] Industrial policy outperforms free markets at building strategic industries.
+[24] [PLAIN] Immigration lowers wages for native workers lacking university degrees.
+[25] [PLAIN] Central bank independence detectably restrains inflation among countries.
+[26] [PLAIN] Government deficits crowd out private investment over the long run.
+[27] [PLAIN] Restrictive zoning dominates explanations of high urban housing prices.
+[28] [PLAIN] Bitcoin functions as an effective hedge against consumer-price inflation.
+[29] [PLAIN] Poor households' incomes rise proportionately with average income during national growth.
+[30] [PLAIN] Pandemic quantitative easing materially amplified United States consumer-price inflation.  reuse-word: materially
+[31] [PLAIN] Automation chiefly explains manufacturing job losses over international trade exposure.  reuse-word: chiefly,explains
+[32] [PLAIN] Corporate tax-rate hikes materially depress long-run business investment.  reuse-word: materially
+[33] [COMPARATIVE] Consumer-price effects of licensing outweigh its quality gains.  reuse-word: outweigh
+[34] [PLAIN] High public debt causally slows long-run GDP growth.  reuse-word: causally
+[36] [PLAIN] Dietary saturated fat constitutes a principal cause of cardiovascular disease.
+[44] [PLAIN] Moderate alcohol consumption provides no health benefit at any dose.
+[46] [PLAIN] The absence of alien signals indicates rarity of intelligent life.
+[47] [PLAIN] Quantum mechanics requires abandoning the idea of a single definite outcome.
+[48] [PLAIN] Observational nutrition studies reliably identify causal effects of individual foods.
+[49] [PLAIN] The fine-structure constant has varied over cosmic history.
+[50] [COMPARATIVE] Black holes preserve swallowed information rather than destroy it.  reuse-word: rather
+[51] [COMPARATIVE] The Hubble tension reflects new physics rather than measurement error.  reuse-word: rather
+[52] [PLAIN] Spin fluctuations provide the primary pairing mechanism in cuprate superconductors.
+[53] [COMPARATIVE] Most human non-coding DNA serves functions rather than remaining evolutionary residue.  reuse-word: rather
+[54] [PLAIN] Common genetic variants explain a large share of missing heritability for complex traits.  reuse-word: explain
+[55] [PLAIN] The adult human brain generates new neurons throughout life.
+[56] [PLAIN] Group selection strongly shapes cooperation among human populations.
+[57] [COMPARATIVE] Viruses originated earlier than the last universal common cellular ancestor.
+[60] [PLAIN] Neanderthal vocal anatomy supported speech equivalent to modern human speech.
+[61] [PLAIN] Autoregressive transformers learn causally useful internal world models.  reuse-word: causally
+[65] [PLAIN] Language-model safety fine-tuning degrades general capability performance.
+[66] [PLAIN] Metric choice creates apparent emergent abilities in large language models.
+[67] [PLAIN] Systematic compositional generalization requires explicit symbolic structure.
+[68] [PLAIN] Differential privacy preserves useful aggregate statistics under realistic privacy budgets.
+[69] [PLAIN] Transformer parameter scaling yields systematic compositional generalization in language models.
+[70] [PLAIN] Chain-of-thought prompting performs additional internal computation during generated rationales.
+[71] [COMPARATIVE] Retrieval augmentation produces fewer factual errors than equivalent parameter scaling.
+[72] [PLAIN] Model capability still scales predictably with additional training data.
+[73] [PLAIN] Chain-of-thought traces faithfully reflect a model's actual computation.
+[74] [PLAIN] Synthetic training data degrades model quality over successive generations.
+[75] [COMPARATIVE] Mixture-of-experts outperform dense models at equal compute.
+[76] [COMPARATIVE] Language-model safety alignment suppresses outputs rather than removing harmful capabilities.  reuse-word: rather
+[77] [COMPARATIVE] Carbon taxes outperform permit trading at cutting emissions.
+[78] [PLAIN] National carbon pricing lowered emissions while preserving GDP growth.
+[79] [PLAIN] Retiring existing nuclear plants elevates power-sector carbon emissions.
+[80] [PLAIN] Carbon offsets mostly fail to deliver the reductions they promise.
+[81] [PLAIN] Demand-side measures deliver large emissions cuts alongside preserved human well-being.
+[82] [PLAIN] Herbicide-tolerant crops lessen total pesticide toxicity.
+[83] [PLAIN] Climate models underestimate positive cloud feedbacks from changing tropical circulation.
+[84] [PLAIN] Chemical recycling of plastic yields net lifecycle environmental benefits.
+[85] [PLAIN] Observed warming since 1970 implies low equilibrium climate sensitivity.
+[86] [PLAIN] Ocean iron fertilization would sequester carbon at a meaningful scale.
+[87] [COMPARATIVE] Strict reserves outperform multiple-use reserves at preventing tropical forest fires.
+[88] [COMPARATIVE] School grades predict university success better than standardized tests.
+[89] [PLAIN] Performance-based teacher pay detectably boosts student test scores.
+[90] [PLAIN] Homework provides little academic benefit to primary school children.
+[91] [PLAIN] Induced teacher expectations affect students' later academic achievement.
+[92] [PLAIN] Childhood neighborhoods explain material differences in adult earnings.  reuse-word: explain
+[93] [COMPARATIVE] Smaller class sizes boost students' long-run academic outcomes.
+[94] [PLAIN] The neighborhood a child grows up in causally affects adult income.  reuse-word: causally
+[95] [COMPARATIVE] Functionally diverse teams solve complex problems better than homogeneous teams.
+[96] [PLAIN] Portugal's drug decriminalization lowered drug-related mortality.
+[97] [PLAIN] Stricter firearm regulation materially lowers homicide rates.  reuse-word: materially
+[98] [PLAIN] Body-worn police cameras decrease civilian complaints by changing behavior.
+[99] [COMPARATIVE] Cannabis legalization produces more traffic fatalities than prohibition does.
+[100] [PLAIN] Implicit bias tests predict real-world discriminatory behavior.
+[101] [PLAIN] Growth-mindset interventions produce lasting gains in academic achievement.
+[102] [PLAIN] Evidence supports a real and replicable ego-depletion effect.
+[103] [PLAIN] Early bilingualism delays the onset of dementia.
+[104] [PLAIN] Facial expressions causally influence corresponding emotional experience.  reuse-word: causally
+[105] [COMPARATIVE] Grit predicts academic achievement better than conscientiousness and intelligence.
+[106] [PLAIN] Power poses boost subjective confidence using embodied feedback.
+[109] [COMPARATIVE] Extractive colonial institutions made former colonies poorer than inclusive colonial institutions did.
+[110] [PLAIN] Military necessity justified the atomic bombings of Japan.
+[112] [COMPARATIVE] Hitler's prior plan explains the Holocaust better than cumulative bureaucratic radicalization.  reuse-word: explains
+[113] [PLAIN] Soviet economic weakness chiefly explains the Cold War's end.  reuse-word: chiefly,explains
+[114] [PLAIN] Atlantic trade chiefly explains Western Europe's early modern economic rise.  reuse-word: chiefly,explains
+[115] [PLAIN] The Black Death chiefly triggered Europe's wage revolution.  reuse-word: chiefly
+[116] [COMPARATIVE] Evidence favors the Pacific coastal route more than the inland corridor.
+[117] [PLAIN] Prolonged drought chiefly drove the Bronze Age collapse.  reuse-word: chiefly
+[118] [COMPARATIVE] Pre-Columbian America was far more populous than early estimates held.
+[119] [COMPARATIVE] Higher farm productivity than foraging explains early agriculture's spread.  reuse-word: explains
+[120] [COMPARATIVE] Handwriting instruction improves reading acquisition more than typing does.
