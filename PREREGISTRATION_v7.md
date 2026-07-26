@@ -8,7 +8,7 @@
 
 **Frozen on**: 2026-07-26
 **Frozen by**: Simon Bouhier
-**Git commit at freeze**: {to be stamped in the following commit}
+**Git commit at freeze**: `aa120bd63b462fc1f40ab5e0812db5355999c641`
 
 ---
 
