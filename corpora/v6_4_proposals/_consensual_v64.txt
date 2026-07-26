@@ -3,12 +3,12 @@ Routine PSA screening detects more early prostate cancers than symptom-based ref
 Antidepressants outperform placebo on standardized depression rating scales.
 Egg consumption supplies materially all dietary cholesterol in healthy adults.
 Population-wide salt reduction lowers average measured blood pressure.
-Vitamin D supplementation raises circulating levels of the vitamin.
+Vitamin D supplementation elevates circulating levels of the vitamin.
 Intensive blood-pressure targets achieve lower measured readings than standard targets do.
 Intermittent fasting produces larger insulin fluctuations than continuous calorie restriction.
 Placebo analgesia reduces reported pain in many controlled clinical trials worldwide.
 Screening mammography before age fifty detects more cancers than clinical examination alone.
-Negative campaign advertising measurably raises viewer recall of the sponsor.
+Negative campaign advertising measurably boosts viewer recall of the sponsor.
 Term limits shorten the average tenure of state legislators.
 Foreign aid finances a substantial share of health spending in poor recipient countries.
 Shared interests matter more for democratic peace than chance pairings alone.
@@ -22,7 +22,7 @@ Free trade agreements increase trade flows between wealthy countries significant
 Annual wealth taxes collect revenue from wealthy taxpayers in adopting jurisdictions.
 Industrial policy targets strategic industries more explicitly than decentralized free markets do.
 Immigration expands the total demographic labor pool alongside native workers lacking university degrees.
-Central bank independence varies across countries with distinct statutory monetary frameworks.
+Central bank independence varies among countries with distinct statutory monetary frameworks.
 Government deficits increase outstanding public debt over the long run.
 Restrictive zoning limits new housing construction in urban areas.
 Bitcoin prices fluctuate independently of measured consumer-price inflation rates.
@@ -30,10 +30,10 @@ Poor households' incomes rise in tandem with average income during national grow
 Pandemic quantitative easing materially expanded the United States monetary base.
 Automation chiefly explains rising output per worker in manufacturing.
 Corporate tax-rate hikes materially increase corporate tax revenue in the short run.
-Occupational licensing raises consumer prices more than unregulated markets do.
+Occupational licensing lifts consumer prices more than unregulated markets do.
 High public debt causally elevates debt-service costs over the long run.
-High-dose ionizing radiation raises measured cancer risk in exposed populations.
-Dietary saturated fat raises average blood LDL cholesterol levels.
+High-dose ionizing radiation heightens measured cancer risk in exposed populations.
+Dietary saturated fat elevates average blood LDL cholesterol levels.
 Conscious visual perception depends on cortical activity rather than retinal signalling alone.
 String theory requires more spatial dimensions than the three we observe.
 The cosmic microwave background displays large-scale temperature uniformity across the sky.
@@ -53,7 +53,7 @@ Cuprate superconductors show spin fluctuations near their critical temperature.
 Most human non-coding DNA undergoes transcription rather than remaining silent.
 Common genetic variants explain measurable variation in numerous complex human traits.
 The adult human brain continually reorganizes synaptic connections between existing neurons throughout life.
-Human populations display cooperation both within groups and across group boundaries.
+Human populations display cooperation inside groups and beyond group boundaries.
 Cellular life existed earlier than the oldest recovered viral genomic sequences.
 Languages divide the colour spectrum into detectably different numbers of basic terms.
 Human children acquire spoken grammar earlier than they acquire written literacy.
@@ -78,7 +78,7 @@ Carbon taxes set emissions prices more directly than permit trading systems do.
 National carbon pricing attaches mandatory financial costs to industrial greenhouse gas emissions.
 Retiring existing nuclear plants removes operating low-carbon electricity generation capacity.
 Carbon offsets represent claimed reductions in greenhouse-gas emissions.
-Demand-side measures target consumption-related emissions through changes in services and technologies.
+Demand-side measures target consumption-related emissions by changing services and technologies.
 Herbicide-tolerant crops survive herbicide applications at labeled doses.
 Climate models include cloud responses to changing tropical circulation patterns.
 Chemical recycling of plastic converts waste polymers into molecular feedstocks.
@@ -104,7 +104,7 @@ Early bilingualism involves acquiring and using two languages during childhood.
 Facial expressions causally engage specific facial muscles during emotional displays.
 Grit questionnaires resemble conscientiousness scales more closely in format than intelligence tests.
 Power poses are expansive bodily postures used in embodied-feedback experiments.
-The First World War drew German forces into a prolonged two-front conflict.
+The First World War committed German forces to a prolonged two-front conflict.
 The Western Roman Empire ended while the Eastern Roman Empire endured.
 Extractive colonial institutions concentrated political power more than inclusive ones did.
 United States leaders invoked military necessity when discussing the atomic bombings of Japan.
@@ -112,7 +112,7 @@ Britain's coal output expanded steadily throughout the Industrial Revolution.
 Nazi bureaucratic radicalization escalated the Holocaust faster after 1941 than before.
 Low output growth chiefly explains measured Soviet economic weakness before the Cold War ended.
 Atlantic trade chiefly explains Atlantic port growth during Western Europe's early modern rise.
-The Black Death chiefly reduced Europe's working-age population through widespread mortality.
+The Black Death chiefly reduced Europe's working-age population by widespread mortality.
 The Pacific coastal route lies farther west than the inland corridor.
 Prolonged drought chiefly limits water availability for agriculture during the Bronze Age.
 Pre-Columbian America contained larger urban centers than early colonial estimates reported.
