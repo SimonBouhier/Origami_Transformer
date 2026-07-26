@@ -1,0 +1,120 @@
+A regulated market in human kidneys would save more lives than it costs.
+Routine PSA screening reduces prostate cancer mortality more than it harms.
+Antidepressants outperform placebo by a clinically meaningful margin.
+Egg consumption materially elevates cardiovascular risk in healthy adults.
+Population-wide salt reduction lowers cardiovascular risk.
+Vitamin D supplementation lessens the rate of respiratory infections.
+Intensive blood-pressure targets outperform standard targets in preventing cardiovascular events.
+Intermittent fasting yields better insulin sensitivity than continuous calorie restriction.
+Placebo analgesia changes nociceptive processing beyond reported pain.
+Screening mammography before age fifty has benefits outweighing its harms.
+Negative campaign advertising measurably depresses overall voter turnout.
+Term limits shift real legislative power toward unelected staff.
+Foreign aid accelerates GDP growth in poor recipient countries.
+Shared interests matter more, outweighing institutional explanations for democratic peace.
+Electoral systems shape the number of parties more than social divisions do.
+Economic conditions determine incumbent re-election more than campaigns do.
+Online campaign advertising produces detectable persuasion effects on voters.
+Unconditional cash transfers depress employment among low-income adults.
+Minimum-wage hikes materially elevate unemployment among young workers.
+Housing vouchers raise low-income rents enough to erase aggregate benefits.
+Free trade agreements raise average real wages in wealthy countries.
+Annual wealth taxes prompt migration among wealthy taxpayers.
+Industrial policy outperforms free markets at building strategic industries.
+Immigration lowers wages for native workers lacking university degrees.
+Central bank independence detectably restrains inflation among countries.
+Government deficits crowd out private investment over the long run.
+Restrictive zoning dominates explanations of high urban housing prices.
+Bitcoin functions as an effective hedge against consumer-price inflation.
+Poor households' incomes rise proportionately with average income during national growth.
+Pandemic quantitative easing materially amplified United States consumer-price inflation.
+Automation chiefly explains manufacturing job losses over international trade exposure.
+Corporate tax-rate hikes materially depress long-run business investment.
+Consumer-price effects of licensing outweigh its quality gains.
+High public debt causally slows long-run GDP growth.
+Low-dose ionizing radiation risk rises linearly to zero dose.
+Dietary saturated fat constitutes a principal cause of cardiovascular disease.
+Conscious perception depends on posterior cortical activity rather than prefrontal broadcasting.
+String theory qualifies as science rather than untestable mathematics.
+Cosmic inflation best explains the universe's large-scale uniformity.
+A fixed biological upper limit bounds the human lifespan.
+Low replication rates in psychology mainly reflect false original findings.
+Undiscovered particles explain dark matter rather than modified gravity.
+Genetic differences explain most adult variation in measured intelligence.
+Moderate alcohol consumption provides no health benefit at any dose.
+The gut microbiome causally shapes human mood and behavior.
+The absence of alien signals indicates rarity of intelligent life.
+Quantum mechanics requires abandoning the idea of a single definite outcome.
+Observational nutrition studies reliably identify causal effects of individual foods.
+The fine-structure constant has varied over cosmic history.
+Black holes preserve swallowed information rather than destroy it.
+The Hubble tension reflects new physics rather than measurement error.
+Spin fluctuations provide the primary pairing mechanism in cuprate superconductors.
+Most human non-coding DNA serves functions rather than remaining evolutionary residue.
+Common genetic variants explain a large share of missing heritability for complex traits.
+The adult human brain generates new neurons throughout life.
+Group selection strongly shapes cooperation among human populations.
+Viruses originated earlier than the last universal common cellular ancestor.
+A person's language detectably shapes color perception.
+Human grammar rests on an innate faculty rather than general learning.
+Neanderthal vocal anatomy supported speech equivalent to modern human speech.
+Autoregressive transformers learn causally useful internal world models.
+Text form alone supports linguistic meaning learning independent of sensory grounding.
+In-context learning retrieves memorized patterns rather than learning new rules.
+Heavy online-platform use poses a material risk for adolescent depression.
+Language-model safety fine-tuning degrades general capability performance.
+Metric choice creates apparent emergent abilities in large language models.
+Systematic compositional generalization requires explicit symbolic structure.
+Differential privacy preserves useful aggregate statistics under realistic privacy budgets.
+Transformer parameter scaling yields systematic compositional generalization in language models.
+Chain-of-thought prompting performs additional internal computation during generated rationales.
+Retrieval augmentation produces fewer factual errors than equivalent parameter scaling.
+Model capability still scales predictably with additional training data.
+Chain-of-thought traces faithfully reflect a model's actual computation.
+Synthetic training data degrades model quality over successive generations.
+Mixture-of-experts outperform dense models at equal compute.
+Language-model safety alignment suppresses outputs rather than removing harmful capabilities.
+Carbon taxes outperform permit trading at cutting emissions.
+National carbon pricing lowered emissions while preserving GDP growth.
+Retiring existing nuclear plants elevates power-sector carbon emissions.
+Carbon offsets mostly fail to deliver the reductions they promise.
+Demand-side measures deliver large emissions cuts alongside preserved human well-being.
+Herbicide-tolerant crops lessen total pesticide toxicity.
+Climate models underestimate positive cloud feedbacks from changing tropical circulation.
+Chemical recycling of plastic yields net lifecycle environmental benefits.
+Observed warming since 1970 implies low equilibrium climate sensitivity.
+Ocean iron fertilization would sequester carbon at a meaningful scale.
+Strict reserves outperform multiple-use reserves at preventing tropical forest fires.
+School grades predict university success better than standardized tests.
+Performance-based teacher pay detectably boosts student test scores.
+Homework provides little academic benefit to primary school children.
+Induced teacher expectations affect students' later academic achievement.
+Childhood neighborhoods explain material differences in adult earnings.
+Smaller class sizes boost students' long-run academic outcomes.
+The neighborhood a child grows up in causally affects adult income.
+Functionally diverse teams solve complex problems better than homogeneous teams.
+Portugal's drug decriminalization lowered drug-related mortality.
+Stricter firearm regulation materially lowers homicide rates.
+Body-worn police cameras decrease civilian complaints by changing behavior.
+Cannabis legalization produces more traffic fatalities than prohibition does.
+Implicit bias tests predict real-world discriminatory behavior.
+Growth-mindset interventions produce lasting gains in academic achievement.
+Evidence supports a real and replicable ego-depletion effect.
+Early bilingualism delays the onset of dementia.
+Facial expressions causally influence corresponding emotional experience.
+Grit predicts academic achievement better than conscientiousness and intelligence.
+Power poses boost subjective confidence using embodied feedback.
+German expansionism chiefly explains the First World War.
+The Roman Empire fell chiefly from internal decay.
+Extractive colonial institutions made former colonies poorer than inclusive colonial institutions did.
+Military necessity justified the atomic bombings of Japan.
+Britain's high wages and cheap coal underpinned the Industrial Revolution.
+Hitler's prior plan explains the Holocaust better than cumulative bureaucratic radicalization.
+Soviet economic weakness chiefly explains the Cold War's end.
+Atlantic trade chiefly explains Western Europe's early modern economic rise.
+The Black Death chiefly triggered Europe's wage revolution.
+Evidence favors the Pacific coastal route more than the inland corridor.
+Prolonged drought chiefly drove the Bronze Age collapse.
+Pre-Columbian America was far more populous than early estimates held.
+Higher farm productivity than foraging explains early agriculture's spread.
+Handwriting instruction improves reading acquisition more than typing does.

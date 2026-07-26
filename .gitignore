@@ -44,3 +44,5 @@ docs/Q7/
 # v6.1 : sorties GPU (regenerables) et venv GPU separe
 results_gpu/
 .venv-gpu/
+# v7 : sorties de mesure (regenerables)
+results_v7/

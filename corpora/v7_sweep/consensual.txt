@@ -1,0 +1,120 @@
+A transplanted kidney would give the recipient more expected years than dialysis.
+Routine PSA screening detects more early prostate cancers than symptom-based referral.
+Antidepressants outperform placebo on standardized depression rating scales.
+Egg consumption supplies materially all dietary cholesterol in healthy adults.
+Population-wide salt reduction lowers average measured blood pressure.
+Vitamin D supplementation elevates circulating levels of the vitamin.
+Intensive blood-pressure targets achieve lower measured readings than standard targets do.
+Intermittent fasting produces larger insulin fluctuations than continuous calorie restriction.
+Placebo analgesia reduces reported pain in many controlled clinical trials worldwide.
+Screening mammography before age fifty detects more cancers than clinical examination alone.
+Negative campaign advertising measurably boosts viewer recall of the sponsor.
+Term limits shorten the average tenure of state legislators.
+Foreign aid finances a substantial share of health spending in poor recipient countries.
+Shared interests matter more for democratic peace than chance pairings alone.
+Electoral systems specify seat-allocation rules more directly than social divisions do.
+Better economic conditions raise incumbent re-election rates more than poorer conditions do.
+Online campaign advertising targets specific demographic groups of eligible registered voters.
+Unconditional cash transfers raise measured income among low-income adults.
+Minimum-wage hikes materially raise hourly wages among young workers.
+Housing vouchers subsidize rents for eligible low-income households in private housing.
+Free trade agreements increase trade flows between wealthy countries significantly.
+Annual wealth taxes collect revenue from wealthy taxpayers in adopting jurisdictions.
+Industrial policy targets strategic industries more explicitly than decentralized free markets do.
+Immigration expands the total demographic labor pool alongside native workers lacking university degrees.
+Central bank independence varies among countries with distinct statutory monetary frameworks.
+Government deficits increase outstanding public debt over the long run.
+Restrictive zoning limits new housing construction in urban areas.
+Bitcoin prices fluctuate independently of measured consumer-price inflation rates.
+Poor households' incomes rise in tandem with average income during national growth.
+Pandemic quantitative easing materially expanded the United States monetary base.
+Automation chiefly explains rising output per worker in manufacturing.
+Corporate tax-rate hikes materially increase corporate tax revenue in the short run.
+Occupational licensing lifts consumer prices more than unregulated markets do.
+High public debt causally elevates debt-service costs over the long run.
+High-dose ionizing radiation heightens measured cancer risk in exposed populations.
+Dietary saturated fat elevates average blood LDL cholesterol levels.
+Conscious visual perception depends on cortical activity rather than retinal signalling alone.
+String theory requires more spatial dimensions than the three we observe.
+The cosmic microwave background displays large-scale temperature uniformity across the sky.
+Documented human lifespan tops out near one hundred twenty years.
+Replication attempts in psychology mainly report effects of reduced magnitude.
+Galaxy rotation curves stay flatter than visible mass alone would predict.
+Genetic differences explain most adult variation in measured human height.
+Moderate alcohol consumption produces measurable blood alcohol concentrations.
+The gut microbiome breaks down dietary fibers the human gut cannot digest.
+No confirmed alien signals from intelligent life have been detected.
+Quantum mechanics calculates the exact mathematical probability of observing a single definite outcome.
+Observational nutrition studies identify statistical associations between foods and outcomes.
+The fine-structure constant equals approximately one over 137 in laboratory measurements.
+Black holes emit Hawking radiation rather than remaining thermally inert.
+The Hubble tension involves differing cosmic expansion measurements rather than perfectly matching empirical data.
+Cuprate superconductors show spin fluctuations near their critical temperature.
+Most human non-coding DNA undergoes transcription rather than remaining silent.
+Common genetic variants explain measurable variation in numerous complex human traits.
+The adult human brain continually reorganizes synaptic connections between existing neurons throughout life.
+Human populations display cooperation inside groups and beyond group boundaries.
+Cellular life existed earlier than the oldest recovered viral genomic sequences.
+Languages divide the colour spectrum into detectably different numbers of basic terms.
+Human children acquire spoken grammar earlier than they acquire written literacy.
+Neanderthal vocal anatomy included a hyoid bone of modern human shape.
+Autoregressive transformers process tokens in causally ordered sequences.
+Text form alone supports next-token prediction without any sensory input.
+In-context learning performs better with more worked examples in the prompt.
+Heavy online-platform use occupies a material share of adolescent daily hours.
+Language-model safety fine-tuning reduces generation of prohibited content categories.
+Metric choice affects measured performance scores in large language models.
+Classical computing architectures utilize explicit symbolic structure to process discrete mathematical information.
+Differential privacy adds calibrated mathematical noise to aggregate statistics to protect individual database entries.
+Transformer parameter scaling improves next-token prediction accuracy in language models.
+Chain-of-thought prompting generates intermediate reasoning tokens before final answers.
+Retrieval augmentation accesses external documents more directly than parameter scaling does.
+Model capability improves with additional training data in controlled scaling experiments.
+Chain-of-thought traces appear as sequential natural-language text before answers.
+Synthetic training data consists of examples generated by computational models.
+Mixture-of-experts activate fewer parameters per token than dense models.
+Language-model safety alignment alters token probabilities rather than changing architecture.
+Carbon taxes set emissions prices more directly than permit trading systems do.
+National carbon pricing attaches mandatory financial costs to industrial greenhouse gas emissions.
+Retiring existing nuclear plants removes operating low-carbon electricity generation capacity.
+Carbon offsets represent claimed reductions in greenhouse-gas emissions.
+Demand-side measures target consumption-related emissions by changing services and technologies.
+Herbicide-tolerant crops survive herbicide applications at labeled doses.
+Climate models include cloud responses to changing tropical circulation patterns.
+Chemical recycling of plastic converts waste polymers into molecular feedstocks.
+Observed warming since 1970 is one constraint used in climate sensitivity estimation.
+Ocean iron fertilization triggers algal blooms in iron-poor waters.
+Strict reserves legally prohibit more commercial resource extraction than multiple-use reserves do.
+School grades cover longer periods of student work than standardized tests.
+Performance-based teacher pay ties compensation to measured student test outcomes.
+Homework assigns primary school children academic tasks to complete outside class.
+Induced teacher expectations change information teachers receive about selected students.
+Childhood neighborhoods explain differences in local school quality and peer groups.
+Smaller class sizes provide more individual teacher attention than larger classes do.
+The neighborhood a child grows up in causally shapes available peer networks.
+Functionally diverse teams include more varied expertise than homogeneous teams do.
+Portugal's drug decriminalization reclassified personal possession as an administrative offense.
+Stricter firearm regulation materially restricts legal purchases of certain firearms.
+Body-worn police cameras record video of encounters between officers and civilians.
+Cannabis legalization increases legal retail sales more than prohibition does.
+Implicit bias tests measure response latencies to paired social concepts.
+Growth-mindset interventions present ability as improvable through effort and practice.
+Ego-depletion experiments measure performance after a self-control task.
+Early bilingualism involves acquiring and using two languages during childhood.
+Facial expressions causally engage specific facial muscles during emotional displays.
+Grit questionnaires resemble conscientiousness scales more closely in format than intelligence tests.
+Power poses are expansive bodily postures used in embodied-feedback experiments.
+The First World War committed German forces to a prolonged two-front conflict.
+The Western Roman Empire ended while the Eastern Roman Empire endured.
+Extractive colonial institutions concentrated political power more than inclusive ones did.
+United States leaders invoked military necessity when discussing the atomic bombings of Japan.
+Britain's coal output expanded steadily throughout the Industrial Revolution.
+Nazi bureaucratic radicalization escalated the Holocaust faster after 1941 than before.
+Low output growth chiefly explains measured Soviet economic weakness before the Cold War ended.
+Atlantic trade chiefly explains Atlantic port growth during Western Europe's early modern rise.
+The Black Death chiefly reduced Europe's working-age population by widespread mortality.
+The Pacific coastal route lies farther west than the inland corridor.
+Prolonged drought chiefly limits water availability for agriculture during the Bronze Age.
+Pre-Columbian America contained larger urban centers than early colonial estimates reported.
+Higher farm productivity than foraging explains surplus storage in early farming settlements.
+Handwriting instruction practices letter formation more than typing does.

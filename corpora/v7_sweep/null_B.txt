@@ -1,0 +1,50 @@
+Routine PSA screening detects more early prostate cancers than symptom-based referral.
+Antidepressants outperform placebo on standardized depression rating scales.
+Egg consumption supplies materially all dietary cholesterol in healthy adults.
+Vitamin D supplementation elevates circulating levels of the vitamin.
+Intermittent fasting produces larger insulin fluctuations than continuous calorie restriction.
+Term limits shorten the average tenure of state legislators.
+Foreign aid finances a substantial share of health spending in poor recipient countries.
+Shared interests matter more for democratic peace than chance pairings alone.
+Better economic conditions raise incumbent re-election rates more than poorer conditions do.
+Unconditional cash transfers raise measured income among low-income adults.
+Industrial policy targets strategic industries more explicitly than decentralized free markets do.
+Immigration expands the total demographic labor pool alongside native workers lacking university degrees.
+Central bank independence varies among countries with distinct statutory monetary frameworks.
+Government deficits increase outstanding public debt over the long run.
+Restrictive zoning limits new housing construction in urban areas.
+Automation chiefly explains rising output per worker in manufacturing.
+Occupational licensing lifts consumer prices more than unregulated markets do.
+High-dose ionizing radiation heightens measured cancer risk in exposed populations.
+Conscious visual perception depends on cortical activity rather than retinal signalling alone.
+Documented human lifespan tops out near one hundred twenty years.
+Galaxy rotation curves stay flatter than visible mass alone would predict.
+Observational nutrition studies identify statistical associations between foods and outcomes.
+The fine-structure constant equals approximately one over 137 in laboratory measurements.
+The Hubble tension involves differing cosmic expansion measurements rather than perfectly matching empirical data.
+Cuprate superconductors show spin fluctuations near their critical temperature.
+Languages divide the colour spectrum into detectably different numbers of basic terms.
+Text form alone supports next-token prediction without any sensory input.
+Heavy online-platform use occupies a material share of adolescent daily hours.
+Metric choice affects measured performance scores in large language models.
+Chain-of-thought prompting generates intermediate reasoning tokens before final answers.
+Model capability improves with additional training data in controlled scaling experiments.
+Chain-of-thought traces appear as sequential natural-language text before answers.
+Mixture-of-experts activate fewer parameters per token than dense models.
+National carbon pricing attaches mandatory financial costs to industrial greenhouse gas emissions.
+Carbon offsets represent claimed reductions in greenhouse-gas emissions.
+Observed warming since 1970 is one constraint used in climate sensitivity estimation.
+Performance-based teacher pay ties compensation to measured student test outcomes.
+Homework assigns primary school children academic tasks to complete outside class.
+Childhood neighborhoods explain differences in local school quality and peer groups.
+Portugal's drug decriminalization reclassified personal possession as an administrative offense.
+Implicit bias tests measure response latencies to paired social concepts.
+Growth-mindset interventions present ability as improvable through effort and practice.
+Ego-depletion experiments measure performance after a self-control task.
+Power poses are expansive bodily postures used in embodied-feedback experiments.
+The First World War committed German forces to a prolonged two-front conflict.
+United States leaders invoked military necessity when discussing the atomic bombings of Japan.
+Britain's coal output expanded steadily throughout the Industrial Revolution.
+Low output growth chiefly explains measured Soviet economic weakness before the Cold War ended.
+Atlantic trade chiefly explains Atlantic port growth during Western Europe's early modern rise.
+Prolonged drought chiefly limits water availability for agriculture during the Bronze Age.

@@ -156,7 +156,12 @@ def _configure_backend(device: str) -> dict:
 
 
 def run_probe_gpu(model_id, corpus, corpus_path, k, chunk, max_length, seed,
-                  device, eig_device, weights_dtype="float32"):
+                  device, eig_device, weights_dtype="float32", shuffle=False):
+    # Controle O3 : permutation de l'ordre des tokens, UNE par enonce, tiree
+    # sequentiellement dans l'ordre du corpus — exactement comme la sonde gelee
+    # probe_fisher_shuffle.py (lignes 50, 72-75). Meme graine + memes longueurs
+    # de tokens => memes permutations qu'une passe CPU.
+    rng = np.random.default_rng(seed)
     torch.manual_seed(seed)
     backend = _configure_backend(device)
 
@@ -187,7 +192,12 @@ def run_probe_gpu(model_id, corpus, corpus_path, k, chunk, max_length, seed,
     for si, text in enumerate(corpus):
         enc = tok(text, return_tensors="pt", truncation=True,
                   max_length=max_length)
-        ids = enc["input_ids"][0].to(device)
+        ids = enc["input_ids"][0]
+        if shuffle:
+            T = int(ids.shape[0])
+            if T > 1:
+                ids = ids[torch.from_numpy(rng.permutation(T))]
+        ids = ids.to(device)
         with torch.no_grad():
             out = model(input_ids=ids.unsqueeze(0),
                         attention_mask=torch.ones_like(ids).unsqueeze(0),
@@ -227,7 +237,9 @@ def run_probe_gpu(model_id, corpus, corpus_path, k, chunk, max_length, seed,
 
     raw = Path(corpus_path).read_bytes()
     return {
-        "schema_version": "probe_fisher_v4.0",
+        "schema_version": ("probe_fisher_shuffle_v5.0" if shuffle
+                           else "probe_fisher_v4.0"),
+        "control_mode": "shuffle" if shuffle else None,
         "preregistration": "PREREGISTRATION_v4.md",
         "freeze_commit": FREEZE_COMMIT,
         "timestamp_utc": datetime.now(timezone.utc).isoformat(),
@@ -285,6 +297,8 @@ def main():
     ap.add_argument("--eig-device", default="same",
                     choices=["same", "cpu", "cuda"],
                     help="phase B : où exécuter eigvalsh")
+    ap.add_argument("--shuffle", action="store_true",
+                    help="controle O3 : permute l'ordre des tokens (graine)")
     ap.add_argument("--selfcheck", action="store_true",
                     help="compare la transcription a l'original gele, sur CPU")
     ap.add_argument("--max-statements", type=int, default=None,
@@ -307,7 +321,7 @@ def main():
 
     out = run_probe_gpu(args.model, corpus, args.corpus, args.k, args.chunk,
                         args.max_length, args.seed, args.device,
-                        args.eig_device, args.weights_dtype)
+                        args.eig_device, args.weights_dtype, args.shuffle)
     if args.max_statements is not None:
         out["pilot_debug_only"] = True
 
