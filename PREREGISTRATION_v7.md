@@ -1,13 +1,14 @@
 # Pre-Registration v7 — Persistence of the geometric margin under increasing corpus difficulty (H-F)
 
-> **STATUS: DRAFT — NOT FROZEN, NOT COMMITTED AS FROZEN.**
-> The corpus family and the null corpus are already built and are **model-free**
-> (`build_sweep_v7.py`); no geometry has been computed on them. What awaits the
-> researcher's validation is §5 (the shape criterion) and §6 (scope).
+> **STATUS: FROZEN 2026-07-26.** Thresholds validated by the researcher
+> 2026-07-26: **δ = 0.00** and **F = 2/3**, as proposed in §5. The corpus family
+> and the null corpus were built **model-free** (`build_sweep_v7.py`) and
+> committed before this freeze. **No geometry has been computed on either
+> corpus.** The full analysis pipeline was validated on synthetic noise only.
 
-**Frozen on**: {pending}
-**Frozen by**: {pending — Simon Bouhier}
-**Git commit at freeze**: {pending}
+**Frozen on**: 2026-07-26
+**Frozen by**: Simon Bouhier
+**Git commit at freeze**: {to be stamped in the following commit}
 
 ---
 
@@ -110,7 +111,8 @@ read as an order of magnitude, never as a test.
 
 ## 5. Falsification criterion — a shape, calibrated on the null
 
-*(The numbers δ and F await the researcher's validation; the FORM is fixed here.)*
+*(δ = 0.00 and F = 2/3 validated by the researcher 2026-07-26. FROZEN. No
+coussin: neither number may be revisited after any measurement is read.)*
 
 Let `floor(n)` be the chance ceiling from the label-permutation null at the
 rung's own n — the **95th percentile** of permuted `BA_geo`. Let the margin
@@ -128,15 +130,22 @@ lowest `BA_cheap`). The last clause is what makes the criterion a shape rather
 than an average: a margin that exists only where the corpus is easy is exactly
 the confound we are trying to eliminate.
 
-Proposed: **δ = 0.00** (the interval must simply exclude zero) and **F = 2/3**.
+**FROZEN: δ = 0.00** (the interval must simply exclude zero) and **F = 2/3**.
 
 > **Why δ is not chosen by hand.** Setting δ from intuition would reintroduce
 > the very arbitrariness this design removes. δ = 0 defers all the strictness to
 > the bootstrap interval and to condition (1), whose scale comes from the
 > permutation null — that is, from a corpus **where we know there is nothing**.
-> If the researcher prefers a stricter δ, the honest way to pick it is
-> `δ = floor(n) − 0.50` at the median rung, i.e. the estimator's own noise
-> amplitude, computed on signal-free data. Either choice must be made **now**.
+> The strictness of this criterion is therefore *not* set by δ; it is set by
+> `floor(n)`, which is measured on signal-free data at each rung's own sample
+> size, and by the requirement that the hardest rung be among the supporters.
+
+**What δ = 0 does and does not permit.** It does not mean "any positive margin
+counts". A rung supports H-F only if the *lower* bound of a 2000-draw paired
+bootstrap interval lies above zero — a margin of +0.03 with an interval
+[−0.04, +0.10] fails. Combined with condition (1) and the hardest-rung clause,
+this is strictly harder to satisfy than any single-point threshold we have used
+in v4–v6.
 
 Global across models: reported per model; no cross-model aggregation, because
 `STATE_OF_ART.md` §6 rules that out. The Pythia ladder (§6) handles capacity.
@@ -198,3 +207,23 @@ strongest form of that closure we have produced.
   must be restated in the results note. v7 controls subject and construction,
   not authorship.
 - Using MDL as a verdict criterion (see §4 — it is measured, not decisive).
+
+## 10. SHA-256 at freeze (re-checked at run time)
+
+All materials below were built **model-free** and committed before this freeze.
+No language model has been run on any of them.
+
+| File | SHA-256 |
+|---|---|
+| `corpora/v7_sweep/contested.txt` | `85d795fb3d17e2d2aae8c35d72c59167b43a50f9a03abb2746823a6468b1755c` |
+| `corpora/v7_sweep/consensual.txt` | `c2851b05d99c33dd93549152371b2107c881e961ba49edbefd22ea160bdd4386` |
+| `corpora/v7_sweep/null_A.txt` | `fe6a761ca9bd31ec9efaeae7f47d8b43a76a09e9e0c478f094effa1c1d3f188b` |
+| `corpora/v7_sweep/null_B.txt` | `5818ff922ef44a29f8d8c76868c8dfe443b4673506226f4f0bb62c2242498000` |
+| `corpora/v7_sweep/rungs.json` | `c84a771d012eb30295fc823e839885b3b29c911e21db993883b977d88b7ca368` |
+| `corpora/v7_sweep/null_map.json` | `2a7f0331aec8ce49d260f77fb89540ce69b50355005d5996a3b2be84310c4a54` |
+| `corpora/v6_4_proposals/_selected.tsv` | `3a31b1a6c7e46ad6099bde8a5b23952324ec04f85173918a94e7e36c96d4cd6d` |
+
+`results_v7/` did not exist at freeze time: **no geometric measurement of any
+kind had been computed on this corpus family or on the null corpus.** The
+analysis pipeline (`analysis_sweep_v7.py`, `mdl.py`) was exercised end-to-end on
+synthetic noise only.
