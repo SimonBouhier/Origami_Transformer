@@ -1,0 +1,376 @@
+[7]
+CONSENSUAL: Intensive blood-pressure targets lower average blood pressure more than standard targets.
+SHARED: Intensive blood-pressure targets, standard targets
+WHY: blood-pressure reduction is established; cardiovascular-event prevention remains disputed
+[8]
+CONSENSUAL: Intermittent fasting produces larger insulin fluctuations than continuous calorie restriction.
+SHARED: Intermittent fasting, insulin, continuous calorie restriction
+WHY: the temporal insulin pattern follows directly from meal timing; sensitivity comparison is disputed
+[9]
+CONSENSUAL: Placebo analgesia reduces reported pain intensity in controlled experiments.
+SHARED: Placebo analgesia, pain
+WHY: reduction in reported pain is established; changes in nociceptive processing beyond reports are disputed
+[10]
+CONSENSUAL: Screening mammography before age fifty detects more cancers than clinical examination alone.
+SHARED: Screening mammography, before age fifty
+WHY: higher detection rate is established; net benefits outweighing harms remain disputed
+[14]
+CONSENSUAL: Shared interests matter more for democratic peace than chance pairings alone.
+SHARED: Shared interests, democratic peace
+WHY: the observed correlation with peace is established; outweighing institutional explanations is disputed
+[15]
+CONSENSUAL: Proportional electoral systems produce more parties than plurality systems do.
+SHARED: electoral systems, parties
+WHY: the mechanical effect on party numbers is established; relative weight versus social divisions is disputed
+[16]
+CONSENSUAL: Better economic conditions raise incumbent re-election rates more than poorer conditions do.
+SHARED: Economic conditions, incumbent re-election
+WHY: the directional link from economy to votes is established; relative weight versus campaigns is disputed
+[17]
+CONSENSUAL: Online campaign advertising reaches millions of targeted voters in modern elections.
+SHARED: Online campaign advertising, voters
+WHY: reach and targeting volume are established; detectable persuasion effects remain disputed
+[18]
+CONSENSUAL: Unconditional cash transfers raise measured income among low-income adults.
+SHARED: Unconditional cash transfers, low-income adults
+WHY: the income increase is definitional and established; employment depression remains disputed
+[19]
+CONSENSUAL: Minimum-wage hikes materially raise hourly wages among young workers.
+SHARED: Minimum-wage hikes, materially, young workers
+WHY: the wage increase for employed workers is established; unemployment elevation remains disputed
+[20]
+CONSENSUAL: Housing vouchers increase housing consumption among low-income recipients.
+SHARED: Housing vouchers, low-income
+WHY: higher consumption by recipients is established; rent effects erasing aggregate benefits remain disputed
+[21]
+CONSENSUAL: Free trade agreements increase merchandise trade volumes between member countries.
+SHARED: Free trade agreements
+WHY: the trade-volume increase is established; average real-wage effects remain disputed
+[22]
+CONSENSUAL: Annual wealth taxes collect revenue from wealthy taxpayers in adopting jurisdictions.
+SHARED: Annual wealth taxes, wealthy taxpayers
+WHY: revenue collection is established; migration responses remain disputed
+[23]
+CONSENSUAL: Industrial policy allocates more capital to targeted sectors than free markets do.
+SHARED: Industrial policy, free markets
+WHY: directed allocation is definitional; outperformance at building industries remains disputed
+[24]
+CONSENSUAL: Immigration increases labor supply among workers lacking university degrees.
+SHARED: Immigration, workers lacking university degrees
+WHY: the supply increase is established; wage depression for natives remains disputed
+[25]
+CONSENSUAL: Central bank independence correlates with lower average inflation among countries.
+SHARED: Central bank independence, inflation, countries
+WHY: the cross-country correlation is established; detectable causal restraint remains disputed
+[26]
+CONSENSUAL: Government deficits increase outstanding public debt over the long run.
+SHARED: Government deficits, long run
+WHY: the debt accumulation is definitional; crowding out of private investment remains disputed
+[27]
+CONSENSUAL: Restrictive zoning limits new housing construction in urban areas.
+SHARED: Restrictive zoning, urban, housing
+WHY: the construction constraint is established; dominance among explanations of prices remains disputed
+[28]
+CONSENSUAL: Bitcoin prices fluctuate independently of measured consumer-price inflation rates.
+SHARED: Bitcoin, consumer-price inflation
+WHY: the weak short-run correlation is established; effective hedge status remains disputed
+[29]
+CONSENSUAL: Poor households' incomes rise during periods of national economic growth.
+SHARED: Poor households' incomes, national growth
+WHY: the directional co-movement is established; proportionate sharing remains disputed
+[30]
+CONSENSUAL: Pandemic quantitative easing materially expanded the United States monetary base.
+SHARED: Pandemic quantitative easing, materially, United States
+WHY: the balance-sheet expansion is established; amplification of consumer-price inflation remains disputed
+[31]
+CONSENSUAL: Automation chiefly explains rising output per worker in manufacturing.
+SHARED: Automation, chiefly explains, manufacturing
+WHY: the productivity link is established; explanation of job losses versus trade remains disputed
+[32]
+CONSENSUAL: Corporate tax-rate hikes materially increase corporate tax revenue in the short run.
+SHARED: Corporate tax-rate hikes, materially
+WHY: the revenue increase is established; long-run investment depression remains disputed
+[33]
+CONSENSUAL: Occupational licensing raises consumer prices more than unregulated markets do.
+SHARED: licensing, consumer prices
+WHY: the price elevation is established; outweighing of quality gains remains disputed
+[34]
+CONSENSUAL: High public debt causally elevates debt-service costs over the long run.
+SHARED: High public debt, causally, long run
+WHY: higher interest costs are established; causal slowing of GDP growth remains disputed
+[36]
+CONSENSUAL: Dietary saturated fat raises average blood LDL cholesterol levels.
+SHARED: Dietary saturated fat
+WHY: the cholesterol effect is established; principal causation of cardiovascular disease remains disputed
+[44]
+CONSENSUAL: Moderate alcohol consumption produces measurable blood alcohol concentrations.
+SHARED: Moderate alcohol consumption
+WHY: the pharmacokinetic effect is established; absence of any health benefit remains disputed
+[46]
+CONSENSUAL: The absence of alien signals persists across completed radio SETI surveys.
+SHARED: absence of alien signals
+WHY: the non-detection record is established; inference of rarity of intelligent life remains disputed
+[47]
+CONSENSUAL: Quantum mechanics yields probabilistic predictions for individual measurement outcomes.
+SHARED: Quantum mechanics, outcomes
+WHY: the probabilistic formalism is established; requirement to abandon single definite outcomes remains disputed
+[48]
+CONSENSUAL: Observational nutrition studies identify statistical associations between foods and outcomes.
+SHARED: Observational nutrition studies, foods
+WHY: the associative findings are established; reliable causal identification remains disputed
+[49]
+CONSENSUAL: The fine-structure constant equals approximately one over 137 in laboratory measurements.
+SHARED: fine-structure constant
+WHY: the present-day laboratory value is established; variation over cosmic history remains disputed
+[50]
+CONSENSUAL: Black holes emit Hawking radiation rather than remaining thermally inert.
+SHARED: Black holes, rather
+WHY: the theoretical emission is established; information preservation versus destruction remains disputed
+[51]
+CONSENSUAL: Local and CMB Hubble measurements differ rather than agreeing within errors.
+SHARED: Hubble, rather
+WHY: the numerical discrepancy is established; new-physics versus measurement-error interpretation remains disputed
+[52]
+CONSENSUAL: Cuprate superconductors exhibit antiferromagnetic spin fluctuations above critical temperature.
+SHARED: Spin fluctuations, cuprate superconductors
+WHY: the observed fluctuations are established; primary pairing-mechanism status remains disputed
+[53]
+CONSENSUAL: Most human non-coding DNA undergoes transcription rather than remaining silent.
+SHARED: human non-coding DNA, rather
+WHY: pervasive transcription is established; functional versus residual status remains disputed
+[54]
+CONSENSUAL: Common genetic variants explain most measured heritability for human height.
+SHARED: Common genetic variants, explain, heritability
+WHY: height heritability recovery is established; large share of missing heritability for complex traits remains disputed
+[55]
+CONSENSUAL: The adult human brain maintains synaptic plasticity throughout life.
+SHARED: adult human brain
+WHY: ongoing plasticity is established; generation of new neurons throughout life remains disputed
+[56]
+CONSENSUAL: Human populations exhibit cooperation in controlled public-goods experiments.
+SHARED: cooperation, human populations
+WHY: experimental cooperation is established; strong shaping by group selection remains disputed
+[57]
+CONSENSUAL: Cellular life existed earlier than the oldest recovered viral genomic sequences.
+SHARED: cellular, viruses
+WHY: the temporal order of evidence is established; virus origin before LUCA remains disputed
+[60]
+CONSENSUAL: Neanderthal vocal anatomy included a hyoid bone of modern human shape.
+SHARED: Neanderthal vocal anatomy
+WHY: the hyoid morphology is established; support for speech equivalent to modern humans remains disputed
+[61]
+CONSENSUAL: Autoregressive transformers process tokens in causally ordered sequences.
+SHARED: Autoregressive transformers, causally
+WHY: the causal masking is definitional; learning of useful internal world models remains disputed
+[65]
+CONSENSUAL: Language-model safety fine-tuning reduces generation of prohibited content categories.
+SHARED: Language-model safety fine-tuning
+WHY: the reduction in targeted outputs is established; degradation of general capability remains disputed
+[66]
+CONSENSUAL: Metric choice affects measured performance scores in large language models.
+SHARED: large language models
+WHY: metric sensitivity is established; creation of apparent emergent abilities remains disputed
+[67]
+CONSENSUAL: Systematic compositional generalization tests recombine familiar elements into novel combinations.
+SHARED: compositional generalization
+WHY: the test design is established; requirement for explicit symbolic structure remains disputed
+[68]
+CONSENSUAL: Differential privacy adds calibrated noise to protect individual records in aggregates.
+SHARED: Differential privacy, aggregate statistics
+WHY: the noise mechanism is definitional; preservation of useful statistics under realistic budgets remains disputed
+[69]
+CONSENSUAL: Transformer parameter scaling improves next-token prediction accuracy in language models.
+SHARED: Transformer parameter scaling, language models
+WHY: the scaling of prediction accuracy is established; systematic compositional generalization remains disputed
+[70]
+CONSENSUAL: Chain-of-thought prompting generates intermediate reasoning tokens before final answers.
+SHARED: Chain-of-thought prompting
+WHY: the production of intermediate text is established; performance of additional internal computation remains disputed
+[71]
+CONSENSUAL: Retrieval augmentation accesses external documents more directly than parameter scaling does.
+SHARED: Retrieval augmentation, parameter scaling
+WHY: the retrieval mechanism is established; fewer factual errors at equal scale remains disputed
+[72]
+CONSENSUAL: Model capability improves with additional training data in controlled scaling experiments.
+SHARED: Model capability, training data
+WHY: the data-scaling improvement is established; continued predictable scaling remains disputed
+[73]
+CONSENSUAL: Chain-of-thought traces appear as sequential natural-language text before answers.
+SHARED: Chain-of-thought traces
+WHY: the textual form is established; faithful reflection of actual computation remains disputed
+[74]
+CONSENSUAL: Synthetic training data originates from outputs of prior generative models.
+SHARED: Synthetic training data
+WHY: the generation source is established; quality degradation over successive generations remains disputed
+[75]
+CONSENSUAL: Mixture-of-experts activate fewer parameters per token than dense models do.
+SHARED: Mixture-of-experts, dense models
+WHY: the sparse activation is definitional; outperformance at equal compute remains disputed
+[76]
+CONSENSUAL: Language-model safety alignment alters token probabilities rather than changing architecture.
+SHARED: Language-model safety alignment, rather
+WHY: the probability shift is established; suppression versus removal of capabilities remains disputed
+[77]
+CONSENSUAL: Carbon taxes raise revenue more predictably than permit trading does.
+SHARED: Carbon taxes, permit trading
+WHY: the revenue predictability difference is established; superior emissions cuts remain disputed
+[78]
+CONSENSUAL: National carbon pricing raises the cost of carbon-intensive goods and activities.
+SHARED: National carbon pricing
+WHY: the price effect is definitional; emissions reductions with preserved GDP growth remain disputed
+[79]
+CONSENSUAL: Retiring existing nuclear plants removes low-carbon baseload generation capacity.
+SHARED: Retiring existing nuclear plants
+WHY: the capacity loss is established; elevation of power-sector carbon emissions remains disputed
+[80]
+CONSENSUAL: Carbon offsets represent claimed reductions in greenhouse-gas emissions.
+SHARED: Carbon offsets
+WHY: the credit definition is established; failure to deliver promised reductions remains disputed
+[81]
+CONSENSUAL: Demand-side measures target reductions in final energy consumption by end users.
+SHARED: Demand-side measures
+WHY: the targeting of consumption is established; large cuts with preserved well-being remain disputed
+[82]
+CONSENSUAL: Herbicide-tolerant crops permit use of specific herbicides in place of others.
+SHARED: Herbicide-tolerant crops
+WHY: the herbicide substitution is established; reduction in total pesticide toxicity remains disputed
+[83]
+CONSENSUAL: Climate models include cloud responses to changing tropical circulation patterns.
+SHARED: Climate models, tropical circulation
+WHY: the inclusion of cloud processes is established; underestimation of positive feedbacks remains disputed
+[84]
+CONSENSUAL: Chemical recycling of plastic converts waste polymers into molecular feedstocks.
+SHARED: Chemical recycling of plastic
+WHY: the chemical conversion is established; net lifecycle environmental benefits remain disputed
+[85]
+CONSENSUAL: Observed warming since 1970 appears in global surface temperature datasets.
+SHARED: Observed warming since 1970
+WHY: the instrumental record is established; implication of low equilibrium sensitivity remains disputed
+[86]
+CONSENSUAL: Ocean iron fertilization increases phytoplankton biomass in iron-limited regions.
+SHARED: Ocean iron fertilization
+WHY: the biomass response is established; meaningful-scale carbon sequestration remains disputed
+[87]
+CONSENSUAL: Strict reserves restrict human access more than multiple-use reserves do.
+SHARED: Strict reserves, multiple-use reserves
+WHY: the access restriction is definitional; superior fire prevention remains disputed
+[88]
+CONSENSUAL: School grades incorporate more cumulative coursework data than standardized tests do.
+SHARED: School grades, standardized tests
+WHY: the data composition difference is established; superior prediction of university success remains disputed
+[89]
+CONSENSUAL: Performance-based teacher pay ties compensation to measured student test outcomes.
+SHARED: Performance-based teacher pay
+WHY: the contractual link is established; detectable boosts to test scores remain disputed
+[90]
+CONSENSUAL: Homework requires primary school children to complete assigned tasks after school.
+SHARED: Homework, primary school children
+WHY: the after-school assignment is definitional; little academic benefit remains disputed
+[91]
+CONSENSUAL: Teacher expectations shape daily classroom interactions with individual students.
+SHARED: teacher expectations, students
+WHY: the interaction effect is established; lasting impact on later achievement remains disputed
+[92]
+CONSENSUAL: Childhood neighborhoods explain differences in local school quality and peer groups.
+SHARED: Childhood neighborhoods, explain
+WHY: the local resource variation is established; material differences in adult earnings remain disputed
+[93]
+CONSENSUAL: Smaller class sizes provide more individual teacher attention than larger classes do.
+SHARED: Smaller class sizes
+WHY: the attention difference is established; boosts to long-run academic outcomes remain disputed
+[94]
+CONSENSUAL: The neighborhood a child grows up in causally shapes available peer networks.
+SHARED: neighborhood, child, causally
+WHY: the peer-exposure link is established; causal effects on adult income remain disputed
+[95]
+CONSENSUAL: Functionally diverse teams include more varied expertise than homogeneous teams do.
+SHARED: Functionally diverse teams, homogeneous teams
+WHY: the expertise variation is definitional; superior solution of complex problems remains disputed
+[96]
+CONSENSUAL: Portugal's drug decriminalization reclassified personal possession as an administrative offense.
+SHARED: Portugal's drug decriminalization
+WHY: the legal reclassification is established; reduction in drug-related mortality remains disputed
+[97]
+CONSENSUAL: Stricter firearm regulation materially restricts legal purchases of certain firearms.
+SHARED: Stricter firearm regulation, materially
+WHY: the purchase restriction is established; material lowering of homicide rates remains disputed
+[98]
+CONSENSUAL: Body-worn police cameras record video of encounters between officers and civilians.
+SHARED: Body-worn police cameras
+WHY: the recording function is established; decrease in complaints via behavior change remains disputed
+[99]
+CONSENSUAL: Cannabis legalization increases legal retail sales more than prohibition does.
+SHARED: Cannabis legalization, prohibition
+WHY: the sales increase is established; higher traffic fatalities remain disputed
+[100]
+CONSENSUAL: Implicit bias tests measure response latencies to paired social concepts.
+SHARED: Implicit bias tests
+WHY: the latency measurement is definitional; prediction of real-world discrimination remains disputed
+[101]
+CONSENSUAL: Growth-mindset interventions present ability as improvable through effort and practice.
+SHARED: Growth-mindset interventions
+WHY: the instructional content is established; lasting gains in academic achievement remain disputed
+[102]
+CONSENSUAL: Ego-depletion studies measure task performance after initial self-control exertion.
+SHARED: ego-depletion
+WHY: the experimental sequence is established; a real and replicable effect remains disputed
+[103]
+CONSENSUAL: Early bilingualism requires regular use of two languages from childhood onward.
+SHARED: Early bilingualism
+WHY: the dual-language exposure is definitional; delay of dementia onset remains disputed
+[104]
+CONSENSUAL: Facial expressions causally engage specific facial muscles during emotional displays.
+SHARED: Facial expressions, causally
+WHY: the muscular activation is established; causal influence on emotional experience remains disputed
+[105]
+CONSENSUAL: Grit questionnaires measure perseverance more directly than intelligence tests do.
+SHARED: Grit, intelligence
+WHY: the construct difference is established; superior prediction of academic achievement remains disputed
+[106]
+CONSENSUAL: Power poses consist of expansive open postures held for brief intervals.
+SHARED: Power poses
+WHY: the postural definition is established; boosts to subjective confidence remain disputed
+[109]
+CONSENSUAL: Extractive colonial institutions concentrated political power more than inclusive ones did.
+SHARED: Extractive colonial institutions, inclusive colonial institutions
+WHY: the power-concentration difference is established; greater impoverishment of former colonies remains disputed
+[110]
+CONSENSUAL: The atomic bombings of Japan occurred in August 1945 on Hiroshima and Nagasaki.
+SHARED: atomic bombings of Japan
+WHY: the historical occurrence and locations are established; justification by military necessity remains disputed
+[112]
+CONSENSUAL: Nazi archival records explain the Holocaust's logistical implementation better than postwar accounts.
+SHARED: explains, Holocaust
+WHY: the contemporary documentation is established; prior-plan versus cumulative-radicalization weighting remains disputed
+[113]
+CONSENSUAL: Soviet economic weakness chiefly explains chronic shortages of consumer goods in the 1980s.
+SHARED: Soviet economic weakness, chiefly explains
+WHY: the shortage link is established; explanation of the Cold War's end remains disputed
+[114]
+CONSENSUAL: Atlantic trade chiefly explains the expansion of major port cities in Western Europe.
+SHARED: Atlantic trade, chiefly explains, Western Europe
+WHY: the port-city growth is established; explanation of broader early-modern rise remains disputed
+[115]
+CONSENSUAL: The Black Death chiefly reduced population levels across fourteenth-century Europe.
+SHARED: The Black Death, chiefly
+WHY: the demographic impact is established; triggering of the wage revolution remains disputed
+[116]
+CONSENSUAL: Archaeological sites appear earlier along the Pacific coastal route than the inland corridor.
+SHARED: Pacific coastal route, inland corridor
+WHY: the relative site chronology is established; overall preference for the coastal route remains disputed
+[117]
+CONSENSUAL: Prolonged drought chiefly lowered agricultural yields in the late Bronze Age eastern Mediterranean.
+SHARED: Prolonged drought, chiefly
+WHY: the yield reduction is established; primary causation of the broader collapse remains disputed
+[118]
+CONSENSUAL: Pre-Columbian America contained larger urban centers than early colonial estimates reported.
+SHARED: Pre-Columbian America, early estimates
+WHY: the existence of major centers is established; overall population far exceeding early estimates remains disputed
+[119]
+CONSENSUAL: Higher farm productivity than foraging explains surplus storage in early farming settlements.
+SHARED: Higher farm productivity, foraging, explains
+WHY: the storage surplus is established; explanation of agriculture's geographic spread remains disputed
+[120]
+CONSENSUAL: Handwriting instruction practices letter formation more than typing does.
+SHARED: Handwriting instruction, typing
+WHY: the motor difference is established; superior improvement of reading acquisition remains disputed

@@ -1,0 +1,445 @@
+[7]
+CONSENSUAL: Intensive blood-pressure targets achieve lower measured readings than standard targets do.
+SHARED: Intensive, blood-pressure, targets, standard, targets
+WHY: the effect on measured pressure is settled; the cardiovascular benefit is disputed.
+
+[8]
+CONSENSUAL: Intermittent fasting concentrates food intake into fewer daily hours than continuous calorie restriction.
+SHARED: Intermittent fasting, continuous calorie restriction
+WHY: the eating schedule difference is definitional; the insulin sensitivity benefit is disputed.
+
+[9]
+CONSENSUAL: Placebo analgesia successfully lowers patients' subjectively reported pain levels during controlled clinical trials.
+SHARED: Placebo analgesia, reported pain
+WHY: the reduction in subjective reporting is settled; the neurological nociceptive mechanism is disputed.
+
+[10] SKIP
+
+[14] SKIP
+
+[15]
+CONSENSUAL: Proportional electoral systems produce more viable political parties than plurality electoral systems do.
+SHARED: electoral systems, parties
+WHY: the effect of proportional rules on party count is settled; the relative weight of social divisions is disputed.
+
+[16]
+CONSENSUAL: Economic conditions correlate with incumbent re-election rates more consistently than local weather patterns do.
+SHARED: Economic conditions, incumbent re-election
+WHY: the basic economic correlation is settled; whether it outweighs active campaigning is disputed.
+
+[17]
+CONSENSUAL: Online campaign advertising targets specific demographic groups of eligible registered voters.
+SHARED: Online campaign advertising, voters
+WHY: the demographic targeting mechanics are settled; the actual persuasive effect is disputed.
+
+[18]
+CONSENSUAL: Unconditional cash transfers distribute direct financial resources to eligible low-income adults.
+SHARED: Unconditional cash transfers, low-income adults
+WHY: the distribution of resources is definitional; the employment effect is disputed.
+
+[19]
+CONSENSUAL: Minimum-wage hikes materially increase the legally mandated hourly earnings of employed young workers.
+SHARED: Minimum-wage hikes, materially, young workers
+WHY: the effect on legally mandated hourly pay is settled; the unemployment effect is disputed.
+
+[20]
+CONSENSUAL: Federal housing vouchers subsidize approved low-income rents within the private real estate market.
+SHARED: housing vouchers, low-income rents
+WHY: the mechanism of subsidizing private rent is settled; the aggregate price effect is disputed.
+
+[21]
+CONSENSUAL: Free trade agreements lower aggregate import tariffs among participating wealthy countries.
+SHARED: Free trade agreements, wealthy countries
+WHY: the reduction of tariffs is definitional; the effect on real wages is disputed.
+
+[22]
+CONSENSUAL: Annual wealth taxes require complex asset valuations from affected wealthy taxpayers.
+SHARED: Annual wealth taxes, wealthy taxpayers
+WHY: the administrative valuation requirement is settled; the migration effect is disputed.
+
+[23]
+CONSENSUAL: Industrial policy directs more government subsidies toward strategic industries than free markets do.
+SHARED: Industrial policy, strategic industries, free markets
+WHY: the difference in state funding allocation is definitional; the ultimate performance outcome is disputed.
+
+[24]
+CONSENSUAL: Immigration expands the total demographic labor pool alongside native workers lacking university degrees.
+SHARED: Immigration, native workers lacking university degrees
+WHY: the expansion of the labor pool is mathematical; the wage effect on specific groups is disputed.
+
+[25]
+CONSENSUAL: Central bank independence separates national monetary policy from direct executive control within countries.
+SHARED: Central bank independence, countries
+WHY: the institutional separation of powers is definitional; the ultimate inflation effect is disputed.
+
+[26]
+CONSENSUAL: Persistent government deficits increase the aggregate national debt burden over the long run.
+SHARED: Government deficits, over the long run
+WHY: the mathematical accumulation of debt is settled; the crowding out of private investment is disputed.
+
+[27]
+CONSENSUAL: Restrictive zoning legally limits the allowable construction density of urban housing.
+SHARED: Restrictive zoning, urban housing
+WHY: the legal limitation on density is definitional; its dominance in explaining high prices is disputed.
+
+[28]
+CONSENSUAL: Bitcoin experiences distinct price volatility independent of traditional consumer-price inflation metrics.
+SHARED: Bitcoin, consumer-price inflation
+WHY: its independent price volatility is settled; its effectiveness as a hedge is disputed.
+
+[29]
+CONSENSUAL: Poor households' absolute incomes remain strictly below the average income during national growth.
+SHARED: Poor households' incomes, average income, national growth
+WHY: the mathematical definition of being poor relative to average is settled; the proportionate rise is disputed.
+
+[30]
+CONSENSUAL: Pandemic quantitative easing materially expanded the aggregate balance sheet of the United States Federal Reserve.
+SHARED: Pandemic quantitative easing, materially, United States
+WHY: the expansion of the central bank balance sheet is settled; the subsequent inflation effect is disputed.
+
+[31] SKIP
+
+[32]
+CONSENSUAL: Corporate tax-rate hikes materially reduce the immediate post-tax profit margins of affected businesses.
+SHARED: Corporate tax-rate hikes, materially, business
+WHY: the accounting effect on post-tax profit is settled; the long-run investment behavior is disputed.
+
+[33] SKIP
+
+[34]
+CONSENSUAL: High public debt causally increases total government expenditure on sovereign interest payments.
+SHARED: High public debt, causally
+WHY: the mathematical increase in interest obligations is settled; the broader effect on GDP growth is disputed.
+
+[36]
+CONSENSUAL: Dietary saturated fat represents a measured macronutrient class in cardiovascular disease epidemiology.
+SHARED: Dietary saturated fat, cardiovascular disease
+WHY: its status as an studied macronutrient is settled; its status as a principal cause is disputed.
+
+[44]
+CONSENSUAL: Moderate alcohol consumption introduces measurable quantities of metabolizable ethanol into the human bloodstream.
+SHARED: Moderate alcohol consumption, health
+WHY: the physiological ingestion of ethanol is settled; the absence of any health benefit is disputed.
+
+[46]
+CONSENSUAL: The absence of alien signals characterizes all systematic radio astronomy searches to date.
+SHARED: absence of alien signals
+WHY: the empirical lack of detected signals is settled; what it indicates about intelligent life is disputed.
+
+[47]
+CONSENSUAL: Quantum mechanics calculates the exact mathematical probability of observing a single definite outcome.
+SHARED: Quantum mechanics, single definite outcome
+WHY: the mathematical calculation of probabilities is settled; whether this requires abandoning definite underlying reality is disputed.
+
+[48]
+CONSENSUAL: Observational nutrition studies reliably identify statistical correlations regarding the human consumption of individual foods.
+SHARED: Observational nutrition studies, reliably identify, individual foods
+WHY: the identification of correlations is settled; the identification of causal effects is disputed.
+
+[49]
+CONSENSUAL: The fine-structure constant determines the exact spacing of atomic spectral lines across cosmic history.
+SHARED: fine-structure constant, cosmic history
+WHY: its role in determining atomic spectra across observed space is settled; its variation over time is disputed.
+
+[50]
+CONSENSUAL: Black holes trap incoming visible light rather than allowing it to escape their event horizons.
+SHARED: Black holes, rather
+WHY: the trapping of light at the event horizon is settled; the ultimate preservation of quantum information is disputed.
+
+[51]
+CONSENSUAL: The Hubble tension involves differing cosmic expansion measurements rather than perfectly matching empirical data.
+SHARED: Hubble tension, rather
+WHY: the discrepancy between different measurements is settled; the underlying cause of the discrepancy is disputed.
+
+[52]
+CONSENSUAL: Cuprate superconductors exhibit exactly zero electrical resistance below their specific critical transition temperatures.
+SHARED: cuprate superconductors
+WHY: the macroscopic phenomenon of zero resistance is settled; the microscopic pairing mechanism is disputed.
+
+[53]
+CONSENSUAL: Most human non-coding DNA lacks exact protein-building instructions rather than directly encoding messenger RNA.
+SHARED: Most human non-coding DNA, rather
+WHY: the lack of protein-coding instructions is definitional; its functional status as residue vs useful is disputed.
+
+[54]
+CONSENSUAL: Genome-wide association studies explain observable statistical linkages between specific genetic variants and complex traits.
+SHARED: explain, genetic variants, complex traits
+WHY: the discovery of statistical linkages is settled; their contribution to solving the missing heritability problem is disputed.
+
+[55]
+CONSENSUAL: The adult human brain continually reorganizes synaptic connections between existing neurons throughout life.
+SHARED: adult human brain, neurons, throughout life
+WHY: synaptic plasticity is settled; adult neurogenesis is disputed.
+
+[56]
+CONSENSUAL: Direct reciprocal exchanges maintain observable daily cooperation among modern human populations.
+SHARED: cooperation among human populations
+WHY: the existence of reciprocal cooperation is settled; the evolutionary mechanism of group selection is disputed.
+
+[57]
+CONSENSUAL: Modern viruses possess significantly smaller physical genomes than typical modern cellular organisms do.
+SHARED: Viruses, cellular
+WHY: the relative genome size is settled; the evolutionary timeline of viral origins is disputed.
+
+[60]
+CONSENSUAL: Neanderthal vocal anatomy included a physical hyoid bone resembling that of modern humans.
+SHARED: Neanderthal vocal anatomy, modern human
+WHY: the physical presence of the hyoid bone is settled; their capacity for complex speech is disputed.
+
+[61]
+CONSENSUAL: Autoregressive transformers causally condition each new generated output token upon the preceding text sequence.
+SHARED: Autoregressive transformers, causally
+WHY: the autoregressive generation mechanism is definitional; the acquisition of internal world models is disputed.
+
+[65]
+CONSENSUAL: Language-model safety fine-tuning alters the baseline output probabilities across standard general capability benchmarks.
+SHARED: Language-model safety fine-tuning, general capability
+WHY: the alteration of baseline outputs is settled; whether this constitutes a degradation of general capabilities is disputed.
+
+[66]
+CONSENSUAL: Metric choice defines the exact mathematical evaluation criteria applied to large language models.
+SHARED: Metric choice, large language models
+WHY: the definitional role of metrics in evaluation is settled; their responsibility for the appearance of emergent abilities is disputed.
+
+[67]
+CONSENSUAL: Classical computing architectures utilize explicit symbolic structure to process discrete mathematical information.
+SHARED: explicit symbolic structure
+WHY: classical systems using symbols to generalize is settled; whether neural networks require this is disputed.
+
+[68]
+CONSENSUAL: Differential privacy adds calibrated mathematical noise to aggregate statistics to protect individual database entries.
+SHARED: Differential privacy, aggregate statistics
+WHY: the mechanism of adding noise is definitional; its preservation of usefulness under realistic budgets is disputed.
+
+[69]
+CONSENSUAL: Transformer parameter scaling reliably yields lower average cross-entropy loss during the pretraining of language models.
+SHARED: Transformer parameter scaling yields, language models
+WHY: the reduction in average loss from scaling is settled; the acquisition of systematic compositional generalization is disputed.
+
+[70]
+CONSENSUAL: Chain-of-thought prompting produces intermediate text tokens prior to returning the requested final answer.
+SHARED: Chain-of-thought prompting
+WHY: the generation of intermediate text is settled; whether this constitutes genuine internal computation is disputed.
+
+[71]
+CONSENSUAL: Retrieval augmentation utilizes more external database queries during inference than equivalent parameter scaling does.
+SHARED: Retrieval augmentation, equivalent parameter scaling
+WHY: the architectural reliance on external queries is definitional; the relative reduction in factual errors is disputed.
+
+[72]
+CONSENSUAL: Computational training costs scale mathematically alongside the ingestion of additional training data.
+SHARED: scales, additional training data
+WHY: the mathematical cost of processing more data is settled; the continued predictable capability improvement is disputed.
+
+[73]
+CONSENSUAL: Observable chain-of-thought traces contain sequential intermediate text tokens generated during a model's inference phase.
+SHARED: chain-of-thought traces, model's
+WHY: the presence of intermediate tokens is definitional; their faithfulness to actual internal computation is disputed.
+
+[74]
+CONSENSUAL: Synthetic training data consists of previously generated text outputs from other automated artificial models.
+SHARED: Synthetic training data, model
+WHY: the origin of synthetic data is definitional; its degrading effect over successive generations is disputed.
+
+[75]
+CONSENSUAL: Mixture-of-experts activate fewer total network parameters per inference step than equivalent dense models do.
+SHARED: Mixture-of-experts, dense models
+WHY: the sparse activation of parameters is definitional; the ultimate performance advantage at equal compute is disputed.
+
+[76]
+CONSENSUAL: Language-model safety alignment modifies response probabilities rather than completely erasing underlying parameter matrices.
+SHARED: Language-model safety alignment, rather
+WHY: the modification of probabilities instead of deleting weights is settled; whether this merely suppresses outputs instead of removing capabilities is disputed.
+
+[77]
+CONSENSUAL: Carbon taxes establish a fixed compliance price per ton more directly than permit trading does.
+SHARED: Carbon taxes, permit trading
+WHY: the mechanism of fixing the price instead of the quantity is definitional; the ultimate performance at cutting emissions is disputed.
+
+[78]
+CONSENSUAL: National carbon pricing attaches mandatory financial costs to industrial greenhouse gas emissions.
+SHARED: National carbon pricing, emissions
+WHY: the imposition of a financial cost is definitional; its success at lowering emissions while preserving growth is disputed.
+
+[79]
+CONSENSUAL: Retiring existing nuclear plants permanently removes established baseload generation capacity from the power-sector grid.
+SHARED: Retiring existing nuclear plants, power-sector
+WHY: the physical removal of baseload capacity is settled; the subsequent effect on total carbon emissions is disputed.
+
+[80]
+CONSENSUAL: Commercial carbon offsets are financial instruments designed to fund specific targeted greenhouse gas reductions.
+SHARED: carbon offsets, reductions
+WHY: the financial design and intent of the instruments is settled; their actual success at delivering reductions is disputed.
+
+[81]
+CONSENSUAL: Demand-side measures deliberately target consumer behavioral changes to alter total aggregate energy consumption.
+SHARED: Demand-side measures
+WHY: the behavioral targeting mechanism is definitional; the ultimate effect on emissions and well-being is disputed.
+
+[82]
+CONSENSUAL: Genetically engineered herbicide-tolerant crops survive direct chemical applications that successfully eliminate surrounding agricultural weeds.
+SHARED: Herbicide-tolerant crops
+WHY: their biological resistance to specific chemicals is definitional; the net impact on total pesticide toxicity is disputed.
+
+[83]
+CONSENSUAL: Global climate models mathematically simulate atmospheric cloud feedbacks resulting from changing tropical circulation patterns.
+SHARED: Climate models, cloud feedbacks, changing tropical circulation
+WHY: the computational simulation of these feedbacks is settled; whether the models systematically underestimate them is disputed.
+
+[84]
+CONSENSUAL: The chemical recycling of plastic breaks complex polymer chains into fundamental molecular monomers.
+SHARED: chemical recycling of plastic
+WHY: the molecular breakdown process is definitional; the net lifecycle environmental benefit is disputed.
+
+[85]
+CONSENSUAL: The observed warming since 1970 coincides temporally with steadily increasing atmospheric carbon dioxide concentrations.
+SHARED: observed warming since 1970
+WHY: the correlation with carbon dioxide increases is settled; what this implies for equilibrium climate sensitivity is disputed.
+
+[86]
+CONSENSUAL: Experimental ocean iron fertilization reliably triggers localized biological blooms of photosynthetic marine phytoplankton.
+SHARED: ocean iron fertilization
+WHY: the immediate biological blooming effect is settled; the long-term sequestration of carbon at a meaningful scale is disputed.
+
+[87]
+CONSENSUAL: Strict reserves legally prohibit more commercial resource extraction than multiple-use reserves do.
+SHARED: Strict reserves, multiple-use reserves
+WHY: the legal difference in permitted activities is definitional; their relative success at preventing fires is disputed.
+
+[88]
+CONSENSUAL: Cumulative school grades evaluate student performance over significantly longer timeframes than single standardized tests do.
+SHARED: School grades, standardized tests
+WHY: the chronological difference in assessment duration is settled; their relative predictive power for university success is disputed.
+
+[89]
+CONSENSUAL: Performance-based teacher pay directly links professional financial compensation to measured student academic outcomes.
+SHARED: Performance-based teacher pay, student
+WHY: the administrative linkage of pay to outcomes is definitional; its success in boosting scores is disputed.
+
+[90]
+CONSENSUAL: Assigned homework requires independent study time outside standard classroom hours for primary school children.
+SHARED: homework, primary school children
+WHY: the time requirement outside of class is definitional; the academic benefit of this practice is disputed.
+
+[91]
+CONSENSUAL: Induced teacher expectations serve as manipulated independent variables in modern educational psychology experiments.
+SHARED: Induced teacher expectations
+WHY: their role as experimental variables is settled; their actual effect on later achievement is disputed.
+
+[92]
+CONSENSUAL: Childhood neighborhoods explain observable geographic variations in local public school funding and demographic compositions.
+SHARED: Childhood neighborhoods, explain
+WHY: the geographic clustering of funding and demographics is settled; the causal impact on adult earnings is disputed.
+
+[93]
+CONSENSUAL: Smaller class sizes require schools to hire more total teachers per student than larger classes do.
+SHARED: Smaller class sizes
+WHY: the mathematical ratio of teachers to students is definitional; the boost to long-run outcomes is disputed.
+
+[94]
+CONSENSUAL: The physical neighborhood a child grows up in causally determines their default public school assignment.
+SHARED: neighborhood a child grows up in, causally
+WHY: the administrative determination of school assignment is settled; the causal effect on adult income is disputed.
+
+[95]
+CONSENSUAL: Functionally diverse teams contain more varied professional backgrounds than strictly homogeneous teams do.
+SHARED: Functionally diverse teams, homogeneous teams
+WHY: the presence of varied backgrounds is definitional; their superiority at solving complex problems is disputed.
+
+[96]
+CONSENSUAL: Portugal's drug decriminalization legally eliminated criminal prison sentences for the personal possession of illicit narcotics.
+SHARED: Portugal's drug decriminalization
+WHY: the legal removal of prison sentences is definitional; the subsequent effect on mortality is disputed.
+
+[97]
+CONSENSUAL: Stricter firearm regulation materially alters the mandatory legal requirements for lawful civilian gun ownership.
+SHARED: Stricter firearm regulation, materially
+WHY: the alteration of legal requirements is definitional; the impact on homicide rates is disputed.
+
+[98]
+CONSENSUAL: Body-worn police cameras objectively record audiovisual data during interactions between officers and civilian suspects.
+SHARED: Body-worn police cameras, civilian
+WHY: the recording of audiovisual data is definitional; their behavioral effect on civilian complaints is disputed.
+
+[99]
+CONSENSUAL: Cannabis legalization permits more commercial retail dispensaries to operate legally than strict prohibition does.
+SHARED: Cannabis legalization, prohibition does
+WHY: the legal operation of dispensaries is definitional; the effect on traffic fatalities is disputed.
+
+[100]
+CONSENSUAL: Standard implicit bias tests record millisecond reaction times during computerized psychological sorting tasks.
+SHARED: implicit bias tests
+WHY: the measurement of reaction times is definitional; their prediction of real-world discriminatory behavior is disputed.
+
+[101]
+CONSENSUAL: Standard growth-mindset interventions teach students that innate intellectual ability remains theoretically malleable over time.
+SHARED: growth-mindset interventions
+WHY: the content of the teaching curriculum is settled; the production of lasting academic gains is disputed.
+
+[102]
+CONSENSUAL: The original ego-depletion effect describes a theoretical decline in willpower following demanding self-control tasks.
+SHARED: ego-depletion effect
+WHY: the theoretical definition of the concept is settled; whether the effect is real and replicable is disputed.
+
+[103]
+CONSENSUAL: Early bilingualism involves the childhood acquisition and usage of two distinct grammatical language systems.
+SHARED: Early bilingualism
+WHY: the acquisition of two languages is definitional; the protective delay against dementia is disputed.
+
+[104]
+CONSENSUAL: Voluntary facial expressions causally contract specific underlying muscle groups across the human face.
+SHARED: facial expressions, causally
+WHY: the physiological contraction of muscles is settled; the causal influence on internal emotional experience is disputed.
+
+[105]
+CONSENSUAL: Psychological grit focuses more specifically on long-term goal perseverance than general conscientiousness does.
+SHARED: Grit, conscientiousness
+WHY: the definitional focus on long-term perseverance is settled; its superior predictive power for achievement is disputed.
+
+[106]
+CONSENSUAL: Experimental power poses require participants to hold physically expansive bodily postures during observation.
+SHARED: power poses
+WHY: the physical action of holding the posture is definitional; the resulting boost to subjective confidence is disputed.
+
+[109]
+CONSENSUAL: Extractive colonial institutions transferred more raw domestic wealth to imperial capitals than inclusive colonial institutions did.
+SHARED: Extractive colonial institutions, inclusive colonial institutions did
+WHY: the historical transfer of resources is settled; the ultimate long-term effect on post-colonial poverty is disputed.
+
+[110]
+CONSENSUAL: The atomic bombings of Japan obliterated the dense urban infrastructure of Hiroshima and Nagasaki.
+SHARED: atomic bombings of Japan
+WHY: the physical destruction of the cities is a historical fact; the moral and military justification is disputed.
+
+[112] SKIP
+
+[113] SKIP
+
+[114] SKIP
+
+[115]
+CONSENSUAL: The Black Death chiefly afflicted medieval populations through the rapid biological spread of Yersinia pestis.
+SHARED: Black Death, chiefly
+WHY: the biological cause of the plague is settled; its causal responsibility for the wage revolution is disputed.
+
+[116]
+CONSENSUAL: The Pacific coastal route provided migrating populations with more marine resources than the inland corridor.
+SHARED: Pacific coastal route, inland corridor
+WHY: the availability of marine resources on the coast is geographical fact; which route the evidence favors for migration is disputed.
+
+[117]
+CONSENSUAL: Prolonged drought chiefly threatens the foundational agricultural yields of ancient precipitation-dependent farming societies.
+SHARED: Prolonged drought, chiefly
+WHY: the agronomic impact of drought is settled; its status as the driving cause of the collapse is disputed.
+
+[118]
+CONSENSUAL: Pre-Columbian America contained far more indigenous linguistic diversity than early European accounts fully documented.
+SHARED: Pre-Columbian America, early
+WHY: the high linguistic diversity is settled; the exact historical population size is disputed.
+
+[119] SKIP
+
+[120]
+CONSENSUAL: Physical handwriting instruction demands more continuous fine motor control from students than keyboard typing does.
+SHARED: handwriting instruction, typing does
+WHY: the biomechanical demand on fine motor control is settled; the downstream cognitive benefit for reading is disputed.

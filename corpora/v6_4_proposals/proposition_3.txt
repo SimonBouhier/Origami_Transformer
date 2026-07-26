@@ -1,0 +1,469 @@
+[7]
+CONSENSUAL: Intensive blood-pressure targets specify lower systolic thresholds than standard targets.
+SHARED: intensive, blood-pressure, targets, standard
+WHY: The target thresholds are definitional, unlike comparative event prevention.
+
+[8]
+CONSENSUAL: Intermittent fasting schedules contain longer fasting intervals than continuous calorie restriction.
+SHARED: intermittent fasting, continuous calorie restriction
+WHY: The scheduling difference is definitional, not a metabolic-outcome comparison.
+
+[9]
+CONSENSUAL: Placebo analgesia reduces reported pain in controlled experimental settings.
+SHARED: placebo analgesia, reported pain
+WHY: Reported analgesia is established without claiming altered nociceptive processing.
+
+[10]
+CONSENSUAL: Screening mammography detects more cancers before age fifty, without proving benefits outweighing harms.
+SHARED: screening mammography, before age fifty, benefits, outweighing, harms
+WHY: Increased detection is established, while net benefit is a separate inference.
+
+[14]
+CONSENSUAL: Democratic peace records fewer wars among democracies than dictatorships, without establishing interests outweighing institutional explanations.
+SHARED: democratic peace, interests, outweighing, institutional explanations
+WHY: The observed association is robust without selecting its explanation (analysis).
+
+[15]
+CONSENSUAL: Electoral systems specify seat-allocation rules more directly than social divisions do.
+SHARED: electoral systems, social divisions
+WHY: Formal allocation rules are institutional definitions, not comparative causal magnitudes.
+
+[16]
+CONSENSUAL: Campaigns target voters more directly than economic conditions do during incumbent re-election contests.
+SHARED: campaigns, economic conditions, incumbent re-election
+WHY: Direct voter targeting differs without ranking effects on election outcomes.
+
+[17]
+CONSENSUAL: Online campaign advertising exposes voters to messages selected by political campaigns.
+SHARED: online, campaign advertising, voters
+WHY: Message exposure is inherent to advertising, not evidence of persuasion.
+
+[18]
+CONSENSUAL: Unconditional cash transfers provide recipients money without employment requirements.
+SHARED: unconditional cash transfers, employment
+WHY: Unconditionality is definitional and says nothing about recipients' employment response.
+
+[19]
+CONSENSUAL: Minimum-wage hikes materially raise the statutory hourly wage floor for covered young workers.
+SHARED: minimum-wage hikes, materially, young workers
+WHY: The legal wage floor changes by definition, not necessarily unemployment.
+
+[20]
+CONSENSUAL: Housing vouchers subsidize rents for eligible low-income households in private housing.
+SHARED: housing vouchers, rents, low-income
+WHY: The subsidy mechanism is established without asserting rent incidence or aggregate benefits.
+
+[21]
+CONSENSUAL: Free trade agreements reduce specified trade barriers between participating wealthy countries.
+SHARED: free trade agreements, wealthy countries
+WHY: Treaty provisions are observable without inferring average real-wage effects.
+
+[22]
+CONSENSUAL: Annual wealth taxes levy recurring charges on wealthy taxpayers' net assets.
+SHARED: annual wealth taxes, wealthy taxpayers
+WHY: The tax base and recurrence are definitional, not a migration response.
+
+[23]
+CONSENSUAL: Industrial policy targets strategic industries more explicitly than decentralized free markets do.
+SHARED: industrial policy, strategic industries, free markets
+WHY: Explicit targeting distinguishes the mechanisms without ranking their performance.
+
+[24]
+CONSENSUAL: Immigration includes foreign-born workers entering labor markets alongside native workers without university degrees.
+SHARED: immigration, native workers, university degrees
+WHY: Labor-market participation is observable without identifying native wage effects.
+
+[25]
+CONSENSUAL: Central bank independence varies across countries with distinct statutory monetary frameworks.
+SHARED: central bank independence, countries
+WHY: Institutional variation is documented without attributing inflation restraint.
+
+[26]
+CONSENSUAL: Government deficits record spending above revenue, not changes in private investment.
+SHARED: government deficits, private investment
+WHY: The fiscal accounting identity does not establish long-run crowding out.
+
+[27]
+CONSENSUAL: Restrictive zoning legally limits permissible housing construction in designated urban areas.
+SHARED: restrictive zoning, housing, urban
+WHY: The legal constraint is established without ranking explanations of prices.
+
+[28]
+CONSENSUAL: Bitcoin has a predetermined issuance schedule independent of consumer-price inflation.
+SHARED: Bitcoin, consumer-price inflation
+WHY: Protocol issuance is specified without establishing effective hedging behavior.
+
+[29]
+CONSENSUAL: Poor households' incomes form one component of the income distribution during national growth.
+SHARED: poor households, incomes, income, national growth
+WHY: Statistical inclusion is certain without asserting proportional income movement.
+
+[30]
+CONSENSUAL: Pandemic quantitative easing materially expanded the United States Federal Reserve's balance sheet.
+SHARED: pandemic, quantitative easing, materially, United States
+WHY: Balance-sheet expansion is observed without assigning consumer-price inflation causation.
+
+[31]
+CONSENSUAL: Automation explains manufacturing task displacement chiefly through machines performing previously human tasks.
+SHARED: automation, explains, manufacturing, chiefly
+WHY: Task substitution is the mechanism's definition, not a jobs-versus-trade attribution.
+
+[32]
+CONSENSUAL: Corporate tax-rate hikes materially alter statutory rates applied to taxable business profits.
+SHARED: corporate tax-rate hikes, materially, business
+WHY: Statutory rate changes are mechanical without establishing investment effects.
+
+[33]
+CONSENSUAL: Licensing requires more credentials than unlicensed work, without establishing that price effects outweigh quality gains.
+SHARED: licensing, price effects, outweigh, quality gains
+WHY: Entry requirements are definitional, while the net consumer tradeoff remains separate.
+
+[34]
+CONSENSUAL: High public debt is measured separately from long-run GDP growth, without causally identifying direction.
+SHARED: high public debt, long-run GDP growth, causally
+WHY: Joint observation does not identify debt's causal growth effect.
+
+[36]
+CONSENSUAL: Replacing polyunsaturated fat with dietary saturated fat raises LDL cholesterol in controlled feeding trials.
+SHARED: dietary, saturated, fat
+WHY: The LDL effect is established without designating a principal disease cause (WHO review).
+
+[44]
+CONSENSUAL: Moderate alcohol consumption exposes drinkers to ethanol and its metabolite acetaldehyde.
+SHARED: moderate alcohol consumption
+WHY: Chemical exposure is certain without resolving net health benefit at every dose.
+
+[46]
+CONSENSUAL: No confirmed alien signals from intelligent life have been detected.
+SHARED: alien signals, intelligent life
+WHY: Nondetection is established without inferring how rare intelligence is (NASA).
+
+[47]
+CONSENSUAL: Quantum mechanics assigns a probability to each measurement outcome using the Born rule.
+SHARED: quantum mechanics, outcome
+WHY: The probability rule is established without choosing an interpretation of outcomes.
+
+[48]
+CONSENSUAL: Observational nutrition studies record associations between individual foods and measured health outcomes.
+SHARED: observational nutrition studies, individual foods
+WHY: Association measurement is established without reliable causal identification.
+
+[49]
+CONSENSUAL: The fine-structure constant is dimensionless and characterizes electromagnetic interaction strength.
+SHARED: fine-structure, constant
+WHY: Its physical definition is settled without asserting historical variation.
+
+[50]
+CONSENSUAL: Black holes are defined by event horizons rather than ordinary material surfaces.
+SHARED: black holes, rather
+WHY: Horizon structure is established without deciding information preservation.
+
+[51]
+CONSENSUAL: The Hubble tension compares early-universe predictions with late-universe measurements rather than identical methods.
+SHARED: Hubble tension, rather
+WHY: The inference routes are established without diagnosing the discrepancy (NASA).
+
+[52]
+CONSENSUAL: Cuprate superconductors exhibit antiferromagnetic spin fluctuations alongside unconventional electron pairing.
+SHARED: spin fluctuations, pairing, cuprate superconductors
+WHY: Coexistence is observed without identifying the primary pairing mechanism.
+
+[53]
+CONSENSUAL: Most human DNA is non-coding rather than protein-coding by sequence length.
+SHARED: most, human, non-coding, DNA, rather
+WHY: Genome composition is measured without assigning function to non-coding sequence.
+
+[54]
+CONSENSUAL: Common genetic variants explain measurable variation in numerous complex human traits.
+SHARED: common genetic variants, explain, complex traits
+WHY: Measurable associations exist without resolving the missing-heritability share.
+
+[55]
+CONSENSUAL: The adult human brain contains neurons generated during prenatal development.
+SHARED: adult human brain, neurons
+WHY: Prenatally generated neurons are established without asserting lifelong neurogenesis.
+
+[56]
+CONSENSUAL: Human populations display cooperation both within groups and across group boundaries.
+SHARED: cooperation, human populations, group
+WHY: Cooperative behavior is observed without assigning its evolution to group selection.
+
+[57]
+CONSENSUAL: Viruses share fewer universal genes than descendants of the last universal common cellular ancestor.
+SHARED: viruses, last universal common cellular ancestor
+WHY: No universal viral gene is established without dating viral origins (review).
+
+[60]
+CONSENSUAL: Neanderthal fossils preserve hyoid anatomy relevant to speech production.
+SHARED: Neanderthal, anatomy, speech
+WHY: Preserved anatomy is established without claiming modern-equivalent speech.
+
+[61]
+CONSENSUAL: Autoregressive transformers use causally masked attention during sequential token prediction.
+SHARED: autoregressive transformers, causally
+WHY: Autoregressive ordering is definitional without proving internal world models.
+
+[65]
+CONSENSUAL: Language-model safety fine-tuning changes model outputs through optimization on safety-related training signals.
+SHARED: language-model, safety fine-tuning
+WHY: Output modification is established without claiming general capability degradation.
+
+[66]
+CONSENSUAL: Metric choice determines how large language model abilities are numerically scored.
+SHARED: metric choice, abilities
+WHY: Scoring depends on metrics without establishing that emergence is merely apparent.
+
+[67]
+CONSENSUAL: Systematic compositional generalization combines familiar components in previously unseen configurations.
+SHARED: systematic compositional generalization
+WHY: This defines the target behavior without requiring symbolic implementation.
+
+[68]
+CONSENSUAL: Differential privacy bounds individual-record influence through formally specified privacy budgets.
+SHARED: differential privacy, privacy budgets
+WHY: The formal guarantee is settled without promising utility under realistic budgets.
+
+[69]
+CONSENSUAL: Transformer parameter scaling changes language-model capacity by adding trainable parameters.
+SHARED: transformer, parameter scaling
+WHY: Parameter addition is mechanical without establishing compositional generalization.
+
+[70]
+CONSENSUAL: Chain-of-thought prompting requests generated rationales before a model's final answer.
+SHARED: chain-of-thought prompting, generated rationales
+WHY: The prompt format is observable without establishing additional internal computation.
+
+[71]
+CONSENSUAL: Retrieval augmentation supplies more external text at inference than parameter scaling does.
+SHARED: retrieval augmentation, parameter scaling
+WHY: Context provision differs structurally without comparing factual-error rates.
+
+[72]
+CONSENSUAL: Language-model training data consists of token sequences used to optimize model parameters.
+SHARED: model, training data
+WHY: The training input is definitional without claiming predictable capability scaling.
+
+[73]
+CONSENSUAL: Chain-of-thought traces consist of model-generated tokens presented as intermediate reasoning.
+SHARED: chain-of-thought traces, model
+WHY: The trace format is observable without establishing computational faithfulness.
+
+[74]
+CONSENSUAL: Synthetic training data consists of examples generated by computational models.
+SHARED: synthetic training data
+WHY: Data provenance is definitional without claiming generational quality degradation.
+
+[75]
+CONSENSUAL: Mixture-of-experts models activate fewer parameters per token than comparably sized dense models.
+SHARED: mixture-of-experts, dense models, parameters
+WHY: Sparse activation is architectural without establishing equal-compute performance.
+
+[76]
+CONSENSUAL: Language-model safety alignment targets behavioral outputs rather than guaranteeing the absence of harmful capabilities.
+SHARED: language-model safety alignment, outputs, rather, harmful capabilities
+WHY: The optimization target is established without deciding whether capabilities remain.
+
+[77]
+CONSENSUAL: Carbon taxes set emissions prices more directly than permit trading systems do.
+SHARED: carbon taxes, permit trading, emissions
+WHY: Price-setting mechanisms differ without ranking emissions performance.
+
+[78]
+CONSENSUAL: National carbon pricing assigns monetary costs to covered greenhouse-gas emissions.
+SHARED: national carbon pricing, emissions
+WHY: Coverage creates a price without establishing national emissions or GDP effects.
+
+[79]
+CONSENSUAL: Retiring existing nuclear plants removes operating low-carbon electricity generation capacity.
+SHARED: retiring, existing nuclear plants, carbon
+WHY: Low-carbon capacity removal is certain without specifying replacement emissions (IPCC).
+
+[80]
+CONSENSUAL: Carbon offsets represent claimed emissions reductions or removals outside the buyer's operations.
+SHARED: carbon offsets, reductions
+WHY: This is the instrument's definition, not a judgment of delivery rates.
+
+[81]
+CONSENSUAL: Demand-side measures target consumption-related emissions through changes in services and technologies.
+SHARED: demand-side measures, emissions
+WHY: Their intervention domain is established without quantifying cuts or well-being.
+
+[82]
+CONSENSUAL: Herbicide-tolerant crops survive applications of designated herbicides at labeled doses.
+SHARED: herbicide-tolerant crops
+WHY: The engineered tolerance is established without calculating total pesticide toxicity.
+
+[83]
+CONSENSUAL: Climate models represent cloud feedbacks and tropical circulation through resolved dynamics and parameterizations.
+SHARED: climate models, cloud feedbacks, tropical circulation
+WHY: Model representation is established without determining feedback bias.
+
+[84]
+CONSENSUAL: Chemical recycling converts plastic polymers into chemical feedstocks through industrial processes.
+SHARED: chemical recycling, plastic
+WHY: Process conversion is established without a net lifecycle assessment.
+
+[85]
+CONSENSUAL: Observed warming since 1970 is one constraint used in climate sensitivity estimation.
+SHARED: observed warming since 1970, climate sensitivity
+WHY: Observations constrain estimates without implying a low equilibrium value.
+
+[86]
+CONSENSUAL: Ocean iron fertilization stimulates phytoplankton growth in iron-limited surface waters.
+SHARED: ocean iron fertilization
+WHY: Phytoplankton stimulation is established without durable scaled sequestration (National Academies).
+
+[87]
+CONSENSUAL: Strict reserves permit fewer extractive activities than multiple-use reserves in tropical forests.
+SHARED: strict reserves, multiple-use reserves, tropical forest
+WHY: Permitted-use rules differ without comparing fire prevention.
+
+[88]
+CONSENSUAL: School grades cover longer periods of student work than standardized tests.
+SHARED: school grades, standardized tests
+WHY: Measurement duration differs without comparing predictive validity for university success.
+
+[89]
+CONSENSUAL: Performance-based teacher pay ties compensation to specified measures of teacher performance.
+SHARED: performance-based teacher pay, teacher
+WHY: Compensation design is definitional without establishing effects on student scores.
+
+[90]
+CONSENSUAL: Homework assigns primary school children academic tasks to complete outside class.
+SHARED: homework, academic, primary school children
+WHY: The assignment format is established without estimating academic benefit.
+
+[91]
+CONSENSUAL: Induced teacher expectations change information teachers receive about selected students.
+SHARED: induced teacher expectations, students
+WHY: Experimental information assignment is established without claiming later achievement effects.
+
+[92]
+CONSENSUAL: Childhood neighborhoods explain geographic exposure measures constructed directly from residential addresses.
+SHARED: childhood neighborhoods, explain
+WHY: Residence determines local exposure without attributing adult earnings differences.
+
+[93]
+CONSENSUAL: Smaller class sizes give each teacher fewer students than larger classes do.
+SHARED: smaller class sizes, students
+WHY: Class enrollment is definitional without asserting long-run outcomes.
+
+[94]
+CONSENSUAL: A child's neighborhood causally determines local school eligibility in geographically zoned systems.
+SHARED: child, neighborhood, causally
+WHY: Residential location fixes local exposure without establishing adult-income effects.
+
+[95]
+CONSENSUAL: Functionally diverse teams contain more distinct occupational roles than functionally homogeneous teams.
+SHARED: functionally diverse teams, homogeneous teams
+WHY: Functional composition is definitional without comparing problem-solving performance.
+
+[96]
+CONSENSUAL: Portugal's drug decriminalization replaced criminal penalties for personal possession with administrative responses.
+SHARED: Portugal's, drug decriminalization
+WHY: The legal reform is documented without assigning mortality effects.
+
+[97]
+CONSENSUAL: Firearm regulation materially determines whether specified firearm transactions are legally permitted.
+SHARED: firearm regulation, materially
+WHY: Legal scope is established without estimating homicide effects.
+
+[98]
+CONSENSUAL: Body-worn police cameras create audiovisual records of police encounters when activated.
+SHARED: body-worn police cameras
+WHY: Recording is the device's direct function without explaining complaint changes.
+
+[99]
+CONSENSUAL: Cannabis legalization permits lawful possession in more circumstances than prohibition does.
+SHARED: cannabis legalization, prohibition
+WHY: Legal possession rules differ without comparing traffic fatalities.
+
+[100]
+CONSENSUAL: Implicit bias tests operationalize implicit bias through standardized indirect behavioral tasks.
+SHARED: implicit bias tests, bias
+WHY: The measured task is established without asserting real-world prediction.
+
+[101]
+CONSENSUAL: Growth-mindset interventions present academic abilities as developable through effort, strategies, and instruction.
+SHARED: growth-mindset interventions, academic
+WHY: Intervention content is established without claiming lasting achievement gains.
+
+[102]
+CONSENSUAL: Ego-depletion experiments test the proposed effect using an initial self-control task.
+SHARED: ego-depletion, effect
+WHY: The experimental paradigm exists without establishing a replicable effect.
+
+[103]
+CONSENSUAL: Early bilingualism involves acquiring and using two languages during childhood.
+SHARED: early bilingualism
+WHY: Early dual-language acquisition is definitional without asserting dementia delay.
+
+[104]
+CONSENSUAL: Motor commands causally generate facial expressions through coordinated muscle activation.
+SHARED: facial expressions, causally
+WHY: The motor pathway is established without reversing causation toward emotion.
+
+[105]
+CONSENSUAL: Grit questionnaires resemble conscientiousness scales more closely in format than intelligence tests.
+SHARED: grit, conscientiousness, intelligence
+WHY: Construct content overlaps without comparing prediction of academic achievement.
+
+[106]
+CONSENSUAL: Power poses are expansive bodily postures used in embodied-feedback experiments.
+SHARED: power poses, embodied feedback
+WHY: The experimental posture is defined without asserting confidence effects.
+
+[109]
+CONSENSUAL: Extractive colonial institutions concentrated more political power than inclusive institutions by design.
+SHARED: extractive colonial institutions, inclusive institutions
+WHY: Institutional concentration is definitional without explaining later national income.
+
+[110]
+CONSENSUAL: United States leaders invoked military necessity when discussing the atomic bombings of Japan.
+SHARED: military necessity, atomic bombings, Japan
+WHY: The military rationale is documented without judging its justification (NPS).
+
+[112]
+CONSENSUAL: Hitler's antisemitic writings appeared earlier than cumulative bureaucratic radicalization, which explains their distinct Holocaust chronology.
+SHARED: Hitler's, earlier, explains, Holocaust, cumulative bureaucratic radicalization
+WHY: The chronology is established without choosing between intentionalist and functionalist explanations.
+
+[113]
+CONSENSUAL: Low output growth chiefly explains measured Soviet economic weakness before the Cold War ended.
+SHARED: Soviet economic weakness, chiefly, explains, Cold War
+WHY: Output measurement establishes economic weakness without assigning the geopolitical outcome.
+
+[114]
+CONSENSUAL: Atlantic trade chiefly explains Atlantic port growth during Western Europe's early modern rise.
+SHARED: Atlantic trade, chiefly, explains, early modern
+WHY: Trade directly generated port commerce without explaining the whole regional rise.
+
+[115]
+CONSENSUAL: The Black Death chiefly reduced Europe's working-age population through widespread mortality.
+SHARED: Black Death, chiefly, Europe
+WHY: Massive demographic loss is established without assigning the wage mechanism (Nature).
+
+[116]
+CONSENSUAL: The Pacific coastal route lies farther west than the inland corridor.
+SHARED: Pacific coastal route, inland corridor
+WHY: Route geography differs without ranking archaeological evidence.
+
+[117]
+CONSENSUAL: Prolonged drought chiefly limits water availability for agriculture during the Bronze Age.
+SHARED: prolonged drought, chiefly, Bronze Age
+WHY: The hydrological mechanism is established without causing the civilization-wide collapse.
+
+[118]
+CONSENSUAL: Pre-Columbian America was more populous before European contact than after colonial demographic collapse.
+SHARED: Pre-Columbian America, more populous
+WHY: Post-contact collapse is established without validating early estimates (PNAS).
+
+[119]
+CONSENSUAL: Agriculture supports higher population density than foraging, which explains denser settlements.
+SHARED: higher, foraging, explains, agriculture
+WHY: Settlement density follows subsistence capacity without explaining agriculture's historical spread.
+
+[120]
+CONSENSUAL: Handwriting requires more fine-motor stroke production than typing does.
+SHARED: handwriting, typing
+WHY: Motor execution differs without comparing reading acquisition.

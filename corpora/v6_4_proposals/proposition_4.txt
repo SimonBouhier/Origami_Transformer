@@ -1,0 +1,109 @@
+[7]
+CONSENSUAL: Intensive blood-pressure targets achieve lower systolic blood pressure than standard targets.
+SHARED: Intensive blood-pressure targets, standard targets
+WHY: the BP-lowering difference is established; the impact on cardiovascular events is disputed
+
+[8]
+CONSENSUAL: Intermittent fasting involves longer fasting periods than continuous calorie restriction.
+SHARED: Intermittent fasting, continuous calorie restriction
+WHY: the presence of fasting periods is definitional; the effect on insulin sensitivity is disputed
+
+[9]
+CONSENSUAL: Placebo analgesia reduces reported pain in many controlled clinical trials worldwide.
+SHARED: Placebo analgesia, reported pain
+WHY: the pain reduction is established; the claim about changing nociceptive processing beyond reported pain is disputed
+
+[10]
+CONSENSUAL: Screening mammography before age fifty detects breast cancer earlier than later screening.
+SHARED: Screening mammography, before age fifty
+WHY: early detection is established; the net benefit-harm balance before age fifty is disputed
+
+[14]
+CONSENSUAL: Democratic states have fewer wars with each other than with non-democratic states, outweighing institutional factors.
+SHARED: Democratic, institutional
+WHY: the existence of democratic peace (fewer wars) is established; the relative weight of shared interests vs institutional explanations is disputed
+
+[15]
+CONSENSUAL: Electoral systems produce more parties in proportional systems than in majoritarian systems.
+SHARED: Electoral systems, parties
+WHY: the effect of electoral system type on party count is established; the relative influence vs social divisions is disputed
+
+[16]
+CONSENSUAL: Incumbents win more often when economic conditions are strong than when they are weak.
+SHARED: Incumbents, economic conditions
+WHY: the correlation between economic conditions and incumbent success is established; the relative weight vs campaigns is disputed
+
+[17]
+CONSENSUAL: Online campaign advertising delivers political messages to voters on social media platforms.
+SHARED: Online campaign advertising, voters
+WHY: the delivery of messages is established; the magnitude of persuasion effects is disputed
+
+[18]
+CONSENSUAL: Unconditional cash transfers provide direct income support to low-income adults in many countries.
+SHARED: Unconditional cash transfers, low-income adults
+WHY: the provision of income is established; the effect on employment is disputed
+
+[19]
+CONSENSUAL: Minimum-wage hikes materially raise wages for many young low-wage workers.
+SHARED: Minimum-wage hikes, young workers
+WHY: the wage increase for young workers is established; the unemployment effect is disputed
+
+[20]
+CONSENSUAL: Housing vouchers increase housing affordability for many low-income households across cities.
+SHARED: Housing vouchers, low-income
+WHY: the increase in affordability is established; the rent effect is disputed
+
+[21]
+CONSENSUAL: Free trade agreements increase trade flows between wealthy countries significantly.
+SHARED: Free trade agreements, wealthy countries
+WHY: the increase in trade flows is established; the wage effect is disputed
+
+[22]
+CONSENSUAL: Annual wealth taxes apply to wealthy individuals in many high-income countries.
+SHARED: Annual wealth taxes, wealthy
+WHY: the application of wealth taxes to wealthy individuals is established; the migration effect is disputed
+
+[23]
+CONSENSUAL: Industrial policy allocates more resources to strategic industries than free markets do.
+SHARED: Industrial policy, free markets, strategic industries
+WHY: the resource allocation is established; the performance at building industries is disputed
+
+[24]
+CONSENSUAL: Immigration increases the labor supply for native workers in many occupations.
+SHARED: Immigration, native workers
+WHY: the increase in labor supply for native workers is established; the wage effect is disputed
+
+[25]
+CONSENSUAL: Central bank independence exists in many countries across different regions.
+SHARED: Central bank independence, countries
+WHY: the existence of central bank independence in many countries is established; the effect on inflation is disputed
+
+[26]
+CONSENSUAL: Government deficits increase public debt over the long run in many countries.
+SHARED: Government deficits, over the long run
+WHY: the increase in public debt over the long run is established; the crowding out effect is disputed
+
+[27]
+CONSENSUAL: Restrictive zoning limits urban housing supply in many large cities.
+SHARED: Restrictive zoning, urban housing
+WHY: the restriction of housing supply is established; the dominance of zoning in explaining high prices is disputed
+
+[28]
+CONSENSUAL: Bitcoin is a digital asset that experiences price volatility amid consumer-price inflation.
+SHARED: Bitcoin, consumer-price inflation
+WHY: the volatility amid inflation is established; the hedge effectiveness is disputed
+
+[29]
+CONSENSUAL: Poor households' incomes rise in tandem with average income during national growth.
+SHARED: Poor households' incomes, average income, national growth
+WHY: the rise in poor households' incomes during growth is established; the proportionality is disputed
+
+[30]
+CONSENSUAL: Pandemic quantitative easing materially increased the money supply in the United States.
+SHARED: Pandemic quantitative easing, United States
+WHY: the increase in money supply is established; the amplification of inflation is disputed
+
+[31]
+CONSENSUAL: Automation chiefly explains recent productivity growth in manufacturing sectors.
+SHARED: Automation, manufacturing, chiefly, explains
+WHY: the contribution of automation to productivity growth in manufacturing is established; the relative contribution to job losses vs trade

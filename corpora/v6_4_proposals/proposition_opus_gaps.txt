@@ -1,0 +1,29 @@
+[52]
+CONSENSUAL: Cuprate superconductors show spin fluctuations near their critical temperature.
+SHARED: cuprate, superconductors, spin, fluctuations
+WHY: the presence of spin fluctuations is observed; their role as the pairing mechanism is disputed.
+
+[75]
+CONSENSUAL: Mixture-of-experts activate fewer parameters per token than dense models.
+SHARED: mixture-of-experts, parameters, dense, models
+WHY: the sparsity of activation is definitional; the performance gain at equal compute is disputed.
+
+[82]
+CONSENSUAL: Herbicide-tolerant crops survive herbicide applications at labeled doses.
+SHARED: herbicide-tolerant, crops, herbicide
+WHY: chemical tolerance is definitional; the net effect on total pesticide toxicity is disputed.
+
+[86]
+CONSENSUAL: Ocean iron fertilization triggers algal blooms in iron-poor waters.
+SHARED: ocean, iron, fertilization
+WHY: the bloom response is observed; whether it sequesters carbon at scale is disputed.
+
+[102]
+CONSENSUAL: Ego-depletion experiments measure performance after a self-control task.
+SHARED: ego-depletion, self-control
+WHY: the experimental paradigm is defined; whether the effect is real and replicable is disputed.
+
+[112]
+CONSENSUAL: Nazi bureaucratic radicalization escalated the Holocaust faster after 1941 than before.
+SHARED: bureaucratic, radicalization, holocaust
+WHY: the post-1941 escalation is documented; whether prior intent or cumulative radicalization explains it is disputed.

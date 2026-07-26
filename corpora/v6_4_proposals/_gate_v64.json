@@ -1,0 +1,61 @@
+{
+  "n_pairs": 120,
+  "proposed_thresholds": {
+    "A_tfidf_lodo_max": 0.6,
+    "B_onesided_coverage_max": 0.15,
+    "C_median_subject_overlap_min": 2,
+    "D_degeneracy_max_identical": 0.95
+  },
+  "checks": {
+    "A_tfidf_lodo": {
+      "value": 0.6625,
+      "pass": false
+    },
+    "B_onesided_coverage": {
+      "value": 0.29583333333333334,
+      "pass": false,
+      "words_contested_only": [
+        "real",
+        "cardiovascular",
+        "achievement",
+        "benefits",
+        "gdp",
+        "behavior",
+        "internal",
+        "it",
+        "yields"
+      ],
+      "words_consensual_only": [
+        "raises",
+        "token",
+        "between",
+        "mathematical",
+        "groups",
+        "increase",
+        "experiments",
+        "through",
+        "one",
+        "across",
+        "into",
+        "output",
+        "larger",
+        "directly"
+      ]
+    },
+    "C_subject_overlap": {
+      "median": 4.0,
+      "n_zero_overlap": 2,
+      "pass": true,
+      "lines_zero_overlap": [
+        1,
+        42
+      ]
+    },
+    "D_markers": {
+      "value": 0.6416666666666667,
+      "identical_fraction": 0.5083333333333333,
+      "vacuous": false
+    }
+  },
+  "overall_pass_proposed": false
+}
