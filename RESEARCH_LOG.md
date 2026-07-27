@@ -342,3 +342,63 @@ n'est pas geometriquement specifique. Recommandation au chercheur : gel du pont
 jusqu'a v7 (controle du style syntaxique). Idem pont Origa->EPP.
 
 v7 propose : apparier sur la CONSTRUCTION SYNTAXIQUE, pas seulement le domaine.
+
+## 2026-07-26 — Verdict v7 : HF_DEMENTI global (0/6)
+
+Gel v7 le 2026-07-26 (commit aa120bd, stamp d89a45f). Premiere campagne a
+pre-enregistrer une FORME et non un niveau : la marge geometrique tient-elle
+quand on rend le corpus progressivement plus dur pour le bon marche ? 33 rungs
+(120 -> 56 paires) construits MODEL-FREE, corpus v6.4 appari par domaine ET
+par sujet, 6 modeles dont l'echelle Pythia controlee. 48/48 mesures conformes
+au gel, 86 min de RTX 4090.
+
+CONTROLE PREALABLE — corpus nul (deux bras du meme vivier consensuel) : toutes
+les BA_geo sous leur plancher de permutation, tous les IC contenant zero. Le
+pipeline ne trouve rien quand il n'y a rien, mesure GPU comprise. Etalon ~0.59.
+
+| modele      | BA_geo r0->r32 | pente  | r(geo,cheap) | soutien | MDL gap |
+|-------------|----------------|--------|--------------|---------|---------|
+| bloom-560m  | 0.675 -> 0.554 | -0.102 | +0.833       | 11/33   | 0/33 >0 |
+| gpt2        | 0.671 -> 0.607 | -0.058 | +0.692       | 19/33   | 0/33 >0 |
+| opt-350m    | 0.688 -> 0.634 | -0.070 | +0.811       |  9/33   | 0/33 >0 |
+| pythia-410m | 0.600 -> 0.589 | -0.030 | +0.511       |  4/33   | 0/33 >0 |
+| pythia-1.4b | 0.683 -> 0.589 | -0.092 | +0.739       |  5/33   | 0/33 >0 |
+| pythia-2.8b | 0.654 -> 0.491 | -0.152 | +0.949       |  0/33   | 0/33 >0 |
+
+Requis : 22/33. GLOBAL 0/6 -> HF_DEMENTI.
+
+Trois instruments independants concordent : (1) le critere gele echoue 0/6 ;
+(2) la geometrie SUIT le bon marche, r = +0.51 a +0.95, les deux courbes
+descendent ensemble — signature d'un confond partage ; (3) MDL, l'instrument
+equitable en dimension, donne la geometrie MOINS compressive que le bon marche
+sur 198/198 mesures, et les deux compressions sont sous 1.00 (hors domaine, ni
+l'une ni l'autre ne paie son cout de modele).
+
+ECHELLE PYTHIA : l'echelle n'aide pas, elle AGGRAVE. 2.8b a la pente la plus
+raide (-0.152), la correlation la plus forte (+0.949), zero rung soutenante.
+L'ordre inter-architectures de v4/v5/v6 ne se reproduit pas dans une famille
+controlee -> confirmation directe de STATE_OF_ART §6 : notre ordre historique
+etait un artefact de recette d'entrainement. La lecture "la signature croit
+avec la capacite" TOMBE.
+
+DEUX FAIBLESSES DECLAREES, toutes deux de mon fait :
+ - Le retrait glouton pousse BA_cheap SOUS 0.50 (jusqu'a 0.425) aux rungs
+   profonds : la marge y est un artefact du denominateur. La condition (1) du
+   critere protege de ce piege et c'est elle qui fait echouer bloom et 2.8b au
+   rung le plus dur. Lecon : en v8 le balayage doit s'arreter a BA_cheap = 0.50.
+ - B1 echoue partout (0/33 pour 5 modeles sur 6). Sous les conventions
+   v4/v5/v6 la campagne serait VOID. Mon pre-enregistrement mesure B1 mais ne
+   l'a PAS inscrit comme porte : lacune de conception, non appliquee
+   retroactivement. Le dementi n'en depend pas (un VOID n'est pas une
+   confirmation, et les 3 instruments concordent). L'echec generalise de B1 sur
+   un corpus sujet-appari est lui-meme un resultat.
+
+CONSEQUENCE ECOSYSTEME : pont Origa->Lyra maintenu GELE, recommandation
+desormais definitive. Le signal n'est geometriquement specifique a AUCUN niveau
+de difficulte, sur AUCUN modele, et ne s'ameliore pas avec la capacite. Idem
+Origa->EPP. Decision du chercheur.
+
+SUITE : ne pas rejouer la meme mesure sur un corpus marginalement different.
+Reste (1) Q3, la provenance externe — seule variable jamais touchee ;
+(2) reparer/remplacer B1 ; (3) publier la serie des quatre negatifs
+pre-enregistres, qui est probablement la vraie contribution du projet.
