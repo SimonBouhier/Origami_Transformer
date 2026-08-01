@@ -20,15 +20,17 @@ linguistique bon marché, la marge géométrique tient-elle ?
 
 **Réponse : non. La géométrie décroît avec le bon marché, elle ne lui survit
 pas.** Les deux courbes descendent ensemble, avec une corrélation de +0,51 à
-+0,95 selon les modèles. C'est la signature d'un confond partagé, pas d'un
-signal indépendant.
++0,95 selon les modèles. C'est un **résultat compatible avec un confond
+partagé** — la covariation ne l'identifie pas causalement, et il reste possible
+que deux mécanismes distincts déclinent en parallèle pour des raisons
+différentes. Ce qui est établi est la non-persistance de la marge, pas sa cause.
 
 Trois résultats convergents, obtenus par trois instruments différents :
 
 | | résultat |
 |---|---|
 | **critère gelé** | 0/6 modèles confirment H-F |
-| **corrélation géo↔bon marché** | +0,51 à **+0,95** — elles descendent ensemble |
+| **corrélation géo↔bon marché** | +0,51 à **+0,95** — elles descendent ensemble (compatible avec un confond partagé, sans l'établir) |
 | **MDL (compression)** | la géométrie comprime moins bien que le bon marché sur **198/198** mesures |
 
 ## Le contrôle qui valide la lecture
@@ -86,9 +88,32 @@ y est retombée *sous* son propre plancher de hasard (0,554 contre 0,589 ;
 0,491 contre 0,562).
 
 **Leçon de conception pour la suite : le balayage doit s'arrêter quand
-BA_cheap atteint 0,50, pas continuer en dessous.** Les rungs 26–32 sont à
-traiter comme un régime dégénéré. Le démenti ne repose pas sur eux — il repose
-sur la corrélation et sur MDL, qui sont insensibles à ce défaut.
+BA_cheap atteint 0,50, pas continuer en dessous.** Les rungs concernés sont à
+traiter comme un régime dégénéré.
+
+**Ce que cela fait au verdict — dit précisément.** Le critère gelé compte les
+**33** rungs et exige la plus dure ; les dernières sont dégénérées. Le
+dénominateur entre donc bien dans le verdict, et il serait faux d'écrire que le
+démenti « ne repose pas » sur elles. Ce qu'on peut dire, et qui est vérifié :
+
+| modèle | gelé | requis | hors régime dégénéré | requis | bascule ? |
+|---|---|---|---|---|---|
+| bloom-560m | 11/33 | 22 | 7/25 | 17 | non |
+| gpt2 | 19/33 | 22 | **13/27** | 18 | non |
+| opt-350m | 9/33 | 22 | 4/27 | 18 | non |
+| pythia-410m | 4/33 | 22 | 0/29 | 20 | non |
+| pythia-1.4b | 5/33 | 22 | 2/29 | 20 | non |
+| pythia-2.8b | 0/33 | 22 | 0/29 | 20 | non |
+
+**Analyse de sensibilité NON pré-enregistrée, qui ne change et ne peut changer
+aucun verdict** — elle est publiée parce que la taire serait pire. Résultat :
+aucun modèle ne bascule, et gpt2 — le seul cas serré — **empire** (19/33 → 13/27
+pour 18 requises), parce que ses six rungs dégénérées étaient *toutes*
+soutenantes. Le régime dégénéré gonflait le décompte, il ne le pénalisait pas.
+
+Formulation exacte à retenir : **démenti selon le design gelé, avec
+dégénérescence déclarée, renforcé par des observables secondaires convergents
+et par une sensibilité qui ne le renverse pas.**
 
 ## MDL — le résultat le plus net de la campagne
 
@@ -171,9 +196,49 @@ Pour v8 : B1 doit redevenir une porte explicite, ou être remplacé. En l'état 
 signale que l'instrument est hors de son régime de validité sur ce corpus, et
 cela mérite mieux qu'une note de bas de page.
 
+---
+
+## Ce que v7 autorise à conclure — trois niveaux distincts
+
+*(Cadrage du chercheur, 2026-07-26, adopté tel quel : les trois niveaux ne
+s'impliquent pas l'un l'autre et confondre le premier avec le troisième serait
+la faute la plus facile à commettre ici.)*
+
+### 1. Conclusion opérationnelle — solide
+
+Sous le protocole gelé, H-F échoue sur **6/6** modèles ; géométrie et baseline
+bon marché déclinent ensemble ; MDL préfère le bon marché sur **198/198**
+points ; le corpus nul ne produit rien. Ce niveau est établi, avec les réserves
+de dégénérescence déclarées ci-dessus.
+
+### 2. Décision d'ingénierie — solide
+
+**Ne pas importer Fisher comme signal épistémique dans `lyra_reborn` ni dans
+EPP.** Le bénéfice n'est pas démontré ; le pont reste gelé. Pour décider de ne
+PAS intégrer une dépendance, ces métriques suffisent largement — une décision
+négative d'architecture n'a pas besoin du même niveau de preuve qu'une
+affirmation scientifique.
+
+### 3. Conclusion ontologique — NON AUTORISÉE
+
+Ceci **ne prouve pas** qu'aucune géométrie épistémique n'existe, ni même que la
+métrique de Fisher ne pourrait jamais en capter une.
+
+La raison est dans nos propres chiffres : **B1 échoue presque partout**.
+L'instrument ne valide plus son propre lien fonctionnel rang↔NLL sur ce
+matériel. Un instrument hors de son régime de validité peut réfuter un usage
+particulier ; il ne peut pas prononcer une impossibilité générale.
+
+v7 réfute proprement **le pont actuel**. Elle ne réfute pas **l'objet possible**.
+Toute rédaction ultérieure — note, article, README — doit tenir cette
+distinction.
+
+---
+
 ## Ce qui tombe, ce qui reste
 
-**Tombe.**
+**Tombe** — au sens du niveau 1 (ce protocole, ce corpus, ces modèles), jamais
+au sens du niveau 3.
 - H-F : la marge géométrique ne persiste pas. Elle suit le bon marché
   (r jusqu'à +0,95) et s'effondre avec lui.
 - « La signature croît avec la capacité » : réfuté dans une famille contrôlée.
@@ -209,36 +274,51 @@ cela mérite mieux qu'une note de bas de page.
 
 ## Conséquences dans l'écosystème
 
-⚠️ **Le pont Origa → Lyra doit rester gelé, et la recommandation devient
-définitive.** v6 avait montré que le signal n'était pas géométriquement
-spécifique ; v7 montre qu'il ne le devient à aucun niveau de difficulté, sur
-aucun modèle, et qu'il ne s'améliore pas avec la capacité. Importer la géométrie
-de Fisher dans `lyra_reborn` comme signal épistémique n'est pas défendable.
-Idem pour le pont Origa → EPP. **Décision du chercheur**, mais je ne vois plus
-d'argument pour le dégel.
+**Le pont Origa → Lyra reste gelé — décision prise par le chercheur le
+2026-07-26**, au niveau 2 (ingénierie). v6 avait montré que le signal n'était pas
+géométriquement spécifique ; v7 montre qu'il ne le devient à aucun niveau de
+difficulté, sur aucun modèle, et qu'il ne s'améliore pas avec la capacité.
+Importer la géométrie de Fisher dans `lyra_reborn` comme signal épistémique
+n'est pas défendable. Idem pour Origa → EPP.
 
-## Prochaines marches — et une question franche
+**Et le gel du pont n'est PAS une dette.** C'est le second volet de la décision,
+et il compte autant que le premier : `lyra_reborn` et EPP avancent **sans**
+attendre quoi que ce soit d'Origa. Un pont gelé sur une condition non remplie
+est un état stable et documenté, pas un chantier en souffrance. La doctrine des
+organes le prévoyait — chaque organe doit fonctionner seul — et c'est
+exactement le cas de figure qu'elle anticipait.
 
-Quatre campagnes ont maintenant convergé vers la même borne, chacune sur un
-corpus mieux contrôlé que la précédente. La question n'est plus tellement
-« comment mieux tester ? » que **« reste-t-il quelque chose à tester ? »**
+## Décision : clore la branche
 
-Ce qui aurait encore du sens, par ordre décroissant :
+**Décision du chercheur, 2026-07-26 : pas de v8 corrective. La branche est
+close, la série est publiée, les ressources se déplacent.**
 
-1. **Q3 — la provenance externe.** C'est la seule variable jamais touchée. Un
-   corpus dont les deux bras viennent du monde (désaccord d'experts documenté et
-   gradué) plutôt que d'agents. Si le signal n'y apparaît pas non plus, la
-   question est close proprement.
-2. **Réparer l'instrument avant de le réutiliser** : B1 échoue partout, et un
-   instrument dont le garde-fou ne passe pas ne peut pas trancher grand-chose.
-   Comprendre pourquoi le couplage rang↔NLL s'effondre sur un corpus
-   sujet-apparié est un travail en soi.
-3. **Publier la série.** Quatre négatifs pré-enregistrés sur une hypothèse
-   plausible, avec instruments qualifiés et corpus publics, c'est une
-   contribution — probablement la vraie contribution de ce projet.
+Quatre campagnes ont convergé vers la même borne, chacune sur un corpus mieux
+contrôlé que la précédente. Une v8 qui rejouerait la même mesure sur un corpus
+marginalement différent n'ajouterait rien : ce design a dit ce qu'il pouvait
+dire.
 
-Ce que je ne recommande pas : une v8 qui rejouerait la même mesure sur un corpus
-marginalement différent. Nous avons épuisé ce que ce design peut dire.
+**Ce qui est publié :** la série complète des campagnes pré-enregistrées —
+v4 `HA_DÉMENTI`, v5 `HC_CONFIRMÉ` 3/4, v6 `HD_DÉMENTI` 0/4, v7 `HF_DÉMENTI`
+0/6 — avec leurs instruments qualifiés, leurs corpus, leurs gels horodatés et
+leurs négatifs intacts. C'est probablement la vraie contribution de ce projet :
+non pas une géométrie épistémique, mais **une méthode qui a su ne pas se
+convaincre elle-même**, sur quatre tentatives, y compris quand elle s'était
+trompée elle-même (v6.3, le durcissement rétrospectif, les rungs dégénérés).
+
+**Ce qui reste ouvert, sans bloquer personne :**
+
+- **Q3 — la provenance externe.** Seule variable jamais touchée : un corpus dont
+  les deux bras viennent du monde (désaccord d'experts documenté et gradué)
+  plutôt que d'agents. **Expérience future indépendante, pas une dette.** Si elle
+  se fait un jour, elle repart du corpus v6.4 et de cette machinerie, qui sont
+  en état.
+- **B1 — réparer ou remplacer.** Le couplage rang↔NLL s'effondre sur un corpus
+  sujet-apparié ; comprendre pourquoi est un travail d'instrumentation à part
+  entière, et un préalable à toute réutilisation de la sonde. C'est aussi ce qui
+  interdit la conclusion de niveau 3.
+
+Aucun des deux n'empêche `lyra_reborn` ni EPP d'avancer.
 
 ---
 

@@ -402,3 +402,34 @@ SUITE : ne pas rejouer la meme mesure sur un corpus marginalement different.
 Reste (1) Q3, la provenance externe — seule variable jamais touchee ;
 (2) reparer/remplacer B1 ; (3) publier la serie des quatre negatifs
 pre-enregistres, qui est probablement la vraie contribution du projet.
+
+### Addendum 2026-07-26 — cadrage du chercheur et cloture de la branche
+
+Trois niveaux de conclusion, distingues explicitement (adoptes dans la note) :
+ 1. OPERATIONNEL, solide : H-F echoue 6/6 sous protocole gele ; geometrie et
+    bon marche declinent ensemble ; MDL prefere le bon marche 198/198 ; le
+    corpus nul ne produit rien.
+ 2. INGENIERIE, solide : ne pas importer Fisher comme signal epistemique dans
+    Lyra ni EPP. Pour une decision NEGATIVE d'architecture, ces metriques
+    suffisent largement.
+ 3. ONTOLOGIQUE, NON AUTORISE : ceci ne prouve pas qu'aucune geometrie
+    epistemique n'existe ni que Fisher ne pourrait jamais en capter une. B1
+    echoue presque partout — l'instrument ne valide plus son propre lien
+    rang<->NLL sur ce materiel. v7 refute LE PONT ACTUEL, pas l'objet possible.
+
+DEUX CORRECTIONS DE REDACTION appliquees a la note (aucune remesure) :
+ - "signature d'un confond partage" -> "resultat COMPATIBLE avec un confond
+   partage" : la covariation ne l'identifie pas causalement.
+ - "le dementi ne repose pas sur les rungs degeneres" etait FAUX : le critere
+   gele compte les 33 rungs et exige la plus dure. Sensibilite calculee et
+   publiee (NON pre-enregistree, ne change aucun verdict) : hors regime
+   degenere, aucun modele ne bascule, et gpt2 — le seul cas serre — EMPIRE
+   (19/33 -> 13/27 pour 18 requises), ses six rungs degenerees etant toutes
+   soutenantes. Le regime degenere gonflait le decompte au lieu de le penaliser.
+   Formulation retenue : dementi selon le design gele, avec degenerescence
+   declaree, renforce par des observables secondaires convergents.
+
+DECISION : branche CLOSE. Pas de v8 corrective. Publication de la serie
+v4/v5/v6/v7. Le pont Origa->Lyra reste gele ET ce gel n'est PAS une dette :
+lyra_reborn et EPP avancent sans rien attendre d'Origa. Q3 (provenance externe)
+et la reparation de B1 restent des experiences futures INDEPENDANTES.
