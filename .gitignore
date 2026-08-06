@@ -41,6 +41,9 @@ docs/*.pdf
 # Sage/CNRC pose le meme probleme que le PDF.
 docs/**/*.pdf
 docs/Q7/
+# Text extracted from third-party papers is local research material, not a
+# distributable project artifact. Already tracked historical files are unchanged.
+docs/_txt/
 # v6.1 : sorties GPU (regenerables) et venv GPU separe
 results_gpu/
 .venv-gpu/
