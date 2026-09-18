@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-0ea5e9">
+  <img alt="License: CC BY-NC 4.0" src="https://img.shields.io/badge/license-CC%20BY--NC%204.0-0ea5e9">
   <img alt="Pre-registered" src="https://img.shields.io/badge/protocol-pre--registered-2dd4bf">
   <img alt="v7 verdict" src="https://img.shields.io/badge/v7%20H--F-DENIED%200%2F6-red">
   <img alt="Reproducible" src="https://img.shields.io/badge/CPU%2FGPU%20float32-reproducible-64748b">
@@ -17,6 +17,10 @@ A research program on the **geometry of internal representations in transformer
 language models**, run under a strict pre-registration discipline: **frozen
 thresholds committed to git before any measurement**, honest negatives treated
 as publishable results, and no retroactive exclusions — ever.
+
+**Status reviewed against the repository on 18 September 2026:** the v4–v7
+branch remains closed. The result below is the campaign reported on
+26 July 2026, not a new measurement.
 
 ## Headline result — v7 (July 2026)
 
@@ -129,5 +133,8 @@ Sister projects: [lyra_reborn](https://github.com/SimonBouhier/lyra_reborn)
 
 ## License
 
-Code and corpus: **MIT** (© 2026 Simon Bouhier). Third-party papers are linked,
-never redistributed.
+Code, documentation and author-created corpus material:
+[**CC BY-NC 4.0**](LICENSE) (© 2026 Simon Bouhier). Sharing and adaptations are
+permitted with attribution for noncommercial purposes under the license terms.
+Third-party material retains its own attribution and terms. Third-party papers
+are linked, never redistributed.
