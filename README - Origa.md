@@ -2,7 +2,7 @@
   <img src="assets/banner.svg" alt="Origami Transformer — pre-registered geometry of LLM representations" width="100%">
 </p>
 
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![License: All rights reserved](https://img.shields.io/badge/License-All%20rights%20reserved-lightgrey.svg)](LICENSE)
 
 <p align="center">
   <img alt="Pre-registered" src="https://img.shields.io/badge/protocol-pre--registered-2dd4bf">
@@ -144,11 +144,12 @@ Sister projects: [lyra_reborn](https://github.com/SimonBouhier/lyra_reborn)
 
 ## License and contributions
 
-Original project material is licensed under **[CC BY-NC 4.0](LICENSE)**,
-© 2026 Simon Bouhier. Non-commercial sharing and adaptations are permitted
-with attribution, a link to the license and an indication of changes.
-Third-party material and dependencies retain their own licenses and notices.
+Original project material is © 2026 Simon Bouhier, **all rights reserved**
+([LICENSE](LICENSE)). Reproduction, adaptation or distribution requires the
+author's prior written permission. Third-party material and dependencies
+retain their own licenses and notices.
 
-Propose documentation or tooling improvements through pull requests with
-relevant checks. Preserve frozen protocols, corpus versions and recorded
-verdicts; a new research direction requires its own pre-registration.
+External contributions require the author's prior agreement. Documentation
+or tooling improvements are proposed through pull requests with relevant
+checks. Preserve frozen protocols, corpus versions and recorded verdicts;
+a new research direction requires its own pre-registration.
