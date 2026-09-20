@@ -1,5 +1,7 @@
 # Origami of LLM Representations — Project Contract
 
+@AGENTS.md
+
 This file is the contract between the researcher and any Claude Code session
 working on this repo. It is loaded on every session start. Read it once, in full,
 before doing anything else. Do not edit it without a commit that explains why.
@@ -83,7 +85,10 @@ See `STATE_OF_ART.md` §4 (Mabrok 2603.22301) for the derivation and §1
 
 ---
 
-## 3. Project layout
+## 3. Historical project layout
+
+This layout describes the earlier research plan. Its "to write" annotations
+are historical, not active tasks. The closure in section 4 governs current work.
 
 ```
 .
@@ -106,13 +111,14 @@ See `STATE_OF_ART.md` §4 (Mabrok 2603.22301) for the derivation and §1
 
 ---
 
-## 4. State of play (snapshot — refresh from RESEARCH_LOG.md)
+## 4. Current state — research series closed
 
-- v3 (probe.py with TwoNN+MLE) has been archived following AISTATS 2026.
-- v4 is pending: pivot to Fisher metric + extrinsic curvature.
-- Three candidate hypotheses are on the table: H-A (volume hourglass),
-  H-B (curvature signature), H-C (geometry↔function coupling).
-  The researcher has not yet chosen. **Do not pick for them.**
+The researcher's decision of 2026-07-26 closes the v3–v7 series: no corrective
+v8; the Fisher bridge stays frozen. Read
+[the results and closure](NOTE_RESULTATS_v7.md#décision--clore-la-branche).
+The older research descriptions above are methodological history, not a current
+work plan or permission to run models. A new research direction requires Simon's
+explicit decision and its own preregistration before measurements.
 
 ---
 
@@ -130,16 +136,15 @@ See `STATE_OF_ART.md` §4 (Mabrok 2603.22301) for the derivation and §1
 
 ## 6. What sessions are allowed to do without asking
 
-- Run probe scripts on local models.
-- Add to `RESEARCH_LOG.md` (append-only).
-- Add new entries to `STATE_OF_ART.md` after reading a paper.
-- Fix bugs in measurement code, with the test that demonstrates the fix.
-- Suggest the next experiment.
+- Read the archived results and point to the applicable decisions.
+- Carry out maintenance within an explicit mandate, preserving frozen evidence.
+- Update factual coordination and handoff information as specified by AGENTS.md.
+- Propose research without launching it or reopening the closed series.
 
 ## 7. What sessions must ask before doing
 
 - Editing this `CLAUDE.md`.
 - Modifying or deleting a committed `PREREGISTRATION_vN.md`.
-- Choosing among H-A / H-B / H-C.
+- Reopening the closed research series or running new model measurements.
 - Branching the project into a new research direction.
 - Anything that touches the EPP repo.
